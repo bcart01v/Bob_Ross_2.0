@@ -1,0 +1,1 @@
+This folder contains all files related to the database for the Bob Ross Episodes project. The database is a PostgreSQL instance that stores information about episodes, subjects, colors, and their relationships. These files include the database schema, scripts for populating data, and any related utilities.

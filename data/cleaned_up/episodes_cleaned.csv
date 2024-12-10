@@ -1,0 +1,403 @@
+Season-Episode,title,air_date
+S01E01,Mount McKinley,1983-01-11
+S01E02,Ebony Sunset,1983-01-18
+S01E03,Winter Mist,1983-01-25
+S01E04,Quiet Stream,1983-02-01
+S01E05,Winter Moon,1983-02-08
+S01E06,Autumn Mountains,1983-02-15
+S01E07,Peaceful Valley,1983-02-22
+S01E08,Seascape,1983-03-01
+S01E09,Mountain Lake,1983-03-08
+S01E10,Winter Glow,1983-03-15
+S01E11,Snowfall,1983-03-22
+S01E12,Final Reflections,1983-03-29
+S01E13,Meadow Lake,1983-08-31
+S02E01,Winter Sun,1983-09-07
+S02E02,Ebony Sea,1983-09-14
+S02E03,Shades of Gray,1983-09-21
+S02E04,Autumn Splendor,1983-09-28
+S02E05,Black River,1983-10-05
+S02E06,Brown Mountain,1983-10-12
+S02E07,Reflections,1983-10-19
+S02E08,Black & White Seascape,1983-10-26
+S02E09,Lazy River,1983-11-02
+S02E10,Black Waterfall,1983-11-09
+S02E11,Mountain Waterfall,1983-11-16
+S02E12,Final Grace,1983-11-23
+S02E13,Mountain Retreat,1984-01-04
+S03E01,Blue Moon,1984-01-11
+S03E02,Bubbling Stream,1984-01-18
+S03E03,Winter Night,1984-01-25
+S03E04,Distant Hills,1984-02-01
+S03E05,Covered Bridge,1984-02-08
+S03E06,Quiet Inlet,1984-02-15
+S03E07,Night Light,1984-02-22
+S03E08,The Old Mill,1984-03-01
+S03E09,Campfire,1984-03-08
+S03E10,Rustic Barn,1984-03-15
+S03E11,Hidden Lake,1984-03-22
+S03E12,Peaceful Waters,1984-03-29
+S03E13,Purple Splendor,1984-09-05
+S04E01,Tranquil Valley,1984-09-12
+S04E02,Majestic Mountains,1984-09-19
+S04E03,Winter Sawscape,1984-09-26
+S04E04,Evening Seascape,1984-10-03
+S04E05,Warm Summer Day,1984-10-10
+S04E06,Cabin in the Woods,1984-10-17
+S04E07,Wetlands,1984-10-24
+S04E08,Cool Waters,1984-10-31
+S04E09,Quiet Woods,1984-11-07
+S04E10,Northwest Majesty,1984-11-14
+S04E11,Autumn Days,1984-11-21
+S04E12,Mountain Challenge,1984-11-28
+S04E13,Mountain Waterfall,1985-01-02
+S05E01,Twilight Meadow,1985-01-09
+S05E02,Mountain Blossoms,1985-01-16
+S05E03,Winter Stillness,1985-01-23
+S05E04,Quiet Pond,1985-01-30
+S05E05,Ocean Sunrise,1985-02-06
+S05E06,Bubbling Brook,1985-02-13
+S05E07,Arizona Splendor,1985-02-20
+S05E08,Anatomy of a Wave,1985-02-27
+S05E09,The Windmill,1985-03-06
+S05E10,Autumn Glory,1985-03-13
+S05E11,Indian Girl,1985-03-20
+S05E12,Meadow Stream,1985-03-27
+S05E13,Blue River,1985-05-01
+S06E01,Nature's Edge,1985-05-08
+S06E02,Morning Mist,1985-05-15
+S06E03,Whispering Stream,1985-05-22
+S06E04,Secluded Forest,1985-05-29
+S06E05,Snow Trail,1985-06-05
+S06E06,Arctic Beauty,1985-06-12
+S06E07,Horizons West,1985-06-19
+S06E08,High Chateau,1985-06-26
+S06E09,Country Life,1985-07-02
+S06E10,Western Expanse,1985-07-09
+S06E11,Marshlands,1985-07-16
+S06E12,Blaze of Color,1985-07-23
+S06E13,Winter Cabin,1985-10-02
+S07E01,Secluded Lake,1985-10-09
+S07E02,Evergreen at Sunset,1985-10-16
+S07E03,Mountain Cabin,1985-10-23
+S07E04,Portrait of Sally,1985-10-30
+S07E05,Misty Waterfall,1985-11-06
+S07E06,Barn at Sunset,1985-11-13
+S07E07,Mountain Splendor,1985-11-20
+S07E08,Lake by Mountain,1985-11-27
+S07E09,Mountain Glory,1985-12-06
+S07E10,Grey Winter,1985-12-13
+S07E11,Dock Scene,1985-12-20
+S07E12,Dark Waterfall,1985-12-27
+S07E13,Misty Rolling Hills,1986-01-02
+S08E01,Lakeside Cabin,1986-01-09
+S08E02,Warm Winter Day,1986-01-16
+S08E03,Waterside Way,1986-01-23
+S08E04,Hunter's Haven,1986-01-30
+S08E05,Bubbling Mountain Brook,1986-02-06
+S08E06,Winter Hideaway,1986-02-13
+S08E07,Foot of the Mountain,1986-02-20
+S08E08,Majestic Pine,1986-02-27
+S08E09,Cactus at Sunset,1986-03-06
+S08E10,Mountain Range,1986-03-13
+S08E11,Lonely Retreat,1986-03-20
+S08E12,Northern Lights,1986-03-27
+S08E13,Winter Evergreens,1986-04-30
+S09E01,Surf's Up,1986-05-07
+S09E02,Red Sunset,1986-05-14
+S09E03,Meadow Road,1986-05-21
+S09E04,Winter Oval,1986-05-28
+S09E05,Secluded Beach,1986-06-04
+S09E06,Forest Hills,1986-06-11
+S09E07,Little House by the Road,1986-06-18
+S09E08,Mountain Pass,1986-06-25
+S09E09,Country Charm,1986-07-02
+S09E10,Nature's Paradise,1986-07-09
+S09E11,Mountain by the Sea,1986-07-16
+S09E12,Mountain Hideaway,1986-07-23
+S09E13,Towering Peaks,1986-09-03
+S10E01,Cabin at Sunset,1986-09-10
+S10E02,Twin Falls,1986-09-17
+S10E03,Secluded Bridge,1986-09-24
+S10E04,Ocean Breeze,1986-10-01
+S10E05,Autumn Woods,1986-10-08
+S10E06,Winter Solitude,1986-10-15
+S10E07,Golden Sunset,1986-10-22
+S10E08,Mountain Oval,1986-10-29
+S10E09,Ocean Sunset,1986-11-05
+S10E10,Triple View,1986-11-12
+S10E11,Winter Frost,1986-11-19
+S10E12,Lakeside Cabin,1986-11-26
+S10E13,Mountain Stream,1986-12-31
+S11E01,Country Cabin,1987-01-07
+S11E02,Daisy Delight,1987-01-14
+S11E03,Hidden Stream,1987-01-21
+S11E04,Towering Glacier,1987-01-28
+S11E05,Oval Barn,1987-02-04
+S11E06,Lakeside Path,1987-02-11
+S11E07,Sunset Oval,1987-02-18
+S11E08,Winter Barn,1987-02-25
+S11E09,Sunset Over the Waves,1987-03-04
+S11E10,Golden Glow,1987-03-11
+S11E11,Roadside Barn,1987-03-18
+S11E12,Happy Accident,1987-03-25
+S11E13,Golden Knoll,1987-04-29
+S12E01,Mountain Reflections,1987-05-06
+S12E02,Secluded Mountain,1987-05-13
+S12E03,Bright Autumn Trees,1987-05-20
+S12E04,Black Seascape,1987-05-27
+S12E05,Steep Mountains,1987-06-03
+S12E06,Quiet Mountain River,1987-06-10
+S12E07,Evening Waterfall,1987-06-17
+S12E08,Tropical Seascape,1987-06-24
+S12E09,Mountain at Sunset,1987-07-01
+S12E10,Soft Mountain Glow,1987-07-08
+S12E11,Mountain in an Oval,1987-07-15
+S12E12,Winter Mountain,1987-07-22
+S12E13,Rolling Hills,1987-09-02
+S13E01,Frozen Solitude,1987-09-09
+S13E02,Meadow Brook,1987-09-16
+S13E03,Evening Sunset,1987-09-23
+S13E04,Mountain View,1987-09-30
+S13E05,Hidden Creek,1987-10-07
+S13E06,Peaceful Haven,1987-10-14
+S13E07,Mountain Exhibition,1987-10-21
+S13E08,Emerald Waters,1987-10-28
+S13E09,Mountain Summit,1987-11-04
+S13E10,Cabin Hideaway,1987-11-11
+S13E11,Oval Essence,1987-11-18
+S13E12,Lost Lake,1987-11-25
+S13E13,Distant Mountains,1987-12-30
+S14E01,Meadow Brook Surprise,1988-01-06
+S14E02,Mountain Moonlight Oval,1988-01-13
+S14E03,Snowy Solitude,1988-01-20
+S14E04,Mountain River,1988-01-27
+S14E05,Graceful Mountains,1988-02-03
+S14E06,Windy Waves,1988-02-10
+S14E07,On a Clear Day,1988-02-17
+S14E08,Riverside Escape Oval,1988-02-24
+S14E09,Surprising Falls,1988-03-02
+S14E10,Shadow Pond,1988-03-09
+S14E11,Misty Forest,1988-03-16
+S14E12,Natural Wonder,1988-03-23
+S14E13,Splendor of Winter,1988-04-27
+S15E01,Colors of Nature,1988-05-04
+S15E02,Grandpa's Barn,1988-05-11
+S15E03,Peaceful Reflections,1988-05-18
+S15E04,Hidden Winter Moon Oval,1988-05-25
+S15E05,Waves of Wonder,1988-06-01
+S15E06,Cabin by the Pond,1988-06-08
+S15E07,Fall Stream,1988-06-15
+S15E08,Christmas Eve Snow,1988-06-22
+S15E09,Forest Dawn Oval,1988-06-29
+S15E10,Pathway to Autumn,1988-07-06
+S15E11,Deep Forest Lake,1988-07-13
+S15E12,Peaks of Majesty,1988-07-20
+S15E13,Two Seasons,1988-08-17
+S16E01,Nestled Cabin,1988-08-24
+S16E02,Wintertime Discovery,1988-08-31
+S16E03,Mountain Mirage,1988-09-07
+S16E04,Double Oval Fantasy,1988-09-14
+S16E05,Contemplative Lady,1988-09-21
+S16E06,Deep Woods,1988-09-28
+S16E07,High Tide,1988-10-05
+S16E08,Barn in Snow Oval,1988-10-12
+S16E09,That Time of Year,1988-10-19
+S16E10,Waterfall Wonder,1988-10-26
+S16E11,Mighty Mountain Lake,1988-11-02
+S16E12,Wooded Stream Oval,1988-11-09
+S16E13,Golden Mist Oval,1989-01-04
+S17E01,Old Place Home,1989-01-11
+S17E02,Soothing Vista,1989-01-18
+S17E03,Stormy Seas,1989-01-25
+S17E04,Country Time,1989-02-01
+S17E05,A Mild Winter's Day,1989-02-08
+S17E06,Spectacular Waterfall,1989-02-15
+S17E07,View From the Park,1989-02-22
+S17E08,Lake View,1989-03-01
+S17E09,Old Country Mill,1989-03-08
+S17E10,Morning Walk,1989-03-15
+S17E11,Nature's Splendor,1989-03-22
+S17E12,Mountain Beauty,1989-03-29
+S17E13,Half Oval Vignette,1989-07-05
+S18E01,Absolutely Autumn,1989-07-12
+S18E02,Mountain Seclusion,1989-07-19
+S18E03,Crimson Oval,1989-07-26
+S18E04,Autumn Exhibition,1989-08-02
+S18E05,Majestic Peaks,1989-08-09
+S18E06,Golden Morning Mist,1989-08-16
+S18E07,Winter Lace,1989-08-23
+S18E08,Seascape Fantasy,1989-08-30
+S18E09,Double Oval Stream,1989-09-06
+S18E10,Enchanted Forest,1989-09-13
+S18E11,Southwest Serenity,1989-09-20
+S18E12,Rippling Waters,1989-09-27
+S18E13,Snowfall Magic,1990-01-03
+S19E01,Quiet Mountain Lake,1990-01-10
+S19E02,Final Embers of Sunlight,1990-01-17
+S19E03,Snowy Morn,1990-01-24
+S19E04,Camper's Haven,1990-01-31
+S19E05,Waterfall in the Woods,1990-02-07
+S19E06,Covered Bridge Oval,1990-02-14
+S19E07,Scenic Seclusion,1990-02-21
+S19E08,Ebb Tide,1990-02-28
+S19E09,After the Rain,1990-03-07
+S19E10,Winter Elegance,1990-03-14
+S19E11,Evening's Peace,1990-03-21
+S19E12,Valley of Tranquility,1990-03-28
+S19E13,Mystic Mountain,1990-04-04
+S20E01,New Day's Dawn,1990-04-11
+S20E02,Pastel Winter,1990-04-18
+S20E03,Hazy Day,1990-04-25
+S20E04,Divine Elegance,1990-05-02
+S20E05,Cliffside,1990-05-09
+S20E06,Autumn Fantasy,1990-05-16
+S20E07,Old Oak Tree,1990-05-23
+S20E08,Winter Paradise,1990-05-30
+S20E09,Days Gone By,1990-06-06
+S20E10,Change of Seasons,1990-06-13
+S20E11,Hidden Delight,1990-06-20
+S20E12,Double Take,1990-06-27
+S20E13,Valley View,1990-09-05
+S21E01,Tranquil Dawn,1990-09-12
+S21E02,Royal Majesty,1990-09-19
+S21E03,Serenity,1990-09-26
+S21E04,Cabin at Trial's End,1990-10-03
+S21E05,Mountain Rhapsody,1990-10-10
+S21E06,Wilderness Cabin,1990-10-17
+S21E07,By the Sea,1990-10-24
+S21E08,Indian Summer,1990-10-31
+S21E09,Blue Winter,1990-11-07
+S21E10,Desert Glow,1990-11-14
+S21E11,Lone Mountain,1990-11-21
+S21E12,Florida's Glory,1990-11-28
+S21E13,Autumn Images,1991-01-01
+S22E01,Hint of Springtime,1991-01-08
+S22E02,Around the Bend,1991-01-15
+S22E03,Countryside Oval,1991-01-22
+S22E04,Russet Winter,1991-01-29
+S22E05,Purple Haze,1991-02-05
+S22E06,Dimensions,1991-02-12
+S22E07,Deep Wilderness Home,1991-02-19
+S22E08,Haven in the Valley,1991-02-26
+S22E09,Wintertime Blues,1991-03-05
+S22E10,Pastel Seascape,1991-03-12
+S22E11,Country Creek,1991-03-19
+S22E12,Silent Forest,1991-03-26
+S22E13,Frosty Winter Morn,1991-09-03
+S23E01,Forest Edge,1991-09-10
+S23E02,Mountain Ridge Lake,1991-09-17
+S23E03,Reflections of Gold,1991-09-24
+S23E04,Quiet Cove,1991-10-01
+S23E05,River's Peace,1991-10-08
+S23E06,At Dawn's Light,1991-10-15
+S23E07,Valley Waterfall,1991-10-22
+S23E08,Toward Day's End,1991-10-29
+S23E09,Falls in the Glen,1991-11-05
+S23E10,Frozen Beauty in Vignette,1991-11-12
+S23E11,Crimson Tide,1991-11-19
+S23E12,Winter Bliss,1991-11-26
+S23E13,Grey Mountain,1992-01-07
+S24E01,Wayside Pond,1992-01-14
+S24E02,Teton Winter,1992-01-21
+S24E03,Little Home in the Meadow,1992-01-28
+S24E04,Pretty Autumn Day,1992-02-04
+S24E05,Mirrored Images,1992-02-11
+S24E06,Back-Country Path,1992-02-18
+S24E07,Graceful Waterfall,1992-02-25
+S24E08,Icy Lake,1992-03-03
+S24E09,Rowboat on the Beach,1992-03-10
+S24E10,Portrait of Winter,1992-03-17
+S24E11,Footbridge,1992-03-24
+S24E12,Snowbound Cabin,1992-03-31
+S24E13,Hide-a-Way Cove,1992-08-25
+S25E01,Enchanted Falls Oval,1992-09-01
+S25E02,Not Quite Spring,1992-09-08
+S25E03,Splashes of Autumn,1992-09-15
+S25E04,Summer in the Mountains,1992-09-22
+S25E05,Oriental Falls,1992-09-29
+S25E06,Autumn Palette,1992-10-06
+S25E07,Cypress Swamp,1992-10-13
+S25E08,Downstream View,1992-10-20
+S25E09,Just Before the Storm,1992-10-27
+S25E10,Fisherman's Paradise,1992-11-03
+S25E11,Desert Hues,1992-11-10
+S25E12,The Property Line,1992-11-17
+S25E13,In the Stillness of Morning,1992-12-01
+S26E01,Delightful Meadow Home,1992-12-08
+S26E02,First Snow,1992-12-15
+S26E03,Lake in the Valley,1992-12-22
+S26E04,A Trace of Spring,1992-12-29
+S26E05,An Arctic Winter Day,1993-01-05
+S26E06,Snow Birch,1993-01-12
+S26E07,Early Autumn,1993-01-19
+S26E08,Tranquil Wooded Stream,1993-01-26
+S26E09,Purple Mountain Range,1993-02-02
+S26E10,Storm's a Comin',1993-02-09
+S26E11,Sunset Aglow,1993-02-16
+S26E12,Evening at the Falls,1993-02-23
+S26E13,Twilight Beauty,1993-03-02
+S27E01,Angler's Haven,1993-03-09
+S27E02,Rustic Winter Woods,1993-03-16
+S27E03,Wilderness Falls,1993-03-23
+S27E04,Winter at the Farm,1993-03-30
+S27E05,Daisies at Dawn,1993-04-06
+S27E06,A Spectacular View,1993-04-13
+S27E07,Daybreak,1993-04-20
+S27E08,Island Paradise,1993-04-27
+S27E09,Sunlight in the Shadows,1993-05-04
+S27E10,Splendor of a Snowy Winter,1993-05-11
+S27E11,Forest River,1993-05-18
+S27E12,Golden Glow of Morning,1993-05-20
+S27E13,Fisherman's Trail,1993-05-25
+S28E01,A Warm Winter,1993-06-01
+S28E02,Under Pastel Skies,1993-06-08
+S28E03,Golden Rays of Sunlight,1993-06-15
+S28E04,The Magic of Fall,1993-06-22
+S28E05,Glacier Lake,1993-06-29
+S28E06,The Old Weathered Barn,1993-07-06
+S28E07,Deep Forest Falls,1993-07-13
+S28E08,Winter's Grace,1993-07-20
+S28E09,Splendor of Autumn,1993-07-27
+S28E10,Tranquil Seas,1993-08-03
+S28E11,Mountain Serenity,1993-08-10
+S28E12,Home Before Nightfall,1993-08-17
+S28E13,Island in the Wilderness,1993-08-24
+S29E01,Autumn Oval,1993-08-31
+S29E02,Seasonal Progression,1993-09-07
+S29E03,Light at the Summit,1993-09-14
+S29E04,Countryside Barn,1993-09-21
+S29E05,Mountain Lake Falls,1993-09-28
+S29E06,Cypress Creek,1993-10-05
+S29E07,Trapper's Cabin,1993-10-12
+S29E08,Storm on the Horizon,1993-10-19
+S29E09,Pot O' Posies,1993-10-26
+S29E10,A Perfect Winter Day,1993-11-02
+S29E11,Aurora's Dance,1993-11-09
+S29E12,Woodsman's Retreat,1993-11-16
+S29E13,Babbling Brook,1993-11-23
+S30E01,Woodgrain View,1993-11-30
+S30E02,Winter's Peace,1993-12-07
+S30E03,Wilderness Trail,1993-12-14
+S30E04,A Copper Winter,1993-12-21
+S30E05,Misty Foothills,1993-12-28
+S30E06,Through the Window,1994-01-04
+S30E07,Home in the Valley,1994-01-11
+S30E08,Mountains of Grace,1994-01-18
+S30E09,Seaside Harmony,1994-01-25
+S30E10,A Cold Spring Day,1994-02-01
+S30E11,Evening's Glow,1994-02-08
+S30E12,Blue Ridge Falls,1994-02-15
+S30E13,Reflections of Calm,1994-02-22
+S31E01,Before the Snowfall,1994-03-01
+S31E02,Winding Stream,1994-03-08
+S31E03,Tranquility Cove,1994-03-15
+S31E04,Cabin in the Hollow,1994-03-22
+S31E05,View From Clear Creek,1994-03-29
+S31E06,Bridge to Autumn,1994-04-05
+S31E07,Trail's End,1994-04-12
+S31E08,Evergreen Valley,1994-04-19
+S31E09,Balmy Beach,1994-04-26
+S31E10,Lake at the Ridge,1994-05-03
+S31E11,In the Midst of Winter,1994-05-10
+S31E12,Wilderness Day,1994-05-17
