@@ -15,6 +15,7 @@ CORS(app)
 load_dotenv()
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = os.path.abspath("service-account-key.json")
+use_reloader = os.getenv("FLASK_USE_RELOADER", "True") == "True"
 
 # API Constants
 PLACE_SEARCH_URL = "https://maps.googleapis.com/maps/api/place/textsearch/json"
@@ -121,4 +122,4 @@ def analyze_photo():
         return jsonify({"error": str(e)}), 500
 
 if __name__ == "__main__":
-    app.run(port=5005, debug=True)
+    app.run(port=5005, debug=True, use_reloader=use_reloader)
