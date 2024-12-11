@@ -25,12 +25,17 @@ function populateCarousel(photos) {
         const carouselItem = document.createElement("div");
         carouselItem.className = `carousel-item ${isActive}`;
         carouselItem.innerHTML = `
-            <img src="${photoUrl}" class="d-block w-100" alt="${photo.name}">
+            <img src="${photoUrl}" class="d-block w-100" alt="${photo.name}" data-photo-reference="${photo.photo_reference}">
             <div class="carousel-caption d-md-block">
                 <h5>${photo.name}</h5>
                 <p>${photo.location || "Location unavailable"}</p>
             </div>
         `;
+
+        // Click event to return info
+        const imgElement = carouselItem.querySelector("img");
+        imgElement.addEventListener("click", () => analyzePhoto(photo.photo_reference));
+
         carouselContent.appendChild(carouselItem);
     });
 
@@ -42,6 +47,31 @@ function populateCarousel(photos) {
                 </div>
             </div>
         `;
+    }
+}
+
+// Photo Analysis
+async function analyzePhoto(photoReference) {
+    try {
+        if (!photoReference) {
+            console.warn("Photo reference is null, skipping analysis.");
+            return;
+        }
+
+        const response = await fetch(`${API_BASE_URL}/analyze`, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify({ photo_reference: photoReference }),
+        });
+
+        if (!response.ok) throw new Error("Failed to analyze photo");
+
+        const data = await response.json();
+        console.log("Analyzed labels:", data.labels);
+    } catch (error) {
+        console.error("Error analyzing photo:", error);
     }
 }
 
