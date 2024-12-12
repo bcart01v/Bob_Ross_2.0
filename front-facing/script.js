@@ -27,8 +27,8 @@ function populateCarousel(photos) {
         carouselItem.innerHTML = `
             <img src="${photoUrl}" class="d-block w-100" alt="${photo.name}" data-photo-reference="${photo.photo_reference}">
             <div class="carousel-caption d-md-block">
-                <h5>${photo.name}</h5>
-                <p>${photo.location || "Location unavailable"}</p>
+                <h5 class="photo-name">${photo.name}</h5>
+                <p class="photo-location">${photo.location || "Location unavailable"}</p>
             </div>
         `;
 
@@ -69,7 +69,13 @@ async function analyzePhoto(photoReference) {
         if (!response.ok) throw new Error("Failed to analyze photo");
 
         const data = await response.json();
+        console.log("Full API response:", data);
+
         console.log("Analyzed labels:", data.labels);
+        console.log("Matched subjects:", data.matched_subjects);
+        console.log("Matched episodes:", data.matched_episodes);
+
+        displayResults(data.matched_subjects, data.matched_episodes);
     } catch (error) {
         console.error("Error analyzing photo:", error);
     }
@@ -86,3 +92,32 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 });
+
+// Populate webpage with retrieved data
+function displayResults(subjects, episodes) {
+    
+    console.log("Subjects:", subjects);
+    console.log("Episodes:", episodes);
+
+    const resultsContainer = document.getElementById("resultsContainer");
+
+    // Clear previous results
+    resultsContainer.innerHTML = "";
+
+    // Display matched episodes
+    if (episodes.length > 0) {
+        const episodesHTML = `
+            <h3>Recommended Episodes:</h3>
+            <ul>
+                ${episodes.map(episode => `
+                    <li>
+                        <strong>${episode.season_episode} - ${episode.title}</strong>
+                    </li>
+                `).join("")}
+            </ul>
+        `;
+        resultsContainer.innerHTML += episodesHTML;
+    } else {
+        resultsContainer.innerHTML += `<p> No episodes for these given subjects.</p>`;
+    }
+}
