@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 import os
 from google.cloud import vision
 from google.cloud.vision import Image
+import psycopg2
 
 
 app = Flask(__name__, static_folder="../front-facing")  # Adjust static folder to point to "front-facing"
@@ -113,13 +114,75 @@ def analyze_photo():
         labels = response.label_annotations
 
         # Extract and log labels, this is what we'll use as our search value to the database
-        extracted_labels = [label.description for label in labels]
+        extracted_labels = [label.description.strip().lower() for label in labels]
         print(f"Extracted Labels: {extracted_labels}")
 
-        # Return labels to the frontend
-        return jsonify({"labels": extracted_labels})
+        # Match extracted labels with subjects in DB
+        matched_subjects = []
+        matched_episodes = []
+        sql_subjects_query = """
+            SELECT subject_id, name
+            FROM subjects
+            WHERE similarity(name, %s) > 0.5
+            ORDER BY similarity(name, %s) DESC
+            LIMIT 1;
+        """
+        sql_episodes_query = """
+            SELECT e.episode_id, e.title, e.air_date, e.season_episode
+            FROM episodes e
+            INNER JOIN episodesubjects es ON e.episode_id = es.episode_id
+            WHERE es.subject_id = %s
+            LIMIT 10;
+        """
+
+        conn = psycopg2.connect(
+            dbname="painting_db",
+            user="postgres",
+            password="Juikiuj*88*",
+            host="localhost",
+            port="5432"
+        )
+        cursor = conn.cursor()
+
+        # Find subjects
+        subject_ids = []
+        for label in extracted_labels:
+            cursor.execute(sql_subjects_query, (label, label))
+            result = cursor.fetchone()
+            if result and result[0] not in subject_ids:
+                subject_ids.append(result[0])
+                matched_subjects.append({"subject_id": result[0], "name": result[1]})
+        
+        # Find episodes for matched subjects
+        for subject_id in subject_ids:
+            cursor.execute(sql_episodes_query, (subject_id,))
+            episodes = cursor.fetchall()
+            for episode in episodes:
+                matched_episodes.append({
+                    "episode_id": episode[0],
+                    "title": episode[1],
+                    "air_date": episode[2],
+                    "season_episode": episode[3]
+                })
+        
+        print(f"Matched subjects: {matched_subjects}")
+        print(f"Matched episodes: {matched_episodes}")
+    
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+    
+    finally:
+        if 'cursor' in locals() and cursor:
+            cursor.close()
+        if 'conn' in locals() and conn:
+            conn.close()
+
+    # Return labels to the frontend
+    return jsonify({
+        "labels": extracted_labels, 
+        "matched_subjects": matched_subjects,
+        "matched_episodes": matched_episodes
+    })
 
 if __name__ == "__main__":
     app.run(port=5005, debug=True, use_reloader=use_reloader)

@@ -85,6 +85,13 @@ def load_data_to_table(conn, table_name, data):
                         ON CONFLICT (season_episode) DO NOTHING;
                     """, (row['season-episode'], row['title'], row['air_date'], row['air_date'].strftime('%B')))
                 elif table_name.lower() == 'subjects':
+                    # Insert into 'subjects' table
+                    cursor.execute("""
+                        INSERT INTO subjects (name)
+                        VALUES (%s)
+                        ON CONFLICT (name) DO NOTHING;
+                    """, (row['subject'],))
+                    # Now insert into EpisodeSubjects   
                     cursor.execute("""
                         INSERT INTO episodesubjects (episode_id, subject_id)
                         SELECT 
@@ -98,20 +105,25 @@ def load_data_to_table(conn, table_name, data):
                 elif table_name.lower() == 'colors':
                     colors = re.split(r'\s*\|\s*', row['colors'])
                     hex_codes = re.split(r'\s*\|\s*', row['color_hex'])
-                    colors = [color.strip() for color in colors]
-                    hex_codes = [hex_code.strip() for hex_code in hex_codes]
                     if len(colors) != len(hex_codes):
                         continue
-                    cursor.execute("""
-                        INSERT INTO episodecolors (episode_id, color_id)
-                        SELECT 
-                            e.episode_id,
-                            c.color_id
-                        FROM episodes e
-                        INNER JOIN colors c ON c.name = %s AND c.hex_code = %s
-                        WHERE e.season_episode = %s
-                        ON CONFLICT DO NOTHING;
-                    """, (row['season-episode'], row['colors'], row['color_hex']))
+                    # Insert into 'colors' table
+                    for color, hex_code in zip(colors, hex_codes):
+                        cursor.execute("""
+                            INSERT INTO colors (name, hex_code)
+                            VALUES (%s, %s)
+                            ON CONFLICT (name, hex_code) DO NOTHING;
+                        """, (color.strip(), hex_code.strip()))
+                        cursor.execute("""
+                            INSERT INTO episodecolors (episode_id, color_id)
+                            SELECT 
+                                e.episode_id,
+                                c.color_id
+                            FROM episodes e
+                            INNER JOIN colors c ON c.name = %s AND c.hex_code = %s
+                            WHERE e.season_episode = %s
+                            ON CONFLICT DO NOTHING;
+                        """, (color.strip(), hex_code.strip(), row['season-episode']))
         conn.commit()
         print(f"Data loaded into {table_name} successfully.")
     except Exception as e:
