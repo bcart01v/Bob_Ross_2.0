@@ -4,17 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Painting with Bob Ross</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="../front-facing/static/cs/styles.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container mt-5">
-        <h1 class="text-center">Painting Nature Around the World!</h1>
-        <h5 class="text-center"> With the help of Bob Ross</h5>
-
+    <!-- Banner -->
+    <header class="banner d-flex align-items-end justify-content-center text-center">
+        <div>
+            <h1 class="banner-text ms-4">Painting Nature Around the World</h1>
+            <h2 class="banner-subtext mb-4 ms-4"> With the Help of Bob Ross</h2>
+        </div>
+    </header>
+    <section class="bg-gradient-blue py-5 text-center">
+        <h2 class="header-text fw-bold mb-4"> Travel Around the World for Inspiration</h2>     
         <!-- Country/Continent Dropdown, just a test and can change (Or be dynamic if we are brave enough) -->
-        <div class="row mb-4">
-            <div class="col-md-6 offset-md-3">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
                 <select id="countryDropdown" class="form-select">
                     <option value="">Select a Country or Continent</option>
                     <option value="North America">North America</option>
@@ -26,23 +33,29 @@
                 </select>
             </div>
         </div>
+    </section>
 
-        <!-- Photo Carousel -->
-        <div id="natureCarousel" class="carousel slide" data-bs-ride="false">
-            <div class="carousel-inner" id="carouselContent">
-                <!-- Images are inserted here -->
+    <!-- Photo Carousel -->
+     <section class="bg-gradient-blue py-5">
+        <div class="container">
+            <h3 id="subheaderText" class="subheader-text fw-bold text-center">Select an image to reveal Bob Ross episodes featuring landscapes and themes that share your chosen scenery.</h3>
+            <div id="natureCarousel" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-inner" id="carouselContent">
+                    <!-- Images are inserted here -->
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#natureCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#natureCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#natureCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#natureCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </div>
+     </section>
         <!-- Results Container -->
-         <div id="resultsContainer" class="mt-4">
+         <div id="resultsContainer" class="results-container col-md-4 offset-md-1 mt-2">
             <!-- Results dynamically inserted here -->
          </div>
     </div>

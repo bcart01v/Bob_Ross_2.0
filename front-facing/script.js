@@ -84,12 +84,27 @@ async function analyzePhoto(photoReference) {
 // Dropdown logic
 document.addEventListener("DOMContentLoaded", () => {
     const dropdown = document.getElementById("countryDropdown");
+    const resultsContainer = document.getElementById("resultsContainer");
+    const subheaderText = document.getElementById("subheaderText");
+    const carousel = document.getElementById("natureCarousel");
 
     dropdown.addEventListener("change", () => {
         const region = dropdown.value;
+
         if (region) {
+            resultsContainer.style.display = "block";
+            subheaderText.style.display = "block";
             fetchNaturePhotos(region);
+        } else {
+            resultsContainer.style.display = "none";
+            subheaderText.style.display = "none";
+            resultsContainer.innerHTML = "";
         }
+    });
+
+    // Clear results when carousel moves to new image
+    carousel.addEventListener("slide.bs.carousel", () => {
+        resultsContainer.innerHTML = "";
     });
 });
 
