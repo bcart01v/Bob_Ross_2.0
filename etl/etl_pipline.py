@@ -24,11 +24,10 @@ def remove_special_characters(text):
 
 def clean_colors(file_path):
     """
-    Clean the colors dataset.
+    Clean the colors dataset and include YouTube source links.
     """
     df = pd.read_csv(file_path)
 
-    # Combine Season and Episode into a single column for better keyability. Is that a word?
     df['Season-Episode'] = df.apply(
         lambda row: f"S{int(row['season']):02d}E{int(row['episode']):02d}", axis=1
     )
@@ -49,12 +48,10 @@ def clean_colors(file_path):
     df['colors'] = df['colors'].apply(clean_list_field)
     df['color_hex'] = df['color_hex'].apply(clean_list_field)
 
-    # Cleaning up leftover quotes, because it's not getting them all somehow?
     df['colors'] = df['colors'].str.replace('"', '', regex=False)
     df['color_hex'] = df['color_hex'].str.replace('"', '', regex=False)
 
-    # Making sure there is no duplicates
-    df = df[['painting_index', 'Season-Episode', 'painting_title', 'colors', 'color_hex']]
+    df = df[['Season-Episode', 'painting_title', 'colors', 'color_hex', 'youtube_src']]
     df = df.drop_duplicates(subset=['Season-Episode', 'colors', 'color_hex'])
     return df
 
@@ -80,9 +77,9 @@ def clean_subjects(file_path):
     return df[['Season-Episode', 'subject']]
 
 
-def clean_episodes(file_path):
+def clean_episodes(file_path, colors_cleaned):
     """
-    Clean the episodes dataset.
+    Clean the episodes dataset and join YouTube links.
     """
     with open(file_path, 'r') as file:
         lines = file.readlines()
@@ -105,7 +102,9 @@ def clean_episodes(file_path):
     # Deduplicate based on 'title' and 'air_date'
     df = df.drop_duplicates(subset=['title', 'air_date'])
 
-    return df[['Season-Episode', 'title', 'air_date']]
+    df = df.merge(colors_cleaned[['Season-Episode', 'youtube_src']], on='Season-Episode', how='left')
+
+    return df[['Season-Episode', 'title', 'air_date', 'youtube_src']]
 
 
 def save_cleaned_data(cleaned_df, output_path):
@@ -143,7 +142,7 @@ if __name__ == "__main__":
 
     print("\nCleaning episodes data...")
     try:
-        episodes_cleaned = clean_episodes(episodes_input_path)
+        episodes_cleaned = clean_episodes(episodes_input_path, colors_cleaned)
         save_cleaned_data(episodes_cleaned, episodes_output_path)
         print(f"Episodes data cleaned and saved to {episodes_output_path}")
     except Exception as e:

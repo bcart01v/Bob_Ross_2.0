@@ -1,0 +1,714 @@
+2024-12-16 11:15:24,269 [DEBUG] Checking /Users/benjamincarter/Documents/GitHub/Bob_Ross_2.0/backend/service-account-key.json for explicit credentials as part of auth process...
+2024-12-16 11:15:24,294 [INFO] Starting Flask app
+2024-12-16 11:15:24,323 [WARNING]  * Debugger is active!
+2024-12-16 11:15:24,331 [INFO]  * Debugger PIN: 679-584-642
+2024-12-16 11:15:28,744 [INFO] Serving static file: index.html
+2024-12-16 11:15:28,749 [INFO] 127.0.0.1 - - [16/Dec/2024 11:15:28] "[36mGET /index.html HTTP/1.1[0m" 304 -
+2024-12-16 11:15:28,876 [INFO] Serving static file: script.js
+2024-12-16 11:15:28,877 [INFO] 127.0.0.1 - - [16/Dec/2024 11:15:28] "[36mGET /front-facing/static/cs/styles.css HTTP/1.1[0m" 304 -
+2024-12-16 11:15:28,878 [INFO] 127.0.0.1 - - [16/Dec/2024 11:15:28] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2024-12-16 11:15:33,272 [INFO] Fetching places for region: Asia
+2024-12-16 11:15:33,311 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 11:15:33,937 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/textsearch/json?query=nature+in+Asia&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8 HTTP/11" 200 39154
+2024-12-16 11:15:33,968 [INFO] Found 20 places for region Asia
+2024-12-16 11:15:33,969 [INFO] 127.0.0.1 - - [16/Dec/2024 11:15:33] "GET /places?region=Asia HTTP/1.1" 200 -
+2024-12-16 11:15:34,057 [INFO] Fetching photo for reference: AWYs27zS6Gpls01pzLYJwwPH4qIilc1DqzZfvZAQUqznq8xKJPkOrH26ztO8mzF-BBjUjanCp3KZfJQUzqZu5HZKD9RfBohwuIsZvjTOptkDHQEeBA_REMxSb812qBJcQ35kepQ0IviUU2Pauio1ElI_FwPE7uBjoTxQLEhnolfvgfoA0id3
+2024-12-16 11:15:34,058 [INFO] Fetching photo for reference: AWYs27zEbrpO2ma1YV5A0yfJZ_TPs4F1v1D0f5JZR5AByPwkFMq22jxMObmOZ73vbLMu2IFkuiOu1hloPNfaF5NyHeE_fYsVrKZ6SPaG8fLKFVeF78MxOKbb6pSdRUiGIpnqZkwx5oDEEnvL9a-TG-0SDj9zO4nTXTgHq3HTTVkKEAw-pSu1
+2024-12-16 11:15:34,059 [INFO] Fetching photo for reference: AWYs27zGKdhc-7RoBE6Y0BqHnF9HqXz-KGrS31XcX9n73IwXrM5Z1jRKGV7g4qbV93t8x1KDcc53Q06hpvW9K1IcNlgu1bS8AK8pCbYjT3D53LKpIQRrR_EOn2rHTdERfTiKyHhlperLDRRFC5hGPqUzwUD9gnCiSqfXmbiafIucQ_7axsQw
+2024-12-16 11:15:34,060 [INFO] Fetching photo for reference: AWYs27zyRaxRL6yhcw8nHCFhjfL5uDc5tlBYO70AeJ1cAoyzQjtm2-xnlo7W-d-UHkC9ljvbxI6EmhnA-KLhWMwQOCfr7jaoHEePsw9NBMiT3Thos3JA5LzHg3_MOmj7agW5fWe7Dqr-0Zv_f0Pb8lLkHcjoYvlEu4_-PTatcL_yPLnEB8c
+2024-12-16 11:15:34,061 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 11:15:34,061 [INFO] Fetching photo for reference: AWYs27wLigJxGVOzzh8MbFiX1j9X9U54jymEGgAUS5aOOBAOGLJWNznG2tzynRVy99grb7ha52iwnCVOpqbbQHy1FIHWFoP9JIz5OXO-EctDLlgGbO4fqg6NEuFOzeoavwt5UM5QJX2zod0HlmVqsnpbhfHzaJnWX3cK0g6JdyTU7iieXqKH
+2024-12-16 11:15:34,062 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 11:15:34,063 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 11:15:34,063 [INFO] Fetching photo for reference: AWYs27xWThZ1wJzzN1twliMIbaIQowR14Cz9b8dOCGVIZSxoFdCrjx7gu7Nf-gE7KWQH2Yt3EaHXdKslZGo-f4myFkpN8jn2_bb3ixat8DZN4DL1sYSGj46vphvWENgepOk0TsWoz46eOlkLd5rWLKmDRQCKaHsWAU8QA2RFFl6m4HETdQZ6
+2024-12-16 11:15:34,065 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 11:15:34,066 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 11:15:34,067 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 11:15:34,209 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27zGKdhc-7RoBE6Y0BqHnF9HqXz-KGrS31XcX9n73IwXrM5Z1jRKGV7g4qbV93t8x1KDcc53Q06hpvW9K1IcNlgu1bS8AK8pCbYjT3D53LKpIQRrR_EOn2rHTdERfTiKyHhlperLDRRFC5hGPqUzwUD9gnCiSqfXmbiafIucQ_7axsQw&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 11:15:34,214 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27xWThZ1wJzzN1twliMIbaIQowR14Cz9b8dOCGVIZSxoFdCrjx7gu7Nf-gE7KWQH2Yt3EaHXdKslZGo-f4myFkpN8jn2_bb3ixat8DZN4DL1sYSGj46vphvWENgepOk0TsWoz46eOlkLd5rWLKmDRQCKaHsWAU8QA2RFFl6m4HETdQZ6&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 11:15:34,215 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27zEbrpO2ma1YV5A0yfJZ_TPs4F1v1D0f5JZR5AByPwkFMq22jxMObmOZ73vbLMu2IFkuiOu1hloPNfaF5NyHeE_fYsVrKZ6SPaG8fLKFVeF78MxOKbb6pSdRUiGIpnqZkwx5oDEEnvL9a-TG-0SDj9zO4nTXTgHq3HTTVkKEAw-pSu1&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 11:15:34,215 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27zS6Gpls01pzLYJwwPH4qIilc1DqzZfvZAQUqznq8xKJPkOrH26ztO8mzF-BBjUjanCp3KZfJQUzqZu5HZKD9RfBohwuIsZvjTOptkDHQEeBA_REMxSb812qBJcQ35kepQ0IviUU2Pauio1ElI_FwPE7uBjoTxQLEhnolfvgfoA0id3&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 11:15:34,215 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27wLigJxGVOzzh8MbFiX1j9X9U54jymEGgAUS5aOOBAOGLJWNznG2tzynRVy99grb7ha52iwnCVOpqbbQHy1FIHWFoP9JIz5OXO-EctDLlgGbO4fqg6NEuFOzeoavwt5UM5QJX2zod0HlmVqsnpbhfHzaJnWX3cK0g6JdyTU7iieXqKH&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 11:15:34,216 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27zyRaxRL6yhcw8nHCFhjfL5uDc5tlBYO70AeJ1cAoyzQjtm2-xnlo7W-d-UHkC9ljvbxI6EmhnA-KLhWMwQOCfr7jaoHEePsw9NBMiT3Thos3JA5LzHg3_MOmj7agW5fWe7Dqr-0Zv_f0Pb8lLkHcjoYvlEu4_-PTatcL_yPLnEB8c&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 351
+2024-12-16 11:15:34,240 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 11:15:34,241 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 11:15:34,241 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 11:15:34,242 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 11:15:34,242 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 11:15:34,243 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 11:15:34,434 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqHvBNtjRdZSa4K9E8MJFEPFxIXnEGqzjjddvhF9frqy08w4s3CDVzI1ZiV7kAiUYE_5wenH-vwI_RT4rAqAy9GTzE_NxJ7c4bM=s1600-w739 HTTP/11" 200 57811
+2024-12-16 11:15:34,434 [INFO] Photo fetched successfully for reference: AWYs27zGKdhc-7RoBE6Y0BqHnF9HqXz-KGrS31XcX9n73IwXrM5Z1jRKGV7g4qbV93t8x1KDcc53Q06hpvW9K1IcNlgu1bS8AK8pCbYjT3D53LKpIQRrR_EOn2rHTdERfTiKyHhlperLDRRFC5hGPqUzwUD9gnCiSqfXmbiafIucQ_7axsQw
+2024-12-16 11:15:34,483 [INFO] 127.0.0.1 - - [16/Dec/2024 11:15:34] "GET /photo?photo_reference=AWYs27zGKdhc-7RoBE6Y0BqHnF9HqXz-KGrS31XcX9n73IwXrM5Z1jRKGV7g4qbV93t8x1KDcc53Q06hpvW9K1IcNlgu1bS8AK8pCbYjT3D53LKpIQRrR_EOn2rHTdERfTiKyHhlperLDRRFC5hGPqUzwUD9gnCiSqfXmbiafIucQ_7axsQw HTTP/1.1" 200 -
+2024-12-16 11:15:34,485 [INFO] Fetching photo for reference: AWYs27wTojCJlG_6_wcHnMIekxlPYis6kJa6s3lqYxXQnuvcmGTHt0u4Y8BgHfG-tuS8MDg1PMoJvRBPZx1w7GqJPzZqKsMidBrK8MxE00grVCAKHaT5IPzg7OnSz53Gs6pVFA4LOyo8IB1jE5oOktU5Dey_tuVdmCI9t7NcBsHqVNpvrFCI
+2024-12-16 11:15:34,490 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqH3Sc_fVlYqcijWZAOX-mv9pVsIOCbZMTxbXfpiegguYVnIEmiEQxjgEZ3uQbMaPgyMsCu6ae8HrNtKt4b7KQ7Vy2cEQOHT9g=s1600-w800 HTTP/11" 200 291760
+2024-12-16 11:15:34,490 [INFO] Photo fetched successfully for reference: AWYs27zyRaxRL6yhcw8nHCFhjfL5uDc5tlBYO70AeJ1cAoyzQjtm2-xnlo7W-d-UHkC9ljvbxI6EmhnA-KLhWMwQOCfr7jaoHEePsw9NBMiT3Thos3JA5LzHg3_MOmj7agW5fWe7Dqr-0Zv_f0Pb8lLkHcjoYvlEu4_-PTatcL_yPLnEB8c
+2024-12-16 11:15:34,494 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 11:15:34,564 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqGRE8kp8zSJFDTuXmpeSJ3avR0jaaF2vm75Jyf5O2qh3PJkMlt4S453yXuz3j2ehN_llsIbNrxBPI2R0a-9wdok0if58oGNsOw=s1600-w800 HTTP/11" 200 149058
+2024-12-16 11:15:34,568 [INFO] Photo fetched successfully for reference: AWYs27xWThZ1wJzzN1twliMIbaIQowR14Cz9b8dOCGVIZSxoFdCrjx7gu7Nf-gE7KWQH2Yt3EaHXdKslZGo-f4myFkpN8jn2_bb3ixat8DZN4DL1sYSGj46vphvWENgepOk0TsWoz46eOlkLd5rWLKmDRQCKaHsWAU8QA2RFFl6m4HETdQZ6
+2024-12-16 11:15:34,589 [INFO] 127.0.0.1 - - [16/Dec/2024 11:15:34] "GET /photo?photo_reference=AWYs27zyRaxRL6yhcw8nHCFhjfL5uDc5tlBYO70AeJ1cAoyzQjtm2-xnlo7W-d-UHkC9ljvbxI6EmhnA-KLhWMwQOCfr7jaoHEePsw9NBMiT3Thos3JA5LzHg3_MOmj7agW5fWe7Dqr-0Zv_f0Pb8lLkHcjoYvlEu4_-PTatcL_yPLnEB8c HTTP/1.1" 200 -
+2024-12-16 11:15:34,592 [INFO] Fetching photo for reference: AWYs27zHok7zyd5Z_8Cepe9nDfR8yitfMwDfipmbR_CHGwixAwY-o-gRNROpNlqV0oQmPq-m-imGAG572SsvZAlvnDlUnZdxftLpX4XFF_f1W_uEaa3JPX7zkkiQxx9v6msqFQ73P6HO1x2TUcPtkFjCnWBvKrEkwcNgpIcJFWAB9FafhSmx
+2024-12-16 11:15:34,596 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 11:15:34,640 [INFO] 127.0.0.1 - - [16/Dec/2024 11:15:34] "GET /photo?photo_reference=AWYs27xWThZ1wJzzN1twliMIbaIQowR14Cz9b8dOCGVIZSxoFdCrjx7gu7Nf-gE7KWQH2Yt3EaHXdKslZGo-f4myFkpN8jn2_bb3ixat8DZN4DL1sYSGj46vphvWENgepOk0TsWoz46eOlkLd5rWLKmDRQCKaHsWAU8QA2RFFl6m4HETdQZ6 HTTP/1.1" 200 -
+2024-12-16 11:15:34,643 [INFO] Fetching photo for reference: AWYs27wqFhl6rKyZ73C1MIIC74qz_XdUEHx7HR_LMGuLe4-LbbaQ8NgNgb14TEtybMcgtfH0oA8Nwy9RylHXDIb6AbsCFzsu6F5OqWe0Tb7K2BV_g8VC5q6yuWT_Z-X64gZiEazRPeXi9a-dXCUAr8R-xm_6E6LDS768MgMnrxOvf0gaQJ4
+2024-12-16 11:15:34,651 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 11:15:34,664 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27wTojCJlG_6_wcHnMIekxlPYis6kJa6s3lqYxXQnuvcmGTHt0u4Y8BgHfG-tuS8MDg1PMoJvRBPZx1w7GqJPzZqKsMidBrK8MxE00grVCAKHaT5IPzg7OnSz53Gs6pVFA4LOyo8IB1jE5oOktU5Dey_tuVdmCI9t7NcBsHqVNpvrFCI&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 11:15:34,673 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 11:15:34,699 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqGMHKJHCLYBvBqXaNayMvYwHVNfCvqE8f0aij5dHuyC4tSAkTGw_ugGA7Hx9cCb2Vnfpl95p0Og0P7p_XA9TrMvLE5pa6uDF1M=s1600-w800 HTTP/11" 200 131401
+2024-12-16 11:15:34,700 [INFO] Photo fetched successfully for reference: AWYs27zEbrpO2ma1YV5A0yfJZ_TPs4F1v1D0f5JZR5AByPwkFMq22jxMObmOZ73vbLMu2IFkuiOu1hloPNfaF5NyHeE_fYsVrKZ6SPaG8fLKFVeF78MxOKbb6pSdRUiGIpnqZkwx5oDEEnvL9a-TG-0SDj9zO4nTXTgHq3HTTVkKEAw-pSu1
+2024-12-16 11:15:34,709 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqEe01hPGsaDHa4rKtC4vdZfGSsU1NB3q_g3Q8tNlsZoiO-c79-Zcp95YJOnehwnQQcbcurXqHvvAlu1GTHGr9L-ShaYoq645dk=s1600-w800 HTTP/11" 200 255214
+2024-12-16 11:15:34,710 [INFO] Photo fetched successfully for reference: AWYs27zS6Gpls01pzLYJwwPH4qIilc1DqzZfvZAQUqznq8xKJPkOrH26ztO8mzF-BBjUjanCp3KZfJQUzqZu5HZKD9RfBohwuIsZvjTOptkDHQEeBA_REMxSb812qBJcQ35kepQ0IviUU2Pauio1ElI_FwPE7uBjoTxQLEhnolfvgfoA0id3
+2024-12-16 11:15:34,725 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqEuOUCYBUk2ZXmdC7g6PUE4MXlNbwYVvKpa6qNlAe5aq_LdJ37qHAq1ddGHgbY2E0XY6too8DzCUbDql_dRVus2ISufH91bbQQ=s1600-w800 HTTP/11" 200 188326
+2024-12-16 11:15:34,725 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27zHok7zyd5Z_8Cepe9nDfR8yitfMwDfipmbR_CHGwixAwY-o-gRNROpNlqV0oQmPq-m-imGAG572SsvZAlvnDlUnZdxftLpX4XFF_f1W_uEaa3JPX7zkkiQxx9v6msqFQ73P6HO1x2TUcPtkFjCnWBvKrEkwcNgpIcJFWAB9FafhSmx&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 11:15:34,726 [INFO] Photo fetched successfully for reference: AWYs27wLigJxGVOzzh8MbFiX1j9X9U54jymEGgAUS5aOOBAOGLJWNznG2tzynRVy99grb7ha52iwnCVOpqbbQHy1FIHWFoP9JIz5OXO-EctDLlgGbO4fqg6NEuFOzeoavwt5UM5QJX2zod0HlmVqsnpbhfHzaJnWX3cK0g6JdyTU7iieXqKH
+2024-12-16 11:15:34,732 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 11:15:34,771 [INFO] 127.0.0.1 - - [16/Dec/2024 11:15:34] "GET /photo?photo_reference=AWYs27zEbrpO2ma1YV5A0yfJZ_TPs4F1v1D0f5JZR5AByPwkFMq22jxMObmOZ73vbLMu2IFkuiOu1hloPNfaF5NyHeE_fYsVrKZ6SPaG8fLKFVeF78MxOKbb6pSdRUiGIpnqZkwx5oDEEnvL9a-TG-0SDj9zO4nTXTgHq3HTTVkKEAw-pSu1 HTTP/1.1" 200 -
+2024-12-16 11:15:34,774 [INFO] Fetching photo for reference: AWYs27wzutSlipgCRErTeXWGvKxgYM07JtmHemmHJ0djF8XXjMgLjlMK_zEmpVcYCAY07rMlCug0PHTp2BwGXzx9e5mnbD6iBYsFe5WcpUR-Xt47_b8cOclMCLF1QSx3hrM7WPxt8f78CztUlJxemP-17YhJpzS34nzRH75TrIZUDCLZxxzA
+2024-12-16 11:15:34,779 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 11:15:34,784 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27wqFhl6rKyZ73C1MIIC74qz_XdUEHx7HR_LMGuLe4-LbbaQ8NgNgb14TEtybMcgtfH0oA8Nwy9RylHXDIb6AbsCFzsu6F5OqWe0Tb7K2BV_g8VC5q6yuWT_Z-X64gZiEazRPeXi9a-dXCUAr8R-xm_6E6LDS768MgMnrxOvf0gaQJ4&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 351
+2024-12-16 11:15:34,790 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 11:15:34,799 [INFO] 127.0.0.1 - - [16/Dec/2024 11:15:34] "GET /photo?photo_reference=AWYs27zS6Gpls01pzLYJwwPH4qIilc1DqzZfvZAQUqznq8xKJPkOrH26ztO8mzF-BBjUjanCp3KZfJQUzqZu5HZKD9RfBohwuIsZvjTOptkDHQEeBA_REMxSb812qBJcQ35kepQ0IviUU2Pauio1ElI_FwPE7uBjoTxQLEhnolfvgfoA0id3 HTTP/1.1" 200 -
+2024-12-16 11:15:34,817 [INFO] 127.0.0.1 - - [16/Dec/2024 11:15:34] "GET /photo?photo_reference=AWYs27wLigJxGVOzzh8MbFiX1j9X9U54jymEGgAUS5aOOBAOGLJWNznG2tzynRVy99grb7ha52iwnCVOpqbbQHy1FIHWFoP9JIz5OXO-EctDLlgGbO4fqg6NEuFOzeoavwt5UM5QJX2zod0HlmVqsnpbhfHzaJnWX3cK0g6JdyTU7iieXqKH HTTP/1.1" 200 -
+2024-12-16 11:15:34,913 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27wzutSlipgCRErTeXWGvKxgYM07JtmHemmHJ0djF8XXjMgLjlMK_zEmpVcYCAY07rMlCug0PHTp2BwGXzx9e5mnbD6iBYsFe5WcpUR-Xt47_b8cOclMCLF1QSx3hrM7WPxt8f78CztUlJxemP-17YhJpzS34nzRH75TrIZUDCLZxxzA&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 11:15:34,920 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 11:15:34,960 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqFslqyx5Zc058w4BQSJtgf1bK360TQFktNAQ_rxpyosk4ElYqPHBOmcmOGS-C6PJqR_wsIDd_bgoR8nLtzGBMG-V_5YBs7M-Ys=s1600-w800 HTTP/11" 200 171366
+2024-12-16 11:15:34,961 [INFO] Photo fetched successfully for reference: AWYs27wTojCJlG_6_wcHnMIekxlPYis6kJa6s3lqYxXQnuvcmGTHt0u4Y8BgHfG-tuS8MDg1PMoJvRBPZx1w7GqJPzZqKsMidBrK8MxE00grVCAKHaT5IPzg7OnSz53Gs6pVFA4LOyo8IB1jE5oOktU5Dey_tuVdmCI9t7NcBsHqVNpvrFCI
+2024-12-16 11:15:35,025 [INFO] 127.0.0.1 - - [16/Dec/2024 11:15:35] "GET /photo?photo_reference=AWYs27wTojCJlG_6_wcHnMIekxlPYis6kJa6s3lqYxXQnuvcmGTHt0u4Y8BgHfG-tuS8MDg1PMoJvRBPZx1w7GqJPzZqKsMidBrK8MxE00grVCAKHaT5IPzg7OnSz53Gs6pVFA4LOyo8IB1jE5oOktU5Dey_tuVdmCI9t7NcBsHqVNpvrFCI HTTP/1.1" 200 -
+2024-12-16 11:15:35,071 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqFASznGWl-SBmTFyiyQC2eGeNbDqBH2TSkR0zalGrLHzj_MHVMMKlryuvjuei8KJgPCiYTXjNgfoxZ3uby36WxVkFX3zrW1_A=s1600-w800 HTTP/11" 200 151262
+2024-12-16 11:15:35,071 [INFO] Photo fetched successfully for reference: AWYs27wqFhl6rKyZ73C1MIIC74qz_XdUEHx7HR_LMGuLe4-LbbaQ8NgNgb14TEtybMcgtfH0oA8Nwy9RylHXDIb6AbsCFzsu6F5OqWe0Tb7K2BV_g8VC5q6yuWT_Z-X64gZiEazRPeXi9a-dXCUAr8R-xm_6E6LDS768MgMnrxOvf0gaQJ4
+2024-12-16 11:15:35,138 [INFO] 127.0.0.1 - - [16/Dec/2024 11:15:35] "GET /photo?photo_reference=AWYs27wqFhl6rKyZ73C1MIIC74qz_XdUEHx7HR_LMGuLe4-LbbaQ8NgNgb14TEtybMcgtfH0oA8Nwy9RylHXDIb6AbsCFzsu6F5OqWe0Tb7K2BV_g8VC5q6yuWT_Z-X64gZiEazRPeXi9a-dXCUAr8R-xm_6E6LDS768MgMnrxOvf0gaQJ4 HTTP/1.1" 200 -
+2024-12-16 11:15:35,228 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqHxtis9W72CK-VrVjXN_MN3ZXYyTTUuCttBlQZ-YvPOkwvqaEO4F8FgvsINnJ1bOoKlnoJI2uCjZ9tEKuGzjyysea86AlUgmb0=s1600-w800 HTTP/11" 200 147847
+2024-12-16 11:15:35,229 [INFO] Photo fetched successfully for reference: AWYs27zHok7zyd5Z_8Cepe9nDfR8yitfMwDfipmbR_CHGwixAwY-o-gRNROpNlqV0oQmPq-m-imGAG572SsvZAlvnDlUnZdxftLpX4XFF_f1W_uEaa3JPX7zkkiQxx9v6msqFQ73P6HO1x2TUcPtkFjCnWBvKrEkwcNgpIcJFWAB9FafhSmx
+2024-12-16 11:15:35,303 [INFO] 127.0.0.1 - - [16/Dec/2024 11:15:35] "GET /photo?photo_reference=AWYs27zHok7zyd5Z_8Cepe9nDfR8yitfMwDfipmbR_CHGwixAwY-o-gRNROpNlqV0oQmPq-m-imGAG572SsvZAlvnDlUnZdxftLpX4XFF_f1W_uEaa3JPX7zkkiQxx9v6msqFQ73P6HO1x2TUcPtkFjCnWBvKrEkwcNgpIcJFWAB9FafhSmx HTTP/1.1" 200 -
+2024-12-16 11:15:35,352 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqGT0uwv5z1xLHNgl_kOWWFqH17TK-wvlQWnIXmUMdn9mI311Qu2MHR2xF7HX0LPMHVAHWA-ersLfAziryCHfUuaQl3YvIjbSZY=s1600-w800 HTTP/11" 200 234703
+2024-12-16 11:15:35,353 [INFO] Photo fetched successfully for reference: AWYs27wzutSlipgCRErTeXWGvKxgYM07JtmHemmHJ0djF8XXjMgLjlMK_zEmpVcYCAY07rMlCug0PHTp2BwGXzx9e5mnbD6iBYsFe5WcpUR-Xt47_b8cOclMCLF1QSx3hrM7WPxt8f78CztUlJxemP-17YhJpzS34nzRH75TrIZUDCLZxxzA
+2024-12-16 11:15:35,437 [INFO] 127.0.0.1 - - [16/Dec/2024 11:15:35] "GET /photo?photo_reference=AWYs27wzutSlipgCRErTeXWGvKxgYM07JtmHemmHJ0djF8XXjMgLjlMK_zEmpVcYCAY07rMlCug0PHTp2BwGXzx9e5mnbD6iBYsFe5WcpUR-Xt47_b8cOclMCLF1QSx3hrM7WPxt8f78CztUlJxemP-17YhJpzS34nzRH75TrIZUDCLZxxzA HTTP/1.1" 200 -
+2024-12-16 11:15:36,811 [INFO] Analyzing photo with reference: AWYs27zS6Gpls01pzLYJwwPH4qIilc1DqzZfvZAQUqznq8xKJPkOrH26ztO8mzF-BBjUjanCp3KZfJQUzqZu5HZKD9RfBohwuIsZvjTOptkDHQEeBA_REMxSb812qBJcQ35kepQ0IviUU2Pauio1ElI_FwPE7uBjoTxQLEhnolfvgfoA0id3
+2024-12-16 11:15:36,818 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 11:15:36,951 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27zS6Gpls01pzLYJwwPH4qIilc1DqzZfvZAQUqznq8xKJPkOrH26ztO8mzF-BBjUjanCp3KZfJQUzqZu5HZKD9RfBohwuIsZvjTOptkDHQEeBA_REMxSb812qBJcQ35kepQ0IviUU2Pauio1ElI_FwPE7uBjoTxQLEhnolfvgfoA0id3&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 11:15:36,956 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 11:15:37,055 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqEe01hPGsaDHa4rKtC4vdZfGSsU1NB3q_g3Q8tNlsZoiO-c79-Zcp95YJOnehwnQQcbcurXqHvvAlu1GTHGr9L-ShaYoq645dk=s1600-w800 HTTP/11" 200 255214
+2024-12-16 11:15:37,663 [INFO] Extracted Labels: ['sky', 'horizon', 'ecoregion', 'landscape', 'aeolian landform', 'dusk', 'geological formation', 'rock', 'orange', 'terrain']
+2024-12-16 11:15:37,983 [ERROR] Error in /analyze: function similarity(text, unknown) does not exist
+LINE 4:             WHERE similarity(name, 'sky') > 0.5
+                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+2024-12-16 11:15:37,983 [INFO] 127.0.0.1 - - [16/Dec/2024 11:15:37] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2024-12-16 15:53:16,527 [INFO]  * Detected change in '/Users/benjamincarter/Documents/GitHub/Bob_Ross_2.0/backend/app.py', reloading
+2024-12-16 15:53:19,141 [DEBUG] Checking /Users/benjamincarter/Documents/GitHub/Bob_Ross_2.0/backend/service-account-key.json for explicit credentials as part of auth process...
+2024-12-16 15:53:19,168 [INFO] Starting Flask app
+2024-12-16 15:53:19,196 [WARNING]  * Debugger is active!
+2024-12-16 15:53:19,207 [INFO]  * Debugger PIN: 679-584-642
+2024-12-16 15:53:27,262 [INFO] Serving static file: index.html
+2024-12-16 15:53:27,271 [INFO] 127.0.0.1 - - [16/Dec/2024 15:53:27] "[36mGET /index.html HTTP/1.1[0m" 304 -
+2024-12-16 15:53:27,372 [INFO] Serving static file: script.js
+2024-12-16 15:53:27,373 [INFO] 127.0.0.1 - - [16/Dec/2024 15:53:27] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2024-12-16 15:53:27,373 [INFO] 127.0.0.1 - - [16/Dec/2024 15:53:27] "[36mGET /front-facing/static/cs/styles.css HTTP/1.1[0m" 304 -
+2024-12-16 15:53:46,815 [INFO] Serving static file: index.html
+2024-12-16 15:53:46,828 [INFO] 127.0.0.1 - - [16/Dec/2024 15:53:46] "GET /index.html HTTP/1.1" 200 -
+2024-12-16 15:53:46,935 [INFO] Serving static file: script.js
+2024-12-16 15:53:46,937 [INFO] 127.0.0.1 - - [16/Dec/2024 15:53:46] "GET /front-facing/static/cs/styles.css HTTP/1.1" 200 -
+2024-12-16 15:53:46,937 [INFO] 127.0.0.1 - - [16/Dec/2024 15:53:46] "GET /script.js HTTP/1.1" 200 -
+2024-12-16 15:53:56,839 [INFO] 127.0.0.1 - - [16/Dec/2024 15:53:56] "[36mGET /front-facing/static/cs/styles.css HTTP/1.1[0m" 304 -
+2024-12-16 15:54:00,963 [INFO] Serving static file: index.html
+2024-12-16 15:54:00,967 [INFO] 127.0.0.1 - - [16/Dec/2024 15:54:00] "GET /index.html HTTP/1.1" 200 -
+2024-12-16 15:54:01,063 [INFO] Serving static file: script.js
+2024-12-16 15:54:01,064 [INFO] 127.0.0.1 - - [16/Dec/2024 15:54:01] "GET /front-facing/static/cs/styles.css HTTP/1.1" 200 -
+2024-12-16 15:54:01,065 [INFO] 127.0.0.1 - - [16/Dec/2024 15:54:01] "GET /script.js HTTP/1.1" 200 -
+2024-12-16 15:54:01,196 [INFO] Serving static file: favicon.ico
+2024-12-16 15:54:01,197 [INFO] 127.0.0.1 - - [16/Dec/2024 15:54:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-16 15:54:17,741 [INFO] Serving static file: index.html
+2024-12-16 15:54:17,744 [INFO] 127.0.0.1 - - [16/Dec/2024 15:54:17] "GET /index.html HTTP/1.1" 200 -
+2024-12-16 15:54:17,854 [INFO] Serving static file: script.js
+2024-12-16 15:54:17,855 [INFO] 127.0.0.1 - - [16/Dec/2024 15:54:17] "GET /script.js HTTP/1.1" 200 -
+2024-12-16 15:54:17,855 [INFO] 127.0.0.1 - - [16/Dec/2024 15:54:17] "GET /front-facing/static/cs/styles.css HTTP/1.1" 200 -
+2024-12-16 15:54:17,878 [INFO] 127.0.0.1 - - [16/Dec/2024 15:54:17] "GET /front-facing/static/assets/banner2.jpg HTTP/1.1" 200 -
+2024-12-16 15:54:18,181 [INFO] Serving static file: favicon.ico
+2024-12-16 15:54:18,183 [INFO] 127.0.0.1 - - [16/Dec/2024 15:54:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-16 15:54:24,485 [INFO] Fetching places for region: North America
+2024-12-16 15:54:24,559 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 15:54:25,250 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/textsearch/json?query=nature+in+North+America&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8 HTTP/11" 200 40669
+2024-12-16 15:54:25,280 [INFO] Found 20 places for region North America
+2024-12-16 15:54:25,280 [INFO] 127.0.0.1 - - [16/Dec/2024 15:54:25] "GET /places?region=North%20America HTTP/1.1" 200 -
+2024-12-16 15:54:25,291 [INFO] Fetching photo for reference: AWYs27zSWET-KiGUXgzlgV9K5nUcgMrCHnKAaHgginWS5s1SJLae26J-ljxZ-iiMb6JRoSBPSkXdZqRjBmDrmLycD9Mavq79S8E6rBkMjPXWaQCiIG7RQB8Lj6MbjxA48CMvBWIcEq_ll_3Y6jZZyxkuW224ulEvgF7g_E2Cylhs86nZdmc7
+2024-12-16 15:54:25,291 [INFO] Fetching photo for reference: AWYs27zYi6KH1klJeMMd9MBdL3InBBfKdP9kkmrc1N0bZASkTWhkJwnjkXpSR4YeDyc4KLT9RaQ_w-Iyswugc5L6_A-HRxFFB82fGXm2EVQ5xIVAzSEoCPWr1XQFLv2hgaw6ZWL_IQxhKARpYkL9N13Jg-TvJSZr2Vrw4kC2K2sehaIqtmDW
+2024-12-16 15:54:25,292 [INFO] Fetching photo for reference: AWYs27wDXWLLIa8epgD_o2nToQjBC6gwNvJm5luc-e2qHu3YW637_lGwX4EUIqShiK4KAqVARfFZjKmty7ELrpS1flUAlR-Jv25H12t2Dzf8_k7mItje33OuUtD0x0VjmrA8h4OH_d_Ay2lR7Q1aXasc491LJekyNoGXjtvNrm06-7eNvLqx
+2024-12-16 15:54:25,293 [INFO] Fetching photo for reference: AWYs27xdG4WIt8wAJ_WekGsIav2sC6AOAUKLWBsMESWGdDmiZuMIELMQ7JgxUiRFUXo-41tcYlQLzyrbW6B-BQwRznG6dgrw5yKkmSrIMWEz5iLHke8gZIXwNaXwsZSgEmHKHo49TrniGZs4ZH4IyIKKup4ajYPijYPmndFvGL4PQDUf16uW
+2024-12-16 15:54:25,294 [INFO] Fetching photo for reference: AWYs27xttZEflgKQSGklaVYTlxU54mAvf9aj6ishbDim08hKxXCeUR5rOri5i7LVN4xM_Y-inib7iFKG6pykqJvyFrBuo6Iyz9RNgvCAxk4nRCTYhslwpE1yfa71LBhxMFiXMEZAJoF3orAua9IoTWZ5P8wXF4Y5WYqh1oS5sVUOOgr5BIZD
+2024-12-16 15:54:25,295 [INFO] Fetching photo for reference: AWYs27wg4QjAWDa_QWRKfiz1toPC8I28yTJyYhXDPws4W_n9O0_1tPNH-KhPo2HkZOvjadURL1C0yqDlNT6YJbsDaPZRsvJTjrjJebz0UNlO3O1K4-V7zIjOfREEpeCgEfICjc0gdezAgrGAjBO7RUdzNt2KW0iFhKWrml27gdiSxfNAo-El
+2024-12-16 15:54:25,296 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 15:54:25,299 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 15:54:25,300 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 15:54:25,300 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 15:54:25,300 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 15:54:25,300 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 15:54:25,435 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27zSWET-KiGUXgzlgV9K5nUcgMrCHnKAaHgginWS5s1SJLae26J-ljxZ-iiMb6JRoSBPSkXdZqRjBmDrmLycD9Mavq79S8E6rBkMjPXWaQCiIG7RQB8Lj6MbjxA48CMvBWIcEq_ll_3Y6jZZyxkuW224ulEvgF7g_E2Cylhs86nZdmc7&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 15:54:25,438 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27zYi6KH1klJeMMd9MBdL3InBBfKdP9kkmrc1N0bZASkTWhkJwnjkXpSR4YeDyc4KLT9RaQ_w-Iyswugc5L6_A-HRxFFB82fGXm2EVQ5xIVAzSEoCPWr1XQFLv2hgaw6ZWL_IQxhKARpYkL9N13Jg-TvJSZr2Vrw4kC2K2sehaIqtmDW&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 15:54:25,438 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27wg4QjAWDa_QWRKfiz1toPC8I28yTJyYhXDPws4W_n9O0_1tPNH-KhPo2HkZOvjadURL1C0yqDlNT6YJbsDaPZRsvJTjrjJebz0UNlO3O1K4-V7zIjOfREEpeCgEfICjc0gdezAgrGAjBO7RUdzNt2KW0iFhKWrml27gdiSxfNAo-El&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 15:54:25,441 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27xdG4WIt8wAJ_WekGsIav2sC6AOAUKLWBsMESWGdDmiZuMIELMQ7JgxUiRFUXo-41tcYlQLzyrbW6B-BQwRznG6dgrw5yKkmSrIMWEz5iLHke8gZIXwNaXwsZSgEmHKHo49TrniGZs4ZH4IyIKKup4ajYPijYPmndFvGL4PQDUf16uW&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 15:54:25,469 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27xttZEflgKQSGklaVYTlxU54mAvf9aj6ishbDim08hKxXCeUR5rOri5i7LVN4xM_Y-inib7iFKG6pykqJvyFrBuo6Iyz9RNgvCAxk4nRCTYhslwpE1yfa71LBhxMFiXMEZAJoF3orAua9IoTWZ5P8wXF4Y5WYqh1oS5sVUOOgr5BIZD&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 15:54:25,471 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 15:54:25,472 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 15:54:25,476 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 15:54:25,476 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 15:54:25,479 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27wDXWLLIa8epgD_o2nToQjBC6gwNvJm5luc-e2qHu3YW637_lGwX4EUIqShiK4KAqVARfFZjKmty7ELrpS1flUAlR-Jv25H12t2Dzf8_k7mItje33OuUtD0x0VjmrA8h4OH_d_Ay2lR7Q1aXasc491LJekyNoGXjtvNrm06-7eNvLqx&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 15:54:25,483 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 15:54:25,486 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 15:54:25,611 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqEHlc2-WaikhXOR-fih1aeq4Se2tkPjijN7oJqeCIo5hMFNpUtxqM5WOny-4Ao22ZOjjPP3XiuVdkWLKP7WV2GL49hBQpbCZk8=s1600-w800 HTTP/11" 200 195591
+2024-12-16 15:54:25,611 [INFO] Photo fetched successfully for reference: AWYs27zYi6KH1klJeMMd9MBdL3InBBfKdP9kkmrc1N0bZASkTWhkJwnjkXpSR4YeDyc4KLT9RaQ_w-Iyswugc5L6_A-HRxFFB82fGXm2EVQ5xIVAzSEoCPWr1XQFLv2hgaw6ZWL_IQxhKARpYkL9N13Jg-TvJSZr2Vrw4kC2K2sehaIqtmDW
+2024-12-16 15:54:25,614 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqFp8HvKm_L-p4_pONH4cqg6n0Y2WmtbyvirUvrUQwh5n38GSsZpjh1QIkp4Byj8mP-N3fKyk-CJKmgG9okVg5Im5uMWk4k4nUE=s1600-w800 HTTP/11" 200 239750
+2024-12-16 15:54:25,614 [INFO] Photo fetched successfully for reference: AWYs27wg4QjAWDa_QWRKfiz1toPC8I28yTJyYhXDPws4W_n9O0_1tPNH-KhPo2HkZOvjadURL1C0yqDlNT6YJbsDaPZRsvJTjrjJebz0UNlO3O1K4-V7zIjOfREEpeCgEfICjc0gdezAgrGAjBO7RUdzNt2KW0iFhKWrml27gdiSxfNAo-El
+2024-12-16 15:54:25,617 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqF4UoSVinu-0sSrBR7OMNPzSx94jkBQCy6DC0wm4LWmPw0ad_DAMrvzM6vAEyPW3C-csjsUqqV8zs3vWpqGZjAAq2uivCi9SAo=s1600-w800 HTTP/11" 200 156177
+2024-12-16 15:54:25,618 [INFO] Photo fetched successfully for reference: AWYs27wDXWLLIa8epgD_o2nToQjBC6gwNvJm5luc-e2qHu3YW637_lGwX4EUIqShiK4KAqVARfFZjKmty7ELrpS1flUAlR-Jv25H12t2Dzf8_k7mItje33OuUtD0x0VjmrA8h4OH_d_Ay2lR7Q1aXasc491LJekyNoGXjtvNrm06-7eNvLqx
+2024-12-16 15:54:25,629 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqHi4DR9LN6Gdys3W5xQ2fXy2MniNUb1w9dWy8OsihV6a-5VQ7-D4NG8ZAUIIBnb0w897IAHM2r0i6c88URGfcimVk79P7OEf28=s1600-w800 HTTP/11" 200 218750
+2024-12-16 15:54:25,629 [INFO] Photo fetched successfully for reference: AWYs27zSWET-KiGUXgzlgV9K5nUcgMrCHnKAaHgginWS5s1SJLae26J-ljxZ-iiMb6JRoSBPSkXdZqRjBmDrmLycD9Mavq79S8E6rBkMjPXWaQCiIG7RQB8Lj6MbjxA48CMvBWIcEq_ll_3Y6jZZyxkuW224ulEvgF7g_E2Cylhs86nZdmc7
+2024-12-16 15:54:25,701 [INFO] 127.0.0.1 - - [16/Dec/2024 15:54:25] "GET /photo?photo_reference=AWYs27wDXWLLIa8epgD_o2nToQjBC6gwNvJm5luc-e2qHu3YW637_lGwX4EUIqShiK4KAqVARfFZjKmty7ELrpS1flUAlR-Jv25H12t2Dzf8_k7mItje33OuUtD0x0VjmrA8h4OH_d_Ay2lR7Q1aXasc491LJekyNoGXjtvNrm06-7eNvLqx HTTP/1.1" 200 -
+2024-12-16 15:54:25,701 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqHDlXOTtMHlpqVdCYWwZwzXV118ZzOaCKtGTLqMNSAeO8NJbrZ-GRllCRramQUEjI7HCHX-r-jzg2hDesMvd3f85NWNwXRm2x0=s1600-w800 HTTP/11" 200 290237
+2024-12-16 15:54:25,702 [INFO] Photo fetched successfully for reference: AWYs27xdG4WIt8wAJ_WekGsIav2sC6AOAUKLWBsMESWGdDmiZuMIELMQ7JgxUiRFUXo-41tcYlQLzyrbW6B-BQwRznG6dgrw5yKkmSrIMWEz5iLHke8gZIXwNaXwsZSgEmHKHo49TrniGZs4ZH4IyIKKup4ajYPijYPmndFvGL4PQDUf16uW
+2024-12-16 15:54:25,707 [INFO] 127.0.0.1 - - [16/Dec/2024 15:54:25] "GET /photo?photo_reference=AWYs27zYi6KH1klJeMMd9MBdL3InBBfKdP9kkmrc1N0bZASkTWhkJwnjkXpSR4YeDyc4KLT9RaQ_w-Iyswugc5L6_A-HRxFFB82fGXm2EVQ5xIVAzSEoCPWr1XQFLv2hgaw6ZWL_IQxhKARpYkL9N13Jg-TvJSZr2Vrw4kC2K2sehaIqtmDW HTTP/1.1" 200 -
+2024-12-16 15:54:25,710 [INFO] Fetching photo for reference: AWYs27z8kOlWYZhcR-_9Fe2VavD2RRqkWE3XQoA7zZCkQV9f9N2QC671z8mw2vCUi435lUb3Bs-VJXbml2gVKDZg5BvNtwr_p8wNKJw5JY2Cog191m8sG2bfclUuLXEeOjt5D_54RPvCG6RC6ODaWKa9uItetiW10kORo7NhOsBTadY756I
+2024-12-16 15:54:25,714 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 15:54:25,714 [INFO] Fetching photo for reference: AWYs27zlY47X8OhD6ZeMWHhgeMZ6op59ZfT1Qrn2s01JKIZEqOfRl02MV0j_FvOAXP68MyGoccVVnpCdYoZ_qvRb3TdLioqpp69F-H2s53TgA8mKwh2UU99UFG86GiyYy-V908IM3at3FS1nVT7QC_AuEdK5AG8WPiXCDF_S6kvVRdUmbBJX
+2024-12-16 15:54:25,716 [INFO] 127.0.0.1 - - [16/Dec/2024 15:54:25] "GET /photo?photo_reference=AWYs27wg4QjAWDa_QWRKfiz1toPC8I28yTJyYhXDPws4W_n9O0_1tPNH-KhPo2HkZOvjadURL1C0yqDlNT6YJbsDaPZRsvJTjrjJebz0UNlO3O1K4-V7zIjOfREEpeCgEfICjc0gdezAgrGAjBO7RUdzNt2KW0iFhKWrml27gdiSxfNAo-El HTTP/1.1" 200 -
+2024-12-16 15:54:25,717 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 15:54:25,721 [INFO] Fetching photo for reference: AWYs27w1iivM7FubfUojDVu-mxVopfsFJM8_fHxR2N2yuJ2sXn9TNqod74_72HAEV-hP4hXULHp56u2y45PJqEVk-cheuFid5SB16FNJXgs7MgHb2IYqFMKhq0lhSEZ724xSm4OWsVHM6G0C4hYP7QnsNNifbK7QxjFVWFJNtEbselBkE-A7
+2024-12-16 15:54:25,723 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 15:54:25,730 [INFO] 127.0.0.1 - - [16/Dec/2024 15:54:25] "GET /photo?photo_reference=AWYs27zSWET-KiGUXgzlgV9K5nUcgMrCHnKAaHgginWS5s1SJLae26J-ljxZ-iiMb6JRoSBPSkXdZqRjBmDrmLycD9Mavq79S8E6rBkMjPXWaQCiIG7RQB8Lj6MbjxA48CMvBWIcEq_ll_3Y6jZZyxkuW224ulEvgF7g_E2Cylhs86nZdmc7 HTTP/1.1" 200 -
+2024-12-16 15:54:25,733 [INFO] Fetching photo for reference: AWYs27wKtj4FRa6nJn_iKrla2CvXZtWTqv_uJ3A3arGbojcWQ8IRcH_s18O9fkLlq_R-qsxH1sRDB33Tixx_VAiYHsIY_XvcQ__NC-FDXfiDqU_IcBCj4TB1PD3bfdP91HGEzCLjuhhoelVEbV9Y1YlPecvkiuUqG3LaDp-Vug86prUB9H8c
+2024-12-16 15:54:25,736 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 15:54:25,744 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqFZlz8RM0wLoSqVJoO5TQIvrADJUSiRu988bk6EiB_mwX-LiUixf6VtfbRYzyn7ESJXliOVzA99je54XovdZLYmbJyuo-OFDgo=s1600-w678 HTTP/11" 200 50439
+2024-12-16 15:54:25,745 [INFO] Photo fetched successfully for reference: AWYs27xttZEflgKQSGklaVYTlxU54mAvf9aj6ishbDim08hKxXCeUR5rOri5i7LVN4xM_Y-inib7iFKG6pykqJvyFrBuo6Iyz9RNgvCAxk4nRCTYhslwpE1yfa71LBhxMFiXMEZAJoF3orAua9IoTWZ5P8wXF4Y5WYqh1oS5sVUOOgr5BIZD
+2024-12-16 15:54:25,786 [INFO] 127.0.0.1 - - [16/Dec/2024 15:54:25] "GET /photo?photo_reference=AWYs27xttZEflgKQSGklaVYTlxU54mAvf9aj6ishbDim08hKxXCeUR5rOri5i7LVN4xM_Y-inib7iFKG6pykqJvyFrBuo6Iyz9RNgvCAxk4nRCTYhslwpE1yfa71LBhxMFiXMEZAJoF3orAua9IoTWZ5P8wXF4Y5WYqh1oS5sVUOOgr5BIZD HTTP/1.1" 200 -
+2024-12-16 15:54:25,802 [INFO] 127.0.0.1 - - [16/Dec/2024 15:54:25] "GET /photo?photo_reference=AWYs27xdG4WIt8wAJ_WekGsIav2sC6AOAUKLWBsMESWGdDmiZuMIELMQ7JgxUiRFUXo-41tcYlQLzyrbW6B-BQwRznG6dgrw5yKkmSrIMWEz5iLHke8gZIXwNaXwsZSgEmHKHo49TrniGZs4ZH4IyIKKup4ajYPijYPmndFvGL4PQDUf16uW HTTP/1.1" 200 -
+2024-12-16 15:54:25,844 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27zlY47X8OhD6ZeMWHhgeMZ6op59ZfT1Qrn2s01JKIZEqOfRl02MV0j_FvOAXP68MyGoccVVnpCdYoZ_qvRb3TdLioqpp69F-H2s53TgA8mKwh2UU99UFG86GiyYy-V908IM3at3FS1nVT7QC_AuEdK5AG8WPiXCDF_S6kvVRdUmbBJX&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 15:54:25,846 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27w1iivM7FubfUojDVu-mxVopfsFJM8_fHxR2N2yuJ2sXn9TNqod74_72HAEV-hP4hXULHp56u2y45PJqEVk-cheuFid5SB16FNJXgs7MgHb2IYqFMKhq0lhSEZ724xSm4OWsVHM6G0C4hYP7QnsNNifbK7QxjFVWFJNtEbselBkE-A7&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 15:54:25,847 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 15:54:25,850 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 15:54:25,868 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27z8kOlWYZhcR-_9Fe2VavD2RRqkWE3XQoA7zZCkQV9f9N2QC671z8mw2vCUi435lUb3Bs-VJXbml2gVKDZg5BvNtwr_p8wNKJw5JY2Cog191m8sG2bfclUuLXEeOjt5D_54RPvCG6RC6ODaWKa9uItetiW10kORo7NhOsBTadY756I&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 351
+2024-12-16 15:54:25,872 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 15:54:25,878 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27wKtj4FRa6nJn_iKrla2CvXZtWTqv_uJ3A3arGbojcWQ8IRcH_s18O9fkLlq_R-qsxH1sRDB33Tixx_VAiYHsIY_XvcQ__NC-FDXfiDqU_IcBCj4TB1PD3bfdP91HGEzCLjuhhoelVEbV9Y1YlPecvkiuUqG3LaDp-Vug86prUB9H8c&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 15:54:25,881 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 15:54:25,945 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqGrMKMZImjfmKJ6gcmdoXoyYXGWFGVNjKSY7C92b0gCer3ZXzIE_OsZ5GavZ9uCUeeufNJ_SPeWDCF8LQgGT2Fq1Eoh6-tuGJA=s1600-w800 HTTP/11" 200 114897
+2024-12-16 15:54:25,946 [INFO] Photo fetched successfully for reference: AWYs27zlY47X8OhD6ZeMWHhgeMZ6op59ZfT1Qrn2s01JKIZEqOfRl02MV0j_FvOAXP68MyGoccVVnpCdYoZ_qvRb3TdLioqpp69F-H2s53TgA8mKwh2UU99UFG86GiyYy-V908IM3at3FS1nVT7QC_AuEdK5AG8WPiXCDF_S6kvVRdUmbBJX
+2024-12-16 15:54:25,956 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqGTZuuCsbIDbPgITS8It6l1GULPMiFiTKwNqRDMRbCPRQwrW8XH5pLHwbNA8Cw_-Mv85zbTzk3zPiW35F3P9wqg9fh5zkMIOxg=s1600-w800 HTTP/11" 200 255037
+2024-12-16 15:54:25,956 [INFO] Photo fetched successfully for reference: AWYs27w1iivM7FubfUojDVu-mxVopfsFJM8_fHxR2N2yuJ2sXn9TNqod74_72HAEV-hP4hXULHp56u2y45PJqEVk-cheuFid5SB16FNJXgs7MgHb2IYqFMKhq0lhSEZ724xSm4OWsVHM6G0C4hYP7QnsNNifbK7QxjFVWFJNtEbselBkE-A7
+2024-12-16 15:54:26,010 [INFO] 127.0.0.1 - - [16/Dec/2024 15:54:26] "GET /photo?photo_reference=AWYs27zlY47X8OhD6ZeMWHhgeMZ6op59ZfT1Qrn2s01JKIZEqOfRl02MV0j_FvOAXP68MyGoccVVnpCdYoZ_qvRb3TdLioqpp69F-H2s53TgA8mKwh2UU99UFG86GiyYy-V908IM3at3FS1nVT7QC_AuEdK5AG8WPiXCDF_S6kvVRdUmbBJX HTTP/1.1" 200 -
+2024-12-16 15:54:26,020 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqHrJ0KfyNPNa4YR03rpJrVO1DetG07KtvvKslYF0scJ--3kAVT65C1USRBKwvuB1KiPwtvFrV2vTEyW2Dy85EOpzEbdT_-DKS8=s1600-w800 HTTP/11" 200 211907
+2024-12-16 15:54:26,021 [INFO] Photo fetched successfully for reference: AWYs27wKtj4FRa6nJn_iKrla2CvXZtWTqv_uJ3A3arGbojcWQ8IRcH_s18O9fkLlq_R-qsxH1sRDB33Tixx_VAiYHsIY_XvcQ__NC-FDXfiDqU_IcBCj4TB1PD3bfdP91HGEzCLjuhhoelVEbV9Y1YlPecvkiuUqG3LaDp-Vug86prUB9H8c
+2024-12-16 15:54:26,039 [INFO] 127.0.0.1 - - [16/Dec/2024 15:54:26] "GET /photo?photo_reference=AWYs27w1iivM7FubfUojDVu-mxVopfsFJM8_fHxR2N2yuJ2sXn9TNqod74_72HAEV-hP4hXULHp56u2y45PJqEVk-cheuFid5SB16FNJXgs7MgHb2IYqFMKhq0lhSEZ724xSm4OWsVHM6G0C4hYP7QnsNNifbK7QxjFVWFJNtEbselBkE-A7 HTTP/1.1" 200 -
+2024-12-16 15:54:26,048 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqFt9YbJRoni6qEm7DgagKxCUHxCXDB7ODEl5aPCbI5asX4epyhlK6jQDiVGo7RMucSTIegmnGWMksARGLturSgw-pprOggm_A=s1600-w800 HTTP/11" 200 226343
+2024-12-16 15:54:26,048 [INFO] Photo fetched successfully for reference: AWYs27z8kOlWYZhcR-_9Fe2VavD2RRqkWE3XQoA7zZCkQV9f9N2QC671z8mw2vCUi435lUb3Bs-VJXbml2gVKDZg5BvNtwr_p8wNKJw5JY2Cog191m8sG2bfclUuLXEeOjt5D_54RPvCG6RC6ODaWKa9uItetiW10kORo7NhOsBTadY756I
+2024-12-16 15:54:26,103 [INFO] 127.0.0.1 - - [16/Dec/2024 15:54:26] "GET /photo?photo_reference=AWYs27wKtj4FRa6nJn_iKrla2CvXZtWTqv_uJ3A3arGbojcWQ8IRcH_s18O9fkLlq_R-qsxH1sRDB33Tixx_VAiYHsIY_XvcQ__NC-FDXfiDqU_IcBCj4TB1PD3bfdP91HGEzCLjuhhoelVEbV9Y1YlPecvkiuUqG3LaDp-Vug86prUB9H8c HTTP/1.1" 200 -
+2024-12-16 15:54:26,138 [INFO] 127.0.0.1 - - [16/Dec/2024 15:54:26] "GET /photo?photo_reference=AWYs27z8kOlWYZhcR-_9Fe2VavD2RRqkWE3XQoA7zZCkQV9f9N2QC671z8mw2vCUi435lUb3Bs-VJXbml2gVKDZg5BvNtwr_p8wNKJw5JY2Cog191m8sG2bfclUuLXEeOjt5D_54RPvCG6RC6ODaWKa9uItetiW10kORo7NhOsBTadY756I HTTP/1.1" 200 -
+2024-12-16 15:54:33,756 [INFO] Analyzing photo with reference: AWYs27zSWET-KiGUXgzlgV9K5nUcgMrCHnKAaHgginWS5s1SJLae26J-ljxZ-iiMb6JRoSBPSkXdZqRjBmDrmLycD9Mavq79S8E6rBkMjPXWaQCiIG7RQB8Lj6MbjxA48CMvBWIcEq_ll_3Y6jZZyxkuW224ulEvgF7g_E2Cylhs86nZdmc7
+2024-12-16 15:54:33,758 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 15:54:33,867 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27zSWET-KiGUXgzlgV9K5nUcgMrCHnKAaHgginWS5s1SJLae26J-ljxZ-iiMb6JRoSBPSkXdZqRjBmDrmLycD9Mavq79S8E6rBkMjPXWaQCiIG7RQB8Lj6MbjxA48CMvBWIcEq_ll_3Y6jZZyxkuW224ulEvgF7g_E2Cylhs86nZdmc7&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 15:54:33,874 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 15:54:33,977 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqHi4DR9LN6Gdys3W5xQ2fXy2MniNUb1w9dWy8OsihV6a-5VQ7-D4NG8ZAUIIBnb0w897IAHM2r0i6c88URGfcimVk79P7OEf28=s1600-w800 HTTP/11" 200 218750
+2024-12-16 15:54:34,586 [INFO] Extracted Labels: ['water', 'nature', 'green', 'natural environment', 'natural landscape', 'vegetation', 'watercourse', 'shrub', 'landscape', 'bank']
+2024-12-16 15:54:34,782 [ERROR] Error in /analyze: function similarity(text, unknown) does not exist
+LINE 4:             WHERE similarity(name, 'water') > 0.5
+                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+2024-12-16 15:54:34,783 [INFO] 127.0.0.1 - - [16/Dec/2024 15:54:34] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2024-12-16 16:20:08,035 [INFO] Serving static file: index.html
+2024-12-16 16:20:08,040 [INFO] 127.0.0.1 - - [16/Dec/2024 16:20:08] "GET /index.html HTTP/1.1" 200 -
+2024-12-16 16:20:08,207 [INFO] Serving static file: script.js
+2024-12-16 16:20:08,208 [INFO] 127.0.0.1 - - [16/Dec/2024 16:20:08] "GET /front-facing/static/cs/styles.css HTTP/1.1" 200 -
+2024-12-16 16:20:08,209 [INFO] 127.0.0.1 - - [16/Dec/2024 16:20:08] "GET /script.js HTTP/1.1" 200 -
+2024-12-16 16:20:08,299 [INFO] 127.0.0.1 - - [16/Dec/2024 16:20:08] "GET /front-facing/static/assets/banner2.jpg HTTP/1.1" 200 -
+2024-12-16 16:20:08,488 [INFO] Serving static file: favicon.ico
+2024-12-16 16:20:08,490 [INFO] 127.0.0.1 - - [16/Dec/2024 16:20:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-16 16:20:11,266 [INFO] Fetching places for region: North America
+2024-12-16 16:20:11,294 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:20:11,949 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/textsearch/json?query=nature+in+North+America&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8 HTTP/11" 200 40475
+2024-12-16 16:20:11,989 [INFO] Found 20 places for region North America
+2024-12-16 16:20:11,993 [INFO] 127.0.0.1 - - [16/Dec/2024 16:20:11] "GET /places?region=North%20America HTTP/1.1" 200 -
+2024-12-16 16:20:12,004 [INFO] Fetching photo for reference: AWYs27wgK1mD3reuwmoGNJGCbKFowXRdAhcGlNNuQlvmlV08Wy4pNeNoiGDkxmwAWaBUmCfT8oTJiQOg4ShbkOQZZfFdR8KDJV1EJLGIfLlHuP-4xndHcnfbWFZ4Z7T8nAVBb1zwLjSkeAR3QQ9gHTnGXp8Q3daVE-0r8dncgQkND-Vr5mua
+2024-12-16 16:20:12,005 [INFO] Fetching photo for reference: AWYs27zFg2LuQe0TwzuFUK-44UiX7Zm2Avef_QzMT-r6nf6oerPz2zd_0xUVi6SK9iMICRYdha2T5xo_HDUQz-eXlfSbYuLGqnZBlGTZ3OixGCt7YFU6ERKkgNKp0EhCp1mfBmrTSFVp-K1FzE-IeDSrm2ROhCq0ARSGjlkBrHlqS-YgLsPo
+2024-12-16 16:20:12,007 [INFO] Fetching photo for reference: AWYs27yoWxwMDpt8YEgQMFOHmL4jFohGKWa0n2xqfD2IReW3fdMA24Q8ln47FRrW1LYj3N1rpl6SvJ0CeuVFVplL-dOYQ6Tq-fHvxFjANB9xOlcq01MNVa3MKFcrxr6eX4l1nYjTcSNTbTHs45AmsoIclI4nZtdGaw7HYrkPruJO5iOLgJh5
+2024-12-16 16:20:12,009 [INFO] Fetching photo for reference: AWYs27xh3e3cs3oZFLxFnaIivzPLwSMd280EFIaoLiYimq-uI8K49Y1Aw52oy8X03GLI66yIiQwP-iGHCBoQyaI_N-NSkwjqjcptpx_S-tVQNHnObfIjrz62UgbS9lSNCZqMu9MdearQUE_WNhkAawMa8LV-o1I4NQufnfMh_7nHCOPY_XXh
+2024-12-16 16:20:12,010 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:20:12,012 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:20:12,014 [INFO] Fetching photo for reference: AWYs27wfp-mckAzbXCL1RN0ccRtxFkpWKjRA3d7vZfrO5K2J28s1EDZe5mkXTX0QLRHVEVcVJHNvdLxOAdVPxI8fZ2nztbhqsO0ODg2RuTQFPUO0nrtSb1Pm6kIHFb8-VoJO_3dCLFOivUeFBylUP4t2Uw84Sg6rEbs3VTzudVr652PtVI5K
+2024-12-16 16:20:12,015 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:20:12,015 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:20:12,016 [INFO] Fetching photo for reference: AWYs27x0pygfGDlFZGfTI8a6g3RmUFdM-4glAtsXR8gi48AHRMVkuQV3nyaBk0x3mEr1lmwvZZVrKCNI_TgRv1cmSI109EjoYfqucb2JchQsVazRbuSpp9gKeLgNDrbBnDrNkRKjjcx7KVqEo1i5uroUJVZVOcNggjOyNwzGeua7WQHEh093
+2024-12-16 16:20:12,019 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:20:12,019 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:20:12,152 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27wgK1mD3reuwmoGNJGCbKFowXRdAhcGlNNuQlvmlV08Wy4pNeNoiGDkxmwAWaBUmCfT8oTJiQOg4ShbkOQZZfFdR8KDJV1EJLGIfLlHuP-4xndHcnfbWFZ4Z7T8nAVBb1zwLjSkeAR3QQ9gHTnGXp8Q3daVE-0r8dncgQkND-Vr5mua&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 16:20:12,158 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27wfp-mckAzbXCL1RN0ccRtxFkpWKjRA3d7vZfrO5K2J28s1EDZe5mkXTX0QLRHVEVcVJHNvdLxOAdVPxI8fZ2nztbhqsO0ODg2RuTQFPUO0nrtSb1Pm6kIHFb8-VoJO_3dCLFOivUeFBylUP4t2Uw84Sg6rEbs3VTzudVr652PtVI5K&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 16:20:12,158 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27xh3e3cs3oZFLxFnaIivzPLwSMd280EFIaoLiYimq-uI8K49Y1Aw52oy8X03GLI66yIiQwP-iGHCBoQyaI_N-NSkwjqjcptpx_S-tVQNHnObfIjrz62UgbS9lSNCZqMu9MdearQUE_WNhkAawMa8LV-o1I4NQufnfMh_7nHCOPY_XXh&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 16:20:12,158 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27yoWxwMDpt8YEgQMFOHmL4jFohGKWa0n2xqfD2IReW3fdMA24Q8ln47FRrW1LYj3N1rpl6SvJ0CeuVFVplL-dOYQ6Tq-fHvxFjANB9xOlcq01MNVa3MKFcrxr6eX4l1nYjTcSNTbTHs45AmsoIclI4nZtdGaw7HYrkPruJO5iOLgJh5&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 16:20:12,158 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27zFg2LuQe0TwzuFUK-44UiX7Zm2Avef_QzMT-r6nf6oerPz2zd_0xUVi6SK9iMICRYdha2T5xo_HDUQz-eXlfSbYuLGqnZBlGTZ3OixGCt7YFU6ERKkgNKp0EhCp1mfBmrTSFVp-K1FzE-IeDSrm2ROhCq0ARSGjlkBrHlqS-YgLsPo&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 16:20:12,158 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27x0pygfGDlFZGfTI8a6g3RmUFdM-4glAtsXR8gi48AHRMVkuQV3nyaBk0x3mEr1lmwvZZVrKCNI_TgRv1cmSI109EjoYfqucb2JchQsVazRbuSpp9gKeLgNDrbBnDrNkRKjjcx7KVqEo1i5uroUJVZVOcNggjOyNwzGeua7WQHEh093&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 16:20:12,182 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 16:20:12,184 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 16:20:12,185 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 16:20:12,185 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 16:20:12,186 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 16:20:12,187 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 16:20:12,346 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqEHlc2-WaikhXOR-fih1aeq4Se2tkPjijN7oJqeCIo5hMFNpUtxqM5WOny-4Ao22ZOjjPP3XiuVdkWLKP7WV2GL49hBQpbCZk8=s1600-w800 HTTP/11" 200 195591
+2024-12-16 16:20:12,347 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqGTZuuCsbIDbPgITS8It6l1GULPMiFiTKwNqRDMRbCPRQwrW8XH5pLHwbNA8Cw_-Mv85zbTzk3zPiW35F3P9wqg9fh5zkMIOxg=s1600-w800 HTTP/11" 200 255037
+2024-12-16 16:20:12,347 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqHx2kbM29EY0pVmvfc-pYRS3RhttUgKiAPi0DDcWGEymhjNmwTOCo7EGUKfDZTr5czu_y1UZ2LykELwFbnYboD9DnMVZQkMP8c=s1600-w800 HTTP/11" 200 196054
+2024-12-16 16:20:12,348 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqF4UoSVinu-0sSrBR7OMNPzSx94jkBQCy6DC0wm4LWmPw0ad_DAMrvzM6vAEyPW3C-csjsUqqV8zs3vWpqGZjAAq2uivCi9SAo=s1600-w800 HTTP/11" 200 156177
+2024-12-16 16:20:12,349 [INFO] Photo fetched successfully for reference: AWYs27zFg2LuQe0TwzuFUK-44UiX7Zm2Avef_QzMT-r6nf6oerPz2zd_0xUVi6SK9iMICRYdha2T5xo_HDUQz-eXlfSbYuLGqnZBlGTZ3OixGCt7YFU6ERKkgNKp0EhCp1mfBmrTSFVp-K1FzE-IeDSrm2ROhCq0ARSGjlkBrHlqS-YgLsPo
+2024-12-16 16:20:12,349 [INFO] Photo fetched successfully for reference: AWYs27yoWxwMDpt8YEgQMFOHmL4jFohGKWa0n2xqfD2IReW3fdMA24Q8ln47FRrW1LYj3N1rpl6SvJ0CeuVFVplL-dOYQ6Tq-fHvxFjANB9xOlcq01MNVa3MKFcrxr6eX4l1nYjTcSNTbTHs45AmsoIclI4nZtdGaw7HYrkPruJO5iOLgJh5
+2024-12-16 16:20:12,350 [INFO] Photo fetched successfully for reference: AWYs27x0pygfGDlFZGfTI8a6g3RmUFdM-4glAtsXR8gi48AHRMVkuQV3nyaBk0x3mEr1lmwvZZVrKCNI_TgRv1cmSI109EjoYfqucb2JchQsVazRbuSpp9gKeLgNDrbBnDrNkRKjjcx7KVqEo1i5uroUJVZVOcNggjOyNwzGeua7WQHEh093
+2024-12-16 16:20:12,350 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqHi4DR9LN6Gdys3W5xQ2fXy2MniNUb1w9dWy8OsihV6a-5VQ7-D4NG8ZAUIIBnb0w897IAHM2r0i6c88URGfcimVk79P7OEf28=s1600-w800 HTTP/11" 200 218750
+2024-12-16 16:20:12,350 [INFO] Photo fetched successfully for reference: AWYs27wfp-mckAzbXCL1RN0ccRtxFkpWKjRA3d7vZfrO5K2J28s1EDZe5mkXTX0QLRHVEVcVJHNvdLxOAdVPxI8fZ2nztbhqsO0ODg2RuTQFPUO0nrtSb1Pm6kIHFb8-VoJO_3dCLFOivUeFBylUP4t2Uw84Sg6rEbs3VTzudVr652PtVI5K
+2024-12-16 16:20:12,351 [INFO] Photo fetched successfully for reference: AWYs27wgK1mD3reuwmoGNJGCbKFowXRdAhcGlNNuQlvmlV08Wy4pNeNoiGDkxmwAWaBUmCfT8oTJiQOg4ShbkOQZZfFdR8KDJV1EJLGIfLlHuP-4xndHcnfbWFZ4Z7T8nAVBb1zwLjSkeAR3QQ9gHTnGXp8Q3daVE-0r8dncgQkND-Vr5mua
+2024-12-16 16:20:12,352 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqHqCYTxxeR-RK7ovOas4nFGTdD87BWMgMJ375Rcv2Soa07XgvhD19CbOPxb-bzNaf0HE79bfBGfdBo1tWdKA7cjQRah5UqEKzQ=s1600-w800 HTTP/11" 200 111561
+2024-12-16 16:20:12,353 [INFO] Photo fetched successfully for reference: AWYs27xh3e3cs3oZFLxFnaIivzPLwSMd280EFIaoLiYimq-uI8K49Y1Aw52oy8X03GLI66yIiQwP-iGHCBoQyaI_N-NSkwjqjcptpx_S-tVQNHnObfIjrz62UgbS9lSNCZqMu9MdearQUE_WNhkAawMa8LV-o1I4NQufnfMh_7nHCOPY_XXh
+2024-12-16 16:20:12,425 [INFO] 127.0.0.1 - - [16/Dec/2024 16:20:12] "GET /photo?photo_reference=AWYs27xh3e3cs3oZFLxFnaIivzPLwSMd280EFIaoLiYimq-uI8K49Y1Aw52oy8X03GLI66yIiQwP-iGHCBoQyaI_N-NSkwjqjcptpx_S-tVQNHnObfIjrz62UgbS9lSNCZqMu9MdearQUE_WNhkAawMa8LV-o1I4NQufnfMh_7nHCOPY_XXh HTTP/1.1" 200 -
+2024-12-16 16:20:12,430 [INFO] Fetching photo for reference: AWYs27yEsL7DSCP8eh3EdTTLFc7_shE2HmrF6bkh2e8qV5Ii4Ityc17itPE6y4BSh_824GmAQ40A2eYnUubHd2yEW1YannIWoBnCGewVn6MsbTY1b0Ug-Sw8v_TQymrNmgFII5v4CRzxOPr-CuoqP64-WZlGdyYj1A5NIoDlelUB-Wm_1pYx
+2024-12-16 16:20:12,433 [INFO] 127.0.0.1 - - [16/Dec/2024 16:20:12] "GET /photo?photo_reference=AWYs27x0pygfGDlFZGfTI8a6g3RmUFdM-4glAtsXR8gi48AHRMVkuQV3nyaBk0x3mEr1lmwvZZVrKCNI_TgRv1cmSI109EjoYfqucb2JchQsVazRbuSpp9gKeLgNDrbBnDrNkRKjjcx7KVqEo1i5uroUJVZVOcNggjOyNwzGeua7WQHEh093 HTTP/1.1" 200 -
+2024-12-16 16:20:12,434 [INFO] 127.0.0.1 - - [16/Dec/2024 16:20:12] "GET /photo?photo_reference=AWYs27wfp-mckAzbXCL1RN0ccRtxFkpWKjRA3d7vZfrO5K2J28s1EDZe5mkXTX0QLRHVEVcVJHNvdLxOAdVPxI8fZ2nztbhqsO0ODg2RuTQFPUO0nrtSb1Pm6kIHFb8-VoJO_3dCLFOivUeFBylUP4t2Uw84Sg6rEbs3VTzudVr652PtVI5K HTTP/1.1" 200 -
+2024-12-16 16:20:12,437 [INFO] 127.0.0.1 - - [16/Dec/2024 16:20:12] "GET /photo?photo_reference=AWYs27zFg2LuQe0TwzuFUK-44UiX7Zm2Avef_QzMT-r6nf6oerPz2zd_0xUVi6SK9iMICRYdha2T5xo_HDUQz-eXlfSbYuLGqnZBlGTZ3OixGCt7YFU6ERKkgNKp0EhCp1mfBmrTSFVp-K1FzE-IeDSrm2ROhCq0ARSGjlkBrHlqS-YgLsPo HTTP/1.1" 200 -
+2024-12-16 16:20:12,438 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:20:12,439 [INFO] Fetching photo for reference: AWYs27xyRE1TN0WAliWVB2V5pxUuMXY8tfzXGfmNS4hf-c5TJ883OFlx8f-DtMHIdVspmcPOwJ2ddzpjwMFdnXiSKdQH5Zn0Ej-Kmu2E84-C42kfhMNvC_taoyURx9QfpJ_-Fg4FwVeqQFvyt4brPUAB-x8q4yf80OoYLfPvborOV9rosanv
+2024-12-16 16:20:12,440 [INFO] Fetching photo for reference: AWYs27yqhj_0dJjLY3KN5NlL0WCjsSLCg4KDlFAYTmZxQO0plXd6AUKqAAD-xiQmavhg9MrJkXCJqu0-X-2ooORLTueLVU7t-zMZ8zCV-DYpdFpxknm4zSVBSK4KNrg0JbKChJOn_iC6KIRYLy6zq3sTisIqx7xu-EiBvkG8Ot5mKirbEyXM
+2024-12-16 16:20:12,442 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:20:12,443 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:20:12,443 [INFO] Fetching photo for reference: AWYs27yXxVaLgEP5koshIxe1Tb-HP13Gp0zUth5KRYe4bKDjGYuuOsIkHBUfLWEB2fa-Iv2yVQxo9g-lTr5qc3F-P-tsOR21Cg9QREfSXNtmmmaxIrA0icFk-G2JB3-G9YZs_M26Y5p99OG1ij72iMnPVk3VvnXAOE_2INKTSa-BywJmIW_3
+2024-12-16 16:20:12,445 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:20:12,458 [INFO] 127.0.0.1 - - [16/Dec/2024 16:20:12] "GET /photo?photo_reference=AWYs27yoWxwMDpt8YEgQMFOHmL4jFohGKWa0n2xqfD2IReW3fdMA24Q8ln47FRrW1LYj3N1rpl6SvJ0CeuVFVplL-dOYQ6Tq-fHvxFjANB9xOlcq01MNVa3MKFcrxr6eX4l1nYjTcSNTbTHs45AmsoIclI4nZtdGaw7HYrkPruJO5iOLgJh5 HTTP/1.1" 200 -
+2024-12-16 16:20:12,460 [INFO] 127.0.0.1 - - [16/Dec/2024 16:20:12] "GET /photo?photo_reference=AWYs27wgK1mD3reuwmoGNJGCbKFowXRdAhcGlNNuQlvmlV08Wy4pNeNoiGDkxmwAWaBUmCfT8oTJiQOg4ShbkOQZZfFdR8KDJV1EJLGIfLlHuP-4xndHcnfbWFZ4Z7T8nAVBb1zwLjSkeAR3QQ9gHTnGXp8Q3daVE-0r8dncgQkND-Vr5mua HTTP/1.1" 200 -
+2024-12-16 16:20:12,582 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27yqhj_0dJjLY3KN5NlL0WCjsSLCg4KDlFAYTmZxQO0plXd6AUKqAAD-xiQmavhg9MrJkXCJqu0-X-2ooORLTueLVU7t-zMZ8zCV-DYpdFpxknm4zSVBSK4KNrg0JbKChJOn_iC6KIRYLy6zq3sTisIqx7xu-EiBvkG8Ot5mKirbEyXM&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 16:20:12,586 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 16:20:12,588 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27yEsL7DSCP8eh3EdTTLFc7_shE2HmrF6bkh2e8qV5Ii4Ityc17itPE6y4BSh_824GmAQ40A2eYnUubHd2yEW1YannIWoBnCGewVn6MsbTY1b0Ug-Sw8v_TQymrNmgFII5v4CRzxOPr-CuoqP64-WZlGdyYj1A5NIoDlelUB-Wm_1pYx&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 16:20:12,591 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 16:20:12,634 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27yXxVaLgEP5koshIxe1Tb-HP13Gp0zUth5KRYe4bKDjGYuuOsIkHBUfLWEB2fa-Iv2yVQxo9g-lTr5qc3F-P-tsOR21Cg9QREfSXNtmmmaxIrA0icFk-G2JB3-G9YZs_M26Y5p99OG1ij72iMnPVk3VvnXAOE_2INKTSa-BywJmIW_3&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 16:20:12,634 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27xyRE1TN0WAliWVB2V5pxUuMXY8tfzXGfmNS4hf-c5TJ883OFlx8f-DtMHIdVspmcPOwJ2ddzpjwMFdnXiSKdQH5Zn0Ej-Kmu2E84-C42kfhMNvC_taoyURx9QfpJ_-Fg4FwVeqQFvyt4brPUAB-x8q4yf80OoYLfPvborOV9rosanv&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 16:20:12,637 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 16:20:12,638 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 16:20:12,712 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqGBR80aO57-NnE2fY_iYQSVia5gBv8yDaQd5lIzropzSsUHWNTQEux5fDGFLb2wPVH0M91DAdt5BJtl89gRIeZa2aQ4sB_ugBU=s1600-w800 HTTP/11" 200 184007
+2024-12-16 16:20:12,712 [INFO] Photo fetched successfully for reference: AWYs27yqhj_0dJjLY3KN5NlL0WCjsSLCg4KDlFAYTmZxQO0plXd6AUKqAAD-xiQmavhg9MrJkXCJqu0-X-2ooORLTueLVU7t-zMZ8zCV-DYpdFpxknm4zSVBSK4KNrg0JbKChJOn_iC6KIRYLy6zq3sTisIqx7xu-EiBvkG8Ot5mKirbEyXM
+2024-12-16 16:20:12,714 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqGjsS7OuZC95CsAzqXgrJON7C_DiXR9fo_w_lArExwVucfb069Ca3vO7NGwBSZkZhRVRHEG0xEkfmRAzUBDU9Lw7yCE7Y80Xb0=s1600-w800 HTTP/11" 200 154367
+2024-12-16 16:20:12,714 [INFO] Photo fetched successfully for reference: AWYs27yEsL7DSCP8eh3EdTTLFc7_shE2HmrF6bkh2e8qV5Ii4Ityc17itPE6y4BSh_824GmAQ40A2eYnUubHd2yEW1YannIWoBnCGewVn6MsbTY1b0Ug-Sw8v_TQymrNmgFII5v4CRzxOPr-CuoqP64-WZlGdyYj1A5NIoDlelUB-Wm_1pYx
+2024-12-16 16:20:12,768 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqHDlXOTtMHlpqVdCYWwZwzXV118ZzOaCKtGTLqMNSAeO8NJbrZ-GRllCRramQUEjI7HCHX-r-jzg2hDesMvd3f85NWNwXRm2x0=s1600-w800 HTTP/11" 200 290237
+2024-12-16 16:20:12,768 [INFO] Photo fetched successfully for reference: AWYs27xyRE1TN0WAliWVB2V5pxUuMXY8tfzXGfmNS4hf-c5TJ883OFlx8f-DtMHIdVspmcPOwJ2ddzpjwMFdnXiSKdQH5Zn0Ej-Kmu2E84-C42kfhMNvC_taoyURx9QfpJ_-Fg4FwVeqQFvyt4brPUAB-x8q4yf80OoYLfPvborOV9rosanv
+2024-12-16 16:20:12,798 [INFO] 127.0.0.1 - - [16/Dec/2024 16:20:12] "GET /photo?photo_reference=AWYs27yEsL7DSCP8eh3EdTTLFc7_shE2HmrF6bkh2e8qV5Ii4Ityc17itPE6y4BSh_824GmAQ40A2eYnUubHd2yEW1YannIWoBnCGewVn6MsbTY1b0Ug-Sw8v_TQymrNmgFII5v4CRzxOPr-CuoqP64-WZlGdyYj1A5NIoDlelUB-Wm_1pYx HTTP/1.1" 200 -
+2024-12-16 16:20:12,804 [INFO] 127.0.0.1 - - [16/Dec/2024 16:20:12] "GET /photo?photo_reference=AWYs27yqhj_0dJjLY3KN5NlL0WCjsSLCg4KDlFAYTmZxQO0plXd6AUKqAAD-xiQmavhg9MrJkXCJqu0-X-2ooORLTueLVU7t-zMZ8zCV-DYpdFpxknm4zSVBSK4KNrg0JbKChJOn_iC6KIRYLy6zq3sTisIqx7xu-EiBvkG8Ot5mKirbEyXM HTTP/1.1" 200 -
+2024-12-16 16:20:12,863 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqFjkqsBPlVj9YoYovY38gelWNs7bRRI1W-JUTmY-gacnDaH5xwjKi3DLFqdufs3emH28zUOf29TbaKRUEgx5buxDT236FFfnDQ=s1600-w800 HTTP/11" 200 206687
+2024-12-16 16:20:12,863 [INFO] Photo fetched successfully for reference: AWYs27yXxVaLgEP5koshIxe1Tb-HP13Gp0zUth5KRYe4bKDjGYuuOsIkHBUfLWEB2fa-Iv2yVQxo9g-lTr5qc3F-P-tsOR21Cg9QREfSXNtmmmaxIrA0icFk-G2JB3-G9YZs_M26Y5p99OG1ij72iMnPVk3VvnXAOE_2INKTSa-BywJmIW_3
+2024-12-16 16:20:12,876 [INFO] 127.0.0.1 - - [16/Dec/2024 16:20:12] "GET /photo?photo_reference=AWYs27xyRE1TN0WAliWVB2V5pxUuMXY8tfzXGfmNS4hf-c5TJ883OFlx8f-DtMHIdVspmcPOwJ2ddzpjwMFdnXiSKdQH5Zn0Ej-Kmu2E84-C42kfhMNvC_taoyURx9QfpJ_-Fg4FwVeqQFvyt4brPUAB-x8q4yf80OoYLfPvborOV9rosanv HTTP/1.1" 200 -
+2024-12-16 16:20:12,947 [INFO] 127.0.0.1 - - [16/Dec/2024 16:20:12] "GET /photo?photo_reference=AWYs27yXxVaLgEP5koshIxe1Tb-HP13Gp0zUth5KRYe4bKDjGYuuOsIkHBUfLWEB2fa-Iv2yVQxo9g-lTr5qc3F-P-tsOR21Cg9QREfSXNtmmmaxIrA0icFk-G2JB3-G9YZs_M26Y5p99OG1ij72iMnPVk3VvnXAOE_2INKTSa-BywJmIW_3 HTTP/1.1" 200 -
+2024-12-16 16:20:13,950 [INFO] Analyzing photo with reference: AWYs27zFg2LuQe0TwzuFUK-44UiX7Zm2Avef_QzMT-r6nf6oerPz2zd_0xUVi6SK9iMICRYdha2T5xo_HDUQz-eXlfSbYuLGqnZBlGTZ3OixGCt7YFU6ERKkgNKp0EhCp1mfBmrTSFVp-K1FzE-IeDSrm2ROhCq0ARSGjlkBrHlqS-YgLsPo
+2024-12-16 16:20:13,955 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:20:14,093 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27zFg2LuQe0TwzuFUK-44UiX7Zm2Avef_QzMT-r6nf6oerPz2zd_0xUVi6SK9iMICRYdha2T5xo_HDUQz-eXlfSbYuLGqnZBlGTZ3OixGCt7YFU6ERKkgNKp0EhCp1mfBmrTSFVp-K1FzE-IeDSrm2ROhCq0ARSGjlkBrHlqS-YgLsPo&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 16:20:14,096 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 16:20:14,219 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqEHlc2-WaikhXOR-fih1aeq4Se2tkPjijN7oJqeCIo5hMFNpUtxqM5WOny-4Ao22ZOjjPP3XiuVdkWLKP7WV2GL49hBQpbCZk8=s1600-w800 HTTP/11" 200 195591
+2024-12-16 16:20:14,789 [INFO] Extracted Labels: ['mountain', 'mountainous landforms', 'wilderness', 'natural landscape', 'mountain range', 'highland', 'glacial landform', 'hill', 'valley', 'ridge']
+2024-12-16 16:20:14,827 [ERROR] Error in /analyze: function similarity(text, unknown) does not exist
+LINE 4:             WHERE similarity(name, 'mountain') > 0.5
+                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+2024-12-16 16:20:14,830 [INFO] 127.0.0.1 - - [16/Dec/2024 16:20:14] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2024-12-16 16:20:25,975 [INFO] Analyzing photo with reference: AWYs27wgK1mD3reuwmoGNJGCbKFowXRdAhcGlNNuQlvmlV08Wy4pNeNoiGDkxmwAWaBUmCfT8oTJiQOg4ShbkOQZZfFdR8KDJV1EJLGIfLlHuP-4xndHcnfbWFZ4Z7T8nAVBb1zwLjSkeAR3QQ9gHTnGXp8Q3daVE-0r8dncgQkND-Vr5mua
+2024-12-16 16:20:25,983 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:20:26,157 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27wgK1mD3reuwmoGNJGCbKFowXRdAhcGlNNuQlvmlV08Wy4pNeNoiGDkxmwAWaBUmCfT8oTJiQOg4ShbkOQZZfFdR8KDJV1EJLGIfLlHuP-4xndHcnfbWFZ4Z7T8nAVBb1zwLjSkeAR3QQ9gHTnGXp8Q3daVE-0r8dncgQkND-Vr5mua&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 16:20:26,163 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 16:20:26,300 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqHi4DR9LN6Gdys3W5xQ2fXy2MniNUb1w9dWy8OsihV6a-5VQ7-D4NG8ZAUIIBnb0w897IAHM2r0i6c88URGfcimVk79P7OEf28=s1600-w800 HTTP/11" 200 218750
+2024-12-16 16:20:26,692 [INFO] Extracted Labels: ['water', 'nature', 'green', 'natural environment', 'natural landscape', 'vegetation', 'watercourse', 'shrub', 'landscape', 'bank']
+2024-12-16 16:20:26,749 [ERROR] Error in /analyze: function similarity(text, unknown) does not exist
+LINE 4:             WHERE similarity(name, 'water') > 0.5
+                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+2024-12-16 16:20:26,750 [INFO] 127.0.0.1 - - [16/Dec/2024 16:20:26] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2024-12-16 16:20:46,563 [INFO]  * Detected change in '/Users/benjamincarter/Documents/GitHub/Bob_Ross_2.0/backend/app.py', reloading
+2024-12-16 16:20:49,022 [DEBUG] Checking /Users/benjamincarter/Documents/GitHub/Bob_Ross_2.0/backend/service-account-key.json for explicit credentials as part of auth process...
+2024-12-16 16:20:49,042 [INFO] Starting Flask app
+2024-12-16 16:20:49,065 [WARNING]  * Debugger is active!
+2024-12-16 16:20:49,094 [INFO]  * Debugger PIN: 679-584-642
+2024-12-16 16:20:51,159 [INFO] Analyzing photo with reference: AWYs27wgK1mD3reuwmoGNJGCbKFowXRdAhcGlNNuQlvmlV08Wy4pNeNoiGDkxmwAWaBUmCfT8oTJiQOg4ShbkOQZZfFdR8KDJV1EJLGIfLlHuP-4xndHcnfbWFZ4Z7T8nAVBb1zwLjSkeAR3QQ9gHTnGXp8Q3daVE-0r8dncgQkND-Vr5mua
+2024-12-16 16:20:51,192 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:20:51,309 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27wgK1mD3reuwmoGNJGCbKFowXRdAhcGlNNuQlvmlV08Wy4pNeNoiGDkxmwAWaBUmCfT8oTJiQOg4ShbkOQZZfFdR8KDJV1EJLGIfLlHuP-4xndHcnfbWFZ4Z7T8nAVBb1zwLjSkeAR3QQ9gHTnGXp8Q3daVE-0r8dncgQkND-Vr5mua&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 16:20:51,313 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 16:20:51,428 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqHi4DR9LN6Gdys3W5xQ2fXy2MniNUb1w9dWy8OsihV6a-5VQ7-D4NG8ZAUIIBnb0w897IAHM2r0i6c88URGfcimVk79P7OEf28=s1600-w800 HTTP/11" 200 218750
+2024-12-16 16:20:52,020 [INFO] Extracted Labels: ['water', 'nature', 'green', 'natural environment', 'natural landscape', 'vegetation', 'watercourse', 'shrub', 'landscape', 'bank']
+2024-12-16 16:20:52,083 [ERROR] Error in /analyze: function similarity(text, unknown) does not exist
+LINE 4:             WHERE similarity(name, 'water') > 0.5
+                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+2024-12-16 16:20:52,083 [INFO] 127.0.0.1 - - [16/Dec/2024 16:20:52] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2024-12-16 16:20:52,329 [INFO] Analyzing photo with reference: AWYs27wgK1mD3reuwmoGNJGCbKFowXRdAhcGlNNuQlvmlV08Wy4pNeNoiGDkxmwAWaBUmCfT8oTJiQOg4ShbkOQZZfFdR8KDJV1EJLGIfLlHuP-4xndHcnfbWFZ4Z7T8nAVBb1zwLjSkeAR3QQ9gHTnGXp8Q3daVE-0r8dncgQkND-Vr5mua
+2024-12-16 16:20:52,332 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:20:52,466 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27wgK1mD3reuwmoGNJGCbKFowXRdAhcGlNNuQlvmlV08Wy4pNeNoiGDkxmwAWaBUmCfT8oTJiQOg4ShbkOQZZfFdR8KDJV1EJLGIfLlHuP-4xndHcnfbWFZ4Z7T8nAVBb1zwLjSkeAR3QQ9gHTnGXp8Q3daVE-0r8dncgQkND-Vr5mua&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 16:20:52,470 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 16:20:52,588 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqHi4DR9LN6Gdys3W5xQ2fXy2MniNUb1w9dWy8OsihV6a-5VQ7-D4NG8ZAUIIBnb0w897IAHM2r0i6c88URGfcimVk79P7OEf28=s1600-w800 HTTP/11" 200 218750
+2024-12-16 16:20:52,903 [INFO] Extracted Labels: ['water', 'nature', 'green', 'natural environment', 'natural landscape', 'vegetation', 'watercourse', 'shrub', 'landscape', 'bank']
+2024-12-16 16:20:52,923 [ERROR] Error in /analyze: function similarity(text, unknown) does not exist
+LINE 4:             WHERE similarity(name, 'water') > 0.5
+                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+2024-12-16 16:20:52,924 [INFO] 127.0.0.1 - - [16/Dec/2024 16:20:52] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2024-12-16 16:24:01,539 [INFO] Serving static file: index.html
+2024-12-16 16:24:01,545 [INFO] 127.0.0.1 - - [16/Dec/2024 16:24:01] "[36mGET /index.html HTTP/1.1[0m" 304 -
+2024-12-16 16:24:01,645 [INFO] Serving static file: script.js
+2024-12-16 16:24:01,647 [INFO] 127.0.0.1 - - [16/Dec/2024 16:24:01] "[36mGET /front-facing/static/cs/styles.css HTTP/1.1[0m" 304 -
+2024-12-16 16:24:01,649 [INFO] 127.0.0.1 - - [16/Dec/2024 16:24:01] "[36mGET /script.js HTTP/1.1[0m" 304 -
+2024-12-16 16:24:01,657 [INFO] 127.0.0.1 - - [16/Dec/2024 16:24:01] "[36mGET /front-facing/static/assets/banner2.jpg HTTP/1.1[0m" 304 -
+2024-12-16 16:24:05,110 [INFO] Fetching places for region: North America
+2024-12-16 16:24:05,123 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:24:05,695 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/textsearch/json?query=nature+in+North+America&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8 HTTP/11" 200 40475
+2024-12-16 16:24:05,729 [INFO] Found 20 places for region North America
+2024-12-16 16:24:05,729 [INFO] 127.0.0.1 - - [16/Dec/2024 16:24:05] "GET /places?region=North%20America HTTP/1.1" 200 -
+2024-12-16 16:24:05,736 [INFO] Fetching photo for reference: AWYs27xlEw4x1CWnaBx51u--2Ymh2kGyqrvyhVBtFSgbByzqWjKkDVQNx4f0uSlQ-eR2SOEv76WE1VaCEG02hzXdTaHGwvoIlOdTotkxKcL6T92WmVw3BZ5Xmo4pibTPeUdWYki7C3wAXAAAW1sN_XgsQ_agNabnEzp4kdVa6rxG0qeigSER
+2024-12-16 16:24:05,737 [INFO] Fetching photo for reference: AWYs27ydM5TCt_O_MQUoTTFo23fq9lIk-iSa_jbpYTtBhEON-5t-9s_hQ6YYMT5bUtJfheUfrUkfHIYAlJosKaOVo-ioZ1DjRsbiGo7r11XYh3bCbyZ71k1urKnbjLsIf5AmKFGgDll5rN5F_65CYgT5Avr_d9EVjk2NDESfLqp5H1YmVQUP
+2024-12-16 16:24:05,738 [INFO] Fetching photo for reference: AWYs27wOUPMDudQWSfoUXOK9fERAaQhpOkHW_p1RAe18aGWI2uRtSCERdRdUQSmKs8GKLQ-WHLQXFt8BcZbVQVVcYa8y0XPvCbk7kfdsSE7azFYMbS2iplFMFLPuJ3DiI4WqX7bxVwu0L55QdhoTxkuhMPGnCM3CcYb1IwNZPI9QncX39Dk2
+2024-12-16 16:24:05,739 [INFO] Fetching photo for reference: AWYs27w-JMi-wdpD232eETEy5OHeHElGnUKYiXVImF-fNXk0s9z2ewvrLrHlOLPmDRlDvYbSZnOF-5Ejs9-0NpgOFWqNlDNl4eOsJCcccMxAyU9R-L4yUXNL5nzpbupSWXx7PxMrdAZW-j3uA6ABh3kqM6u03P2OqEqjJhQMza45Wr4kpfDj
+2024-12-16 16:24:05,740 [INFO] Fetching photo for reference: AWYs27ym-aZ0xtOL7a2lgdWabjAyRJ5_xFhaz4GWMDC8tP4EX1UWi2kKvLVGw0Y4u0jA6Es8RJ0Fc0R6LWpUiiZBB19rWVlS9wZsMwpi0vLV7hRSOCO_oDE1KP2ymZFsDcf-Ny6KSoSGwl2Me37C1MnlzbtgResiLHMkdex-DIcTs-emp9Yg
+2024-12-16 16:24:05,741 [INFO] Fetching photo for reference: AWYs27zBYPzp_wy6Zj778mfO0Cqp6i9mJCigqwe5UG6w3q39_z_7_o3lpTRMur5szo-iztGzVNzl_MHQ2im3JUn7C1y2uK_8tTkX2aTns7jG3Fe1bUpb8QXmLtvPSIWoxrcee9Rh-0M3KqudcUxbhezIlMBb8XHnG0BELpH9TLfhsqsKgs8e
+2024-12-16 16:24:05,745 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:24:05,745 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:24:05,746 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:24:05,746 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:24:05,746 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:24:05,747 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:24:05,886 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27w-JMi-wdpD232eETEy5OHeHElGnUKYiXVImF-fNXk0s9z2ewvrLrHlOLPmDRlDvYbSZnOF-5Ejs9-0NpgOFWqNlDNl4eOsJCcccMxAyU9R-L4yUXNL5nzpbupSWXx7PxMrdAZW-j3uA6ABh3kqM6u03P2OqEqjJhQMza45Wr4kpfDj&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 16:24:05,887 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27ym-aZ0xtOL7a2lgdWabjAyRJ5_xFhaz4GWMDC8tP4EX1UWi2kKvLVGw0Y4u0jA6Es8RJ0Fc0R6LWpUiiZBB19rWVlS9wZsMwpi0vLV7hRSOCO_oDE1KP2ymZFsDcf-Ny6KSoSGwl2Me37C1MnlzbtgResiLHMkdex-DIcTs-emp9Yg&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 16:24:05,887 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27zBYPzp_wy6Zj778mfO0Cqp6i9mJCigqwe5UG6w3q39_z_7_o3lpTRMur5szo-iztGzVNzl_MHQ2im3JUn7C1y2uK_8tTkX2aTns7jG3Fe1bUpb8QXmLtvPSIWoxrcee9Rh-0M3KqudcUxbhezIlMBb8XHnG0BELpH9TLfhsqsKgs8e&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 16:24:05,888 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27wOUPMDudQWSfoUXOK9fERAaQhpOkHW_p1RAe18aGWI2uRtSCERdRdUQSmKs8GKLQ-WHLQXFt8BcZbVQVVcYa8y0XPvCbk7kfdsSE7azFYMbS2iplFMFLPuJ3DiI4WqX7bxVwu0L55QdhoTxkuhMPGnCM3CcYb1IwNZPI9QncX39Dk2&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 16:24:05,895 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27xlEw4x1CWnaBx51u--2Ymh2kGyqrvyhVBtFSgbByzqWjKkDVQNx4f0uSlQ-eR2SOEv76WE1VaCEG02hzXdTaHGwvoIlOdTotkxKcL6T92WmVw3BZ5Xmo4pibTPeUdWYki7C3wAXAAAW1sN_XgsQ_agNabnEzp4kdVa6rxG0qeigSER&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 16:24:05,900 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27ydM5TCt_O_MQUoTTFo23fq9lIk-iSa_jbpYTtBhEON-5t-9s_hQ6YYMT5bUtJfheUfrUkfHIYAlJosKaOVo-ioZ1DjRsbiGo7r11XYh3bCbyZ71k1urKnbjLsIf5AmKFGgDll5rN5F_65CYgT5Avr_d9EVjk2NDESfLqp5H1YmVQUP&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 16:24:05,907 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 16:24:05,908 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 16:24:05,908 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 16:24:05,909 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 16:24:05,909 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 16:24:05,909 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 16:24:06,049 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqF4UoSVinu-0sSrBR7OMNPzSx94jkBQCy6DC0wm4LWmPw0ad_DAMrvzM6vAEyPW3C-csjsUqqV8zs3vWpqGZjAAq2uivCi9SAo=s1600-w800 HTTP/11" 200 156177
+2024-12-16 16:24:06,050 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqHi4DR9LN6Gdys3W5xQ2fXy2MniNUb1w9dWy8OsihV6a-5VQ7-D4NG8ZAUIIBnb0w897IAHM2r0i6c88URGfcimVk79P7OEf28=s1600-w800 HTTP/11" 200 218750
+2024-12-16 16:24:06,050 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqGTZuuCsbIDbPgITS8It6l1GULPMiFiTKwNqRDMRbCPRQwrW8XH5pLHwbNA8Cw_-Mv85zbTzk3zPiW35F3P9wqg9fh5zkMIOxg=s1600-w800 HTTP/11" 200 255037
+2024-12-16 16:24:06,051 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqEHlc2-WaikhXOR-fih1aeq4Se2tkPjijN7oJqeCIo5hMFNpUtxqM5WOny-4Ao22ZOjjPP3XiuVdkWLKP7WV2GL49hBQpbCZk8=s1600-w800 HTTP/11" 200 195591
+2024-12-16 16:24:06,051 [INFO] Photo fetched successfully for reference: AWYs27ym-aZ0xtOL7a2lgdWabjAyRJ5_xFhaz4GWMDC8tP4EX1UWi2kKvLVGw0Y4u0jA6Es8RJ0Fc0R6LWpUiiZBB19rWVlS9wZsMwpi0vLV7hRSOCO_oDE1KP2ymZFsDcf-Ny6KSoSGwl2Me37C1MnlzbtgResiLHMkdex-DIcTs-emp9Yg
+2024-12-16 16:24:06,052 [INFO] Photo fetched successfully for reference: AWYs27ydM5TCt_O_MQUoTTFo23fq9lIk-iSa_jbpYTtBhEON-5t-9s_hQ6YYMT5bUtJfheUfrUkfHIYAlJosKaOVo-ioZ1DjRsbiGo7r11XYh3bCbyZ71k1urKnbjLsIf5AmKFGgDll5rN5F_65CYgT5Avr_d9EVjk2NDESfLqp5H1YmVQUP
+2024-12-16 16:24:06,052 [INFO] Photo fetched successfully for reference: AWYs27wOUPMDudQWSfoUXOK9fERAaQhpOkHW_p1RAe18aGWI2uRtSCERdRdUQSmKs8GKLQ-WHLQXFt8BcZbVQVVcYa8y0XPvCbk7kfdsSE7azFYMbS2iplFMFLPuJ3DiI4WqX7bxVwu0L55QdhoTxkuhMPGnCM3CcYb1IwNZPI9QncX39Dk2
+2024-12-16 16:24:06,053 [INFO] Photo fetched successfully for reference: AWYs27xlEw4x1CWnaBx51u--2Ymh2kGyqrvyhVBtFSgbByzqWjKkDVQNx4f0uSlQ-eR2SOEv76WE1VaCEG02hzXdTaHGwvoIlOdTotkxKcL6T92WmVw3BZ5Xmo4pibTPeUdWYki7C3wAXAAAW1sN_XgsQ_agNabnEzp4kdVa6rxG0qeigSER
+2024-12-16 16:24:06,056 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqHqCYTxxeR-RK7ovOas4nFGTdD87BWMgMJ375Rcv2Soa07XgvhD19CbOPxb-bzNaf0HE79bfBGfdBo1tWdKA7cjQRah5UqEKzQ=s1600-w800 HTTP/11" 200 111561
+2024-12-16 16:24:06,057 [INFO] Photo fetched successfully for reference: AWYs27w-JMi-wdpD232eETEy5OHeHElGnUKYiXVImF-fNXk0s9z2ewvrLrHlOLPmDRlDvYbSZnOF-5Ejs9-0NpgOFWqNlDNl4eOsJCcccMxAyU9R-L4yUXNL5nzpbupSWXx7PxMrdAZW-j3uA6ABh3kqM6u03P2OqEqjJhQMza45Wr4kpfDj
+2024-12-16 16:24:06,061 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqHx2kbM29EY0pVmvfc-pYRS3RhttUgKiAPi0DDcWGEymhjNmwTOCo7EGUKfDZTr5czu_y1UZ2LykELwFbnYboD9DnMVZQkMP8c=s1600-w800 HTTP/11" 200 196054
+2024-12-16 16:24:06,061 [INFO] Photo fetched successfully for reference: AWYs27zBYPzp_wy6Zj778mfO0Cqp6i9mJCigqwe5UG6w3q39_z_7_o3lpTRMur5szo-iztGzVNzl_MHQ2im3JUn7C1y2uK_8tTkX2aTns7jG3Fe1bUpb8QXmLtvPSIWoxrcee9Rh-0M3KqudcUxbhezIlMBb8XHnG0BELpH9TLfhsqsKgs8e
+2024-12-16 16:24:06,117 [INFO] 127.0.0.1 - - [16/Dec/2024 16:24:06] "GET /photo?photo_reference=AWYs27w-JMi-wdpD232eETEy5OHeHElGnUKYiXVImF-fNXk0s9z2ewvrLrHlOLPmDRlDvYbSZnOF-5Ejs9-0NpgOFWqNlDNl4eOsJCcccMxAyU9R-L4yUXNL5nzpbupSWXx7PxMrdAZW-j3uA6ABh3kqM6u03P2OqEqjJhQMza45Wr4kpfDj HTTP/1.1" 200 -
+2024-12-16 16:24:06,121 [INFO] 127.0.0.1 - - [16/Dec/2024 16:24:06] "GET /photo?photo_reference=AWYs27ym-aZ0xtOL7a2lgdWabjAyRJ5_xFhaz4GWMDC8tP4EX1UWi2kKvLVGw0Y4u0jA6Es8RJ0Fc0R6LWpUiiZBB19rWVlS9wZsMwpi0vLV7hRSOCO_oDE1KP2ymZFsDcf-Ny6KSoSGwl2Me37C1MnlzbtgResiLHMkdex-DIcTs-emp9Yg HTTP/1.1" 200 -
+2024-12-16 16:24:06,127 [INFO] Fetching photo for reference: AWYs27ySUSlai_UjmwN7lpDjaa1w60ja9-L8Mx4I_b2Tl5VAjwR3pDBFpl8hf6ajhU6QZUOIj-_WQrfg7WPXdF_Qj2QX74vxBU_Gt33BNXWUNrjSpt5ZrgMJPdRgicC7FrrQ-QYaBoDEqonzk0n8RU2dUMcY6t_jXVZZoKGLnqSNAmxphitr
+2024-12-16 16:24:06,129 [INFO] Fetching photo for reference: AWYs27wVjaBOIMFetOSZqbDS5T1gMHCbMZtLPG7YYRraRgyutWpG0aSZ5MRJeKIoAW-637WDr89ZrcumPZx-i6Ue0l0KGaxuCReM4szEYL5QoxN3U40WuHSGHSQ0o4iaX_4h4eFDqsdKuhxpLqr1iHRQuVAtUWfvfAJW5A5Vs_FpB9JHFn6y
+2024-12-16 16:24:06,136 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:24:06,137 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:24:06,138 [INFO] 127.0.0.1 - - [16/Dec/2024 16:24:06] "GET /photo?photo_reference=AWYs27ydM5TCt_O_MQUoTTFo23fq9lIk-iSa_jbpYTtBhEON-5t-9s_hQ6YYMT5bUtJfheUfrUkfHIYAlJosKaOVo-ioZ1DjRsbiGo7r11XYh3bCbyZ71k1urKnbjLsIf5AmKFGgDll5rN5F_65CYgT5Avr_d9EVjk2NDESfLqp5H1YmVQUP HTTP/1.1" 200 -
+2024-12-16 16:24:06,141 [INFO] 127.0.0.1 - - [16/Dec/2024 16:24:06] "GET /photo?photo_reference=AWYs27xlEw4x1CWnaBx51u--2Ymh2kGyqrvyhVBtFSgbByzqWjKkDVQNx4f0uSlQ-eR2SOEv76WE1VaCEG02hzXdTaHGwvoIlOdTotkxKcL6T92WmVw3BZ5Xmo4pibTPeUdWYki7C3wAXAAAW1sN_XgsQ_agNabnEzp4kdVa6rxG0qeigSER HTTP/1.1" 200 -
+2024-12-16 16:24:06,142 [INFO] 127.0.0.1 - - [16/Dec/2024 16:24:06] "GET /photo?photo_reference=AWYs27wOUPMDudQWSfoUXOK9fERAaQhpOkHW_p1RAe18aGWI2uRtSCERdRdUQSmKs8GKLQ-WHLQXFt8BcZbVQVVcYa8y0XPvCbk7kfdsSE7azFYMbS2iplFMFLPuJ3DiI4WqX7bxVwu0L55QdhoTxkuhMPGnCM3CcYb1IwNZPI9QncX39Dk2 HTTP/1.1" 200 -
+2024-12-16 16:24:06,143 [INFO] Fetching photo for reference: AWYs27zJ32Fb0rl9rCk2_X7W0ux8AE3iFdT7NAIW5b2pAlQ8ioFghr8Mmt00FnN2oZgvDiOQ8jFTxxF9xDsN3-fLUc_bHvIU1w6TF3zU3NH9x7rF9L4g8JipfFHGk8CytW_bG6ypdbgja6SCvssx8RvRzj0T06xgLdpOh2ox6ZOg_ppH7Uhr
+2024-12-16 16:24:06,151 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:24:06,151 [INFO] Fetching photo for reference: AWYs27yqGbet7dadUjZyFJ7c3vMCAqAAcOdcdsDXnSkDB45h2knXyqMtuZ_aZqMc379iG8-OVK1YnNYjUhCPEZH6jBMdF4M5MMDGk9DMuFNjDBGCEo4ylFFFHgnBRZbeTqDmOyLvIR1cQUQYFiOQlWfC98pghm2YT9mSYg7v9WOA91hY21Cj
+2024-12-16 16:24:06,154 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:24:06,167 [INFO] 127.0.0.1 - - [16/Dec/2024 16:24:06] "GET /photo?photo_reference=AWYs27zBYPzp_wy6Zj778mfO0Cqp6i9mJCigqwe5UG6w3q39_z_7_o3lpTRMur5szo-iztGzVNzl_MHQ2im3JUn7C1y2uK_8tTkX2aTns7jG3Fe1bUpb8QXmLtvPSIWoxrcee9Rh-0M3KqudcUxbhezIlMBb8XHnG0BELpH9TLfhsqsKgs8e HTTP/1.1" 200 -
+2024-12-16 16:24:06,268 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27zJ32Fb0rl9rCk2_X7W0ux8AE3iFdT7NAIW5b2pAlQ8ioFghr8Mmt00FnN2oZgvDiOQ8jFTxxF9xDsN3-fLUc_bHvIU1w6TF3zU3NH9x7rF9L4g8JipfFHGk8CytW_bG6ypdbgja6SCvssx8RvRzj0T06xgLdpOh2ox6ZOg_ppH7Uhr&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 16:24:06,276 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 16:24:06,280 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27wVjaBOIMFetOSZqbDS5T1gMHCbMZtLPG7YYRraRgyutWpG0aSZ5MRJeKIoAW-637WDr89ZrcumPZx-i6Ue0l0KGaxuCReM4szEYL5QoxN3U40WuHSGHSQ0o4iaX_4h4eFDqsdKuhxpLqr1iHRQuVAtUWfvfAJW5A5Vs_FpB9JHFn6y&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 16:24:06,283 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27ySUSlai_UjmwN7lpDjaa1w60ja9-L8Mx4I_b2Tl5VAjwR3pDBFpl8hf6ajhU6QZUOIj-_WQrfg7WPXdF_Qj2QX74vxBU_Gt33BNXWUNrjSpt5ZrgMJPdRgicC7FrrQ-QYaBoDEqonzk0n8RU2dUMcY6t_jXVZZoKGLnqSNAmxphitr&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 16:24:06,284 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 16:24:06,288 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27yqGbet7dadUjZyFJ7c3vMCAqAAcOdcdsDXnSkDB45h2knXyqMtuZ_aZqMc379iG8-OVK1YnNYjUhCPEZH6jBMdF4M5MMDGk9DMuFNjDBGCEo4ylFFFHgnBRZbeTqDmOyLvIR1cQUQYFiOQlWfC98pghm2YT9mSYg7v9WOA91hY21Cj&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 16:24:06,295 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 16:24:06,296 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 16:24:06,425 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqHDlXOTtMHlpqVdCYWwZwzXV118ZzOaCKtGTLqMNSAeO8NJbrZ-GRllCRramQUEjI7HCHX-r-jzg2hDesMvd3f85NWNwXRm2x0=s1600-w800 HTTP/11" 200 290237
+2024-12-16 16:24:06,425 [INFO] Photo fetched successfully for reference: AWYs27wVjaBOIMFetOSZqbDS5T1gMHCbMZtLPG7YYRraRgyutWpG0aSZ5MRJeKIoAW-637WDr89ZrcumPZx-i6Ue0l0KGaxuCReM4szEYL5QoxN3U40WuHSGHSQ0o4iaX_4h4eFDqsdKuhxpLqr1iHRQuVAtUWfvfAJW5A5Vs_FpB9JHFn6y
+2024-12-16 16:24:06,432 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqGBR80aO57-NnE2fY_iYQSVia5gBv8yDaQd5lIzropzSsUHWNTQEux5fDGFLb2wPVH0M91DAdt5BJtl89gRIeZa2aQ4sB_ugBU=s1600-w800 HTTP/11" 200 184007
+2024-12-16 16:24:06,432 [INFO] Photo fetched successfully for reference: AWYs27zJ32Fb0rl9rCk2_X7W0ux8AE3iFdT7NAIW5b2pAlQ8ioFghr8Mmt00FnN2oZgvDiOQ8jFTxxF9xDsN3-fLUc_bHvIU1w6TF3zU3NH9x7rF9L4g8JipfFHGk8CytW_bG6ypdbgja6SCvssx8RvRzj0T06xgLdpOh2ox6ZOg_ppH7Uhr
+2024-12-16 16:24:06,433 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqGjsS7OuZC95CsAzqXgrJON7C_DiXR9fo_w_lArExwVucfb069Ca3vO7NGwBSZkZhRVRHEG0xEkfmRAzUBDU9Lw7yCE7Y80Xb0=s1600-w800 HTTP/11" 200 154367
+2024-12-16 16:24:06,433 [INFO] Photo fetched successfully for reference: AWYs27ySUSlai_UjmwN7lpDjaa1w60ja9-L8Mx4I_b2Tl5VAjwR3pDBFpl8hf6ajhU6QZUOIj-_WQrfg7WPXdF_Qj2QX74vxBU_Gt33BNXWUNrjSpt5ZrgMJPdRgicC7FrrQ-QYaBoDEqonzk0n8RU2dUMcY6t_jXVZZoKGLnqSNAmxphitr
+2024-12-16 16:24:06,433 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqFjkqsBPlVj9YoYovY38gelWNs7bRRI1W-JUTmY-gacnDaH5xwjKi3DLFqdufs3emH28zUOf29TbaKRUEgx5buxDT236FFfnDQ=s1600-w800 HTTP/11" 200 206687
+2024-12-16 16:24:06,434 [INFO] Photo fetched successfully for reference: AWYs27yqGbet7dadUjZyFJ7c3vMCAqAAcOdcdsDXnSkDB45h2knXyqMtuZ_aZqMc379iG8-OVK1YnNYjUhCPEZH6jBMdF4M5MMDGk9DMuFNjDBGCEo4ylFFFHgnBRZbeTqDmOyLvIR1cQUQYFiOQlWfC98pghm2YT9mSYg7v9WOA91hY21Cj
+2024-12-16 16:24:06,519 [INFO] 127.0.0.1 - - [16/Dec/2024 16:24:06] "GET /photo?photo_reference=AWYs27ySUSlai_UjmwN7lpDjaa1w60ja9-L8Mx4I_b2Tl5VAjwR3pDBFpl8hf6ajhU6QZUOIj-_WQrfg7WPXdF_Qj2QX74vxBU_Gt33BNXWUNrjSpt5ZrgMJPdRgicC7FrrQ-QYaBoDEqonzk0n8RU2dUMcY6t_jXVZZoKGLnqSNAmxphitr HTTP/1.1" 200 -
+2024-12-16 16:24:06,531 [INFO] 127.0.0.1 - - [16/Dec/2024 16:24:06] "GET /photo?photo_reference=AWYs27zJ32Fb0rl9rCk2_X7W0ux8AE3iFdT7NAIW5b2pAlQ8ioFghr8Mmt00FnN2oZgvDiOQ8jFTxxF9xDsN3-fLUc_bHvIU1w6TF3zU3NH9x7rF9L4g8JipfFHGk8CytW_bG6ypdbgja6SCvssx8RvRzj0T06xgLdpOh2ox6ZOg_ppH7Uhr HTTP/1.1" 200 -
+2024-12-16 16:24:06,536 [INFO] 127.0.0.1 - - [16/Dec/2024 16:24:06] "GET /photo?photo_reference=AWYs27wVjaBOIMFetOSZqbDS5T1gMHCbMZtLPG7YYRraRgyutWpG0aSZ5MRJeKIoAW-637WDr89ZrcumPZx-i6Ue0l0KGaxuCReM4szEYL5QoxN3U40WuHSGHSQ0o4iaX_4h4eFDqsdKuhxpLqr1iHRQuVAtUWfvfAJW5A5Vs_FpB9JHFn6y HTTP/1.1" 200 -
+2024-12-16 16:24:06,544 [INFO] 127.0.0.1 - - [16/Dec/2024 16:24:06] "GET /photo?photo_reference=AWYs27yqGbet7dadUjZyFJ7c3vMCAqAAcOdcdsDXnSkDB45h2knXyqMtuZ_aZqMc379iG8-OVK1YnNYjUhCPEZH6jBMdF4M5MMDGk9DMuFNjDBGCEo4ylFFFHgnBRZbeTqDmOyLvIR1cQUQYFiOQlWfC98pghm2YT9mSYg7v9WOA91hY21Cj HTTP/1.1" 200 -
+2024-12-16 16:24:07,570 [INFO] Analyzing photo with reference: AWYs27xlEw4x1CWnaBx51u--2Ymh2kGyqrvyhVBtFSgbByzqWjKkDVQNx4f0uSlQ-eR2SOEv76WE1VaCEG02hzXdTaHGwvoIlOdTotkxKcL6T92WmVw3BZ5Xmo4pibTPeUdWYki7C3wAXAAAW1sN_XgsQ_agNabnEzp4kdVa6rxG0qeigSER
+2024-12-16 16:24:07,574 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:24:07,704 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27xlEw4x1CWnaBx51u--2Ymh2kGyqrvyhVBtFSgbByzqWjKkDVQNx4f0uSlQ-eR2SOEv76WE1VaCEG02hzXdTaHGwvoIlOdTotkxKcL6T92WmVw3BZ5Xmo4pibTPeUdWYki7C3wAXAAAW1sN_XgsQ_agNabnEzp4kdVa6rxG0qeigSER&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 16:24:07,710 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 16:24:07,821 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqEHlc2-WaikhXOR-fih1aeq4Se2tkPjijN7oJqeCIo5hMFNpUtxqM5WOny-4Ao22ZOjjPP3XiuVdkWLKP7WV2GL49hBQpbCZk8=s1600-w800 HTTP/11" 200 195591
+2024-12-16 16:24:08,292 [INFO] Extracted Labels: ['mountain', 'mountainous landforms', 'wilderness', 'natural landscape', 'mountain range', 'highland', 'glacial landform', 'hill', 'valley', 'ridge']
+2024-12-16 16:24:08,361 [ERROR] Error in /analyze: function similarity(text, unknown) does not exist
+LINE 4:             WHERE similarity(name, 'mountain') > 0.5
+                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+2024-12-16 16:24:08,362 [INFO] 127.0.0.1 - - [16/Dec/2024 16:24:08] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2024-12-16 16:24:18,650 [INFO] Analyzing photo with reference: AWYs27ydM5TCt_O_MQUoTTFo23fq9lIk-iSa_jbpYTtBhEON-5t-9s_hQ6YYMT5bUtJfheUfrUkfHIYAlJosKaOVo-ioZ1DjRsbiGo7r11XYh3bCbyZ71k1urKnbjLsIf5AmKFGgDll5rN5F_65CYgT5Avr_d9EVjk2NDESfLqp5H1YmVQUP
+2024-12-16 16:24:18,686 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:24:18,829 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27ydM5TCt_O_MQUoTTFo23fq9lIk-iSa_jbpYTtBhEON-5t-9s_hQ6YYMT5bUtJfheUfrUkfHIYAlJosKaOVo-ioZ1DjRsbiGo7r11XYh3bCbyZ71k1urKnbjLsIf5AmKFGgDll5rN5F_65CYgT5Avr_d9EVjk2NDESfLqp5H1YmVQUP&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 16:24:18,835 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 16:24:18,873 [INFO] Analyzing photo with reference: AWYs27ydM5TCt_O_MQUoTTFo23fq9lIk-iSa_jbpYTtBhEON-5t-9s_hQ6YYMT5bUtJfheUfrUkfHIYAlJosKaOVo-ioZ1DjRsbiGo7r11XYh3bCbyZ71k1urKnbjLsIf5AmKFGgDll5rN5F_65CYgT5Avr_d9EVjk2NDESfLqp5H1YmVQUP
+2024-12-16 16:24:18,878 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:24:18,940 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqHi4DR9LN6Gdys3W5xQ2fXy2MniNUb1w9dWy8OsihV6a-5VQ7-D4NG8ZAUIIBnb0w897IAHM2r0i6c88URGfcimVk79P7OEf28=s1600-w800 HTTP/11" 200 218750
+2024-12-16 16:24:18,998 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27ydM5TCt_O_MQUoTTFo23fq9lIk-iSa_jbpYTtBhEON-5t-9s_hQ6YYMT5bUtJfheUfrUkfHIYAlJosKaOVo-ioZ1DjRsbiGo7r11XYh3bCbyZ71k1urKnbjLsIf5AmKFGgDll5rN5F_65CYgT5Avr_d9EVjk2NDESfLqp5H1YmVQUP&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 16:24:19,003 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 16:24:19,116 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqHi4DR9LN6Gdys3W5xQ2fXy2MniNUb1w9dWy8OsihV6a-5VQ7-D4NG8ZAUIIBnb0w897IAHM2r0i6c88URGfcimVk79P7OEf28=s1600-w800 HTTP/11" 200 218750
+2024-12-16 16:24:19,386 [INFO] Extracted Labels: ['water', 'nature', 'green', 'natural environment', 'natural landscape', 'vegetation', 'watercourse', 'shrub', 'landscape', 'bank']
+2024-12-16 16:24:19,472 [ERROR] Error in /analyze: function similarity(text, unknown) does not exist
+LINE 4:             WHERE similarity(name, 'water') > 0.5
+                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+2024-12-16 16:24:19,474 [INFO] 127.0.0.1 - - [16/Dec/2024 16:24:19] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2024-12-16 16:24:19,496 [INFO] Extracted Labels: ['water', 'nature', 'green', 'natural environment', 'natural landscape', 'vegetation', 'watercourse', 'shrub', 'landscape', 'bank']
+2024-12-16 16:24:19,513 [ERROR] Error in /analyze: function similarity(text, unknown) does not exist
+LINE 4:             WHERE similarity(name, 'water') > 0.5
+                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+2024-12-16 16:24:19,514 [INFO] 127.0.0.1 - - [16/Dec/2024 16:24:19] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2024-12-16 16:24:22,433 [INFO]  * Detected change in '/Users/benjamincarter/Documents/GitHub/Bob_Ross_2.0/backend/app.py', reloading
+2024-12-16 16:24:24,838 [DEBUG] Checking /Users/benjamincarter/Documents/GitHub/Bob_Ross_2.0/backend/service-account-key.json for explicit credentials as part of auth process...
+2024-12-16 16:24:24,852 [INFO] Starting Flask app
+2024-12-16 16:24:24,878 [WARNING]  * Debugger is active!
+2024-12-16 16:24:24,886 [INFO]  * Debugger PIN: 679-584-642
+2024-12-16 16:24:29,109 [INFO] Serving static file: index.html
+2024-12-16 16:24:29,115 [INFO] 127.0.0.1 - - [16/Dec/2024 16:24:29] "GET /index.html HTTP/1.1" 200 -
+2024-12-16 16:24:29,217 [INFO] Serving static file: script.js
+2024-12-16 16:24:29,218 [INFO] 127.0.0.1 - - [16/Dec/2024 16:24:29] "GET /front-facing/static/cs/styles.css HTTP/1.1" 200 -
+2024-12-16 16:24:29,219 [INFO] 127.0.0.1 - - [16/Dec/2024 16:24:29] "GET /script.js HTTP/1.1" 200 -
+2024-12-16 16:24:29,270 [INFO] 127.0.0.1 - - [16/Dec/2024 16:24:29] "GET /front-facing/static/assets/banner2.jpg HTTP/1.1" 200 -
+2024-12-16 16:24:29,542 [INFO] Serving static file: favicon.ico
+2024-12-16 16:24:29,543 [INFO] 127.0.0.1 - - [16/Dec/2024 16:24:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-16 16:24:33,446 [INFO] Fetching places for region: North America
+2024-12-16 16:24:33,461 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:24:33,598 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/textsearch/json?query=nature+in+North+America&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8 HTTP/11" 200 40475
+2024-12-16 16:24:33,632 [INFO] Found 20 places for region North America
+2024-12-16 16:24:33,633 [INFO] 127.0.0.1 - - [16/Dec/2024 16:24:33] "GET /places?region=North%20America HTTP/1.1" 200 -
+2024-12-16 16:24:33,641 [INFO] Fetching photo for reference: AWYs27z_ErOCjxZKw9SfKrqdBv99dY7Bn70x7MYAR9jHuTUzjOqZjmrPTasGrkdv-is-1oN9eo8-6ttN0aMbbQ2-6VCZiD8yRGuBhAvsSbcIS-l4WKQLxk3nz5sOzasucTWbVf6XUWHiPtdulJNv7soRGPz9MfZ2QUJeEmzSv-7li1bIIrER
+2024-12-16 16:24:33,642 [INFO] Fetching photo for reference: AWYs27wpgHeQmwTXpne_qZrKmgA7njWPfd7wUuLG_X0a_Bzvjj_Go2G7tzfPnYuUbnP7mqOC8zldMjdWsEFcwvjSiarcWjgI1OpK_9YQVnHecPLSdIYRdzJcxC-_Od5eBjH9wOqEYIowKzX35ZRsIvQCkLuXWHWpfj5Q1RwEiSGzSCKnHtn5
+2024-12-16 16:24:33,642 [INFO] Fetching photo for reference: AWYs27yW5aatRJx3M3ksYHbuZoIrdpZXtqilxN3Zb0g0ZrkIKbACni1AqRdk8h3ZzM3TZlbdJ809gjn9ci-MNsEzyxXvLQwo_sGT--lTyPiHiK6fnGzQd0aNKQj1m51sFoil_1jFsoEJmQyfSi01XZ45Ko58psMd0Heh0mn153YazLYzA-Zx
+2024-12-16 16:24:33,642 [INFO] Fetching photo for reference: AWYs27wZ6pIkhFbtvZoSv2f_8soAG-DEFm4o3qQEGKXurk00PZFALHr2C92ejqZPYvfPPawQQcizUw34Bxv4-yNVag8R0aO0os-zs40kPkJjrZuu2pHo5A_dfrQ2ugwfdtfiYWQ6BswYAEdrhjYfIwpGgLFHb2hb6Go-vf03NhHdLKmhipnm
+2024-12-16 16:24:33,642 [INFO] Fetching photo for reference: AWYs27xhfQLErmI8uf8S6vN33UPkE87pqDvyzCgqw64PCE9L3j5I6GPQS-7ugQPqkbQcCPIxlfYPQaoIWS-PuwckX9RA7iY6VOE7ewKIlVlu54FpeR4c2tc2JNrmLm5uswUbTQTw7ps58kSilwzGg9-wRjGwAuKlOtKQbl-cXNaVciK72nmz
+2024-12-16 16:24:33,643 [INFO] Fetching photo for reference: AWYs27x7Qu96-ZOzOJNibo9FFXHt5HVZcZ_sVu1Bg8VMXATGOt3L1yivMhpnTpv7AUh2FnGq7k7x4RsAn9kkcGUA-RW5eTeIQOHXZPQLUdpno20kw-GfijBlRMzF4p6TzDFtZqPcmgXgqBihXi0mtmn9vUxV0sprbP8pllo7QOksfpr4PYhN
+2024-12-16 16:24:33,646 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:24:33,647 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:24:33,648 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:24:33,648 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:24:33,648 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:24:33,652 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:24:33,785 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27xhfQLErmI8uf8S6vN33UPkE87pqDvyzCgqw64PCE9L3j5I6GPQS-7ugQPqkbQcCPIxlfYPQaoIWS-PuwckX9RA7iY6VOE7ewKIlVlu54FpeR4c2tc2JNrmLm5uswUbTQTw7ps58kSilwzGg9-wRjGwAuKlOtKQbl-cXNaVciK72nmz&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 16:24:33,786 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27wZ6pIkhFbtvZoSv2f_8soAG-DEFm4o3qQEGKXurk00PZFALHr2C92ejqZPYvfPPawQQcizUw34Bxv4-yNVag8R0aO0os-zs40kPkJjrZuu2pHo5A_dfrQ2ugwfdtfiYWQ6BswYAEdrhjYfIwpGgLFHb2hb6Go-vf03NhHdLKmhipnm&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 16:24:33,790 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27wpgHeQmwTXpne_qZrKmgA7njWPfd7wUuLG_X0a_Bzvjj_Go2G7tzfPnYuUbnP7mqOC8zldMjdWsEFcwvjSiarcWjgI1OpK_9YQVnHecPLSdIYRdzJcxC-_Od5eBjH9wOqEYIowKzX35ZRsIvQCkLuXWHWpfj5Q1RwEiSGzSCKnHtn5&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 16:24:33,793 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 16:24:33,793 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 16:24:33,796 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 16:24:33,796 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27z_ErOCjxZKw9SfKrqdBv99dY7Bn70x7MYAR9jHuTUzjOqZjmrPTasGrkdv-is-1oN9eo8-6ttN0aMbbQ2-6VCZiD8yRGuBhAvsSbcIS-l4WKQLxk3nz5sOzasucTWbVf6XUWHiPtdulJNv7soRGPz9MfZ2QUJeEmzSv-7li1bIIrER&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 16:24:33,798 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 16:24:33,803 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27yW5aatRJx3M3ksYHbuZoIrdpZXtqilxN3Zb0g0ZrkIKbACni1AqRdk8h3ZzM3TZlbdJ809gjn9ci-MNsEzyxXvLQwo_sGT--lTyPiHiK6fnGzQd0aNKQj1m51sFoil_1jFsoEJmQyfSi01XZ45Ko58psMd0Heh0mn153YazLYzA-Zx&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 16:24:33,806 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 16:24:33,830 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27x7Qu96-ZOzOJNibo9FFXHt5HVZcZ_sVu1Bg8VMXATGOt3L1yivMhpnTpv7AUh2FnGq7k7x4RsAn9kkcGUA-RW5eTeIQOHXZPQLUdpno20kw-GfijBlRMzF4p6TzDFtZqPcmgXgqBihXi0mtmn9vUxV0sprbP8pllo7QOksfpr4PYhN&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 16:24:33,834 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 16:24:33,891 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqHqCYTxxeR-RK7ovOas4nFGTdD87BWMgMJ375Rcv2Soa07XgvhD19CbOPxb-bzNaf0HE79bfBGfdBo1tWdKA7cjQRah5UqEKzQ=s1600-w800 HTTP/11" 200 111561
+2024-12-16 16:24:33,891 [INFO] Photo fetched successfully for reference: AWYs27wZ6pIkhFbtvZoSv2f_8soAG-DEFm4o3qQEGKXurk00PZFALHr2C92ejqZPYvfPPawQQcizUw34Bxv4-yNVag8R0aO0os-zs40kPkJjrZuu2pHo5A_dfrQ2ugwfdtfiYWQ6BswYAEdrhjYfIwpGgLFHb2hb6Go-vf03NhHdLKmhipnm
+2024-12-16 16:24:33,895 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqF4UoSVinu-0sSrBR7OMNPzSx94jkBQCy6DC0wm4LWmPw0ad_DAMrvzM6vAEyPW3C-csjsUqqV8zs3vWpqGZjAAq2uivCi9SAo=s1600-w800 HTTP/11" 200 156177
+2024-12-16 16:24:33,896 [INFO] Photo fetched successfully for reference: AWYs27xhfQLErmI8uf8S6vN33UPkE87pqDvyzCgqw64PCE9L3j5I6GPQS-7ugQPqkbQcCPIxlfYPQaoIWS-PuwckX9RA7iY6VOE7ewKIlVlu54FpeR4c2tc2JNrmLm5uswUbTQTw7ps58kSilwzGg9-wRjGwAuKlOtKQbl-cXNaVciK72nmz
+2024-12-16 16:24:33,898 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqHi4DR9LN6Gdys3W5xQ2fXy2MniNUb1w9dWy8OsihV6a-5VQ7-D4NG8ZAUIIBnb0w897IAHM2r0i6c88URGfcimVk79P7OEf28=s1600-w800 HTTP/11" 200 218750
+2024-12-16 16:24:33,898 [INFO] Photo fetched successfully for reference: AWYs27wpgHeQmwTXpne_qZrKmgA7njWPfd7wUuLG_X0a_Bzvjj_Go2G7tzfPnYuUbnP7mqOC8zldMjdWsEFcwvjSiarcWjgI1OpK_9YQVnHecPLSdIYRdzJcxC-_Od5eBjH9wOqEYIowKzX35ZRsIvQCkLuXWHWpfj5Q1RwEiSGzSCKnHtn5
+2024-12-16 16:24:33,903 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqEHlc2-WaikhXOR-fih1aeq4Se2tkPjijN7oJqeCIo5hMFNpUtxqM5WOny-4Ao22ZOjjPP3XiuVdkWLKP7WV2GL49hBQpbCZk8=s1600-w800 HTTP/11" 200 195591
+2024-12-16 16:24:33,904 [INFO] Photo fetched successfully for reference: AWYs27z_ErOCjxZKw9SfKrqdBv99dY7Bn70x7MYAR9jHuTUzjOqZjmrPTasGrkdv-is-1oN9eo8-6ttN0aMbbQ2-6VCZiD8yRGuBhAvsSbcIS-l4WKQLxk3nz5sOzasucTWbVf6XUWHiPtdulJNv7soRGPz9MfZ2QUJeEmzSv-7li1bIIrER
+2024-12-16 16:24:33,914 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqGTZuuCsbIDbPgITS8It6l1GULPMiFiTKwNqRDMRbCPRQwrW8XH5pLHwbNA8Cw_-Mv85zbTzk3zPiW35F3P9wqg9fh5zkMIOxg=s1600-w800 HTTP/11" 200 255037
+2024-12-16 16:24:33,916 [INFO] Photo fetched successfully for reference: AWYs27yW5aatRJx3M3ksYHbuZoIrdpZXtqilxN3Zb0g0ZrkIKbACni1AqRdk8h3ZzM3TZlbdJ809gjn9ci-MNsEzyxXvLQwo_sGT--lTyPiHiK6fnGzQd0aNKQj1m51sFoil_1jFsoEJmQyfSi01XZ45Ko58psMd0Heh0mn153YazLYzA-Zx
+2024-12-16 16:24:33,940 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqHx2kbM29EY0pVmvfc-pYRS3RhttUgKiAPi0DDcWGEymhjNmwTOCo7EGUKfDZTr5czu_y1UZ2LykELwFbnYboD9DnMVZQkMP8c=s1600-w800 HTTP/11" 200 196054
+2024-12-16 16:24:33,940 [INFO] Photo fetched successfully for reference: AWYs27x7Qu96-ZOzOJNibo9FFXHt5HVZcZ_sVu1Bg8VMXATGOt3L1yivMhpnTpv7AUh2FnGq7k7x4RsAn9kkcGUA-RW5eTeIQOHXZPQLUdpno20kw-GfijBlRMzF4p6TzDFtZqPcmgXgqBihXi0mtmn9vUxV0sprbP8pllo7QOksfpr4PYhN
+2024-12-16 16:24:33,953 [INFO] 127.0.0.1 - - [16/Dec/2024 16:24:33] "GET /photo?photo_reference=AWYs27wZ6pIkhFbtvZoSv2f_8soAG-DEFm4o3qQEGKXurk00PZFALHr2C92ejqZPYvfPPawQQcizUw34Bxv4-yNVag8R0aO0os-zs40kPkJjrZuu2pHo5A_dfrQ2ugwfdtfiYWQ6BswYAEdrhjYfIwpGgLFHb2hb6Go-vf03NhHdLKmhipnm HTTP/1.1" 200 -
+2024-12-16 16:24:33,966 [INFO] Fetching photo for reference: AWYs27wQOuI--WQgtv8m-LZHOSQvl-6zIUm1ZT568j7hap2_kTQ7Sqrxub3JpE3g3s8k1La1md_ldSFAow0wzMMB4DCHCKclOiQsoAvKgblkG2QQcTnqVYSxvrpLFmEFK-rcdp6GWv5nGFaQZLIPM4dQqcJvKumTQVXjPzN3SaAN7YvoEYO0
+2024-12-16 16:24:33,970 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:24:33,974 [INFO] 127.0.0.1 - - [16/Dec/2024 16:24:33] "GET /photo?photo_reference=AWYs27xhfQLErmI8uf8S6vN33UPkE87pqDvyzCgqw64PCE9L3j5I6GPQS-7ugQPqkbQcCPIxlfYPQaoIWS-PuwckX9RA7iY6VOE7ewKIlVlu54FpeR4c2tc2JNrmLm5uswUbTQTw7ps58kSilwzGg9-wRjGwAuKlOtKQbl-cXNaVciK72nmz HTTP/1.1" 200 -
+2024-12-16 16:24:33,979 [INFO] Fetching photo for reference: AWYs27xQ_onIeyQw6n_nrkvr43pfu4AN2g1pjMN6QK5W7nOpVmKyAHv-fF1m_BIHhwkeQaO_DJJ-olTmKn9CCLu0A9LsKEJCoiDZGwi2EZfIvIZgcbf1qmsJf0QcJRzyYNWb0SrarQ2-ws0GMoPz1EQZPdIYnIv_DY8FHDI5_soWZsoqz8Qp
+2024-12-16 16:24:33,981 [INFO] 127.0.0.1 - - [16/Dec/2024 16:24:33] "GET /photo?photo_reference=AWYs27wpgHeQmwTXpne_qZrKmgA7njWPfd7wUuLG_X0a_Bzvjj_Go2G7tzfPnYuUbnP7mqOC8zldMjdWsEFcwvjSiarcWjgI1OpK_9YQVnHecPLSdIYRdzJcxC-_Od5eBjH9wOqEYIowKzX35ZRsIvQCkLuXWHWpfj5Q1RwEiSGzSCKnHtn5 HTTP/1.1" 200 -
+2024-12-16 16:24:33,982 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:24:33,985 [INFO] Fetching photo for reference: AWYs27w83C-g3yRQTNPtB5upn2P-qOxxteNXfXE_cghg-mUMQgyT-Dh0BDnqX-HoxZCokjsrjdwVC-J60rSw37YD5IvTkOXpylwEG_p05AhYoMwDr-1L1s6p4yxcNotUxBso2Dnxw5h17xxsTBFOAwg1C1XRZ93R0ctGMbRekLRsReOEvYpQ
+2024-12-16 16:24:33,987 [INFO] 127.0.0.1 - - [16/Dec/2024 16:24:33] "GET /photo?photo_reference=AWYs27z_ErOCjxZKw9SfKrqdBv99dY7Bn70x7MYAR9jHuTUzjOqZjmrPTasGrkdv-is-1oN9eo8-6ttN0aMbbQ2-6VCZiD8yRGuBhAvsSbcIS-l4WKQLxk3nz5sOzasucTWbVf6XUWHiPtdulJNv7soRGPz9MfZ2QUJeEmzSv-7li1bIIrER HTTP/1.1" 200 -
+2024-12-16 16:24:33,987 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:24:33,990 [INFO] Fetching photo for reference: AWYs27xIps91NcLoS-PoMsgl8CLajIxsV-gg8Swr7V0SijIrrsNHMXD-bjeKmbeikmazCs8KrTPfFbWNXRwKM8OAYFzxht43zzMnTxEokzbxxk9YLsXZvP0wpHTO9eprDEqNdVjw2bTsoDJEpX1vKhKaQuH9h4d7hfj0EhC9f5wYjURVxGNX
+2024-12-16 16:24:33,993 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:24:34,005 [INFO] 127.0.0.1 - - [16/Dec/2024 16:24:34] "GET /photo?photo_reference=AWYs27yW5aatRJx3M3ksYHbuZoIrdpZXtqilxN3Zb0g0ZrkIKbACni1AqRdk8h3ZzM3TZlbdJ809gjn9ci-MNsEzyxXvLQwo_sGT--lTyPiHiK6fnGzQd0aNKQj1m51sFoil_1jFsoEJmQyfSi01XZ45Ko58psMd0Heh0mn153YazLYzA-Zx HTTP/1.1" 200 -
+2024-12-16 16:24:34,029 [INFO] 127.0.0.1 - - [16/Dec/2024 16:24:34] "GET /photo?photo_reference=AWYs27x7Qu96-ZOzOJNibo9FFXHt5HVZcZ_sVu1Bg8VMXATGOt3L1yivMhpnTpv7AUh2FnGq7k7x4RsAn9kkcGUA-RW5eTeIQOHXZPQLUdpno20kw-GfijBlRMzF4p6TzDFtZqPcmgXgqBihXi0mtmn9vUxV0sprbP8pllo7QOksfpr4PYhN HTTP/1.1" 200 -
+2024-12-16 16:24:34,103 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27w83C-g3yRQTNPtB5upn2P-qOxxteNXfXE_cghg-mUMQgyT-Dh0BDnqX-HoxZCokjsrjdwVC-J60rSw37YD5IvTkOXpylwEG_p05AhYoMwDr-1L1s6p4yxcNotUxBso2Dnxw5h17xxsTBFOAwg1C1XRZ93R0ctGMbRekLRsReOEvYpQ&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 16:24:34,108 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27xIps91NcLoS-PoMsgl8CLajIxsV-gg8Swr7V0SijIrrsNHMXD-bjeKmbeikmazCs8KrTPfFbWNXRwKM8OAYFzxht43zzMnTxEokzbxxk9YLsXZvP0wpHTO9eprDEqNdVjw2bTsoDJEpX1vKhKaQuH9h4d7hfj0EhC9f5wYjURVxGNX&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 16:24:34,109 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 16:24:34,112 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 16:24:34,115 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27xQ_onIeyQw6n_nrkvr43pfu4AN2g1pjMN6QK5W7nOpVmKyAHv-fF1m_BIHhwkeQaO_DJJ-olTmKn9CCLu0A9LsKEJCoiDZGwi2EZfIvIZgcbf1qmsJf0QcJRzyYNWb0SrarQ2-ws0GMoPz1EQZPdIYnIv_DY8FHDI5_soWZsoqz8Qp&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 16:24:34,119 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 16:24:34,149 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27wQOuI--WQgtv8m-LZHOSQvl-6zIUm1ZT568j7hap2_kTQ7Sqrxub3JpE3g3s8k1La1md_ldSFAow0wzMMB4DCHCKclOiQsoAvKgblkG2QQcTnqVYSxvrpLFmEFK-rcdp6GWv5nGFaQZLIPM4dQqcJvKumTQVXjPzN3SaAN7YvoEYO0&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 16:24:34,153 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 16:24:34,230 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqFjkqsBPlVj9YoYovY38gelWNs7bRRI1W-JUTmY-gacnDaH5xwjKi3DLFqdufs3emH28zUOf29TbaKRUEgx5buxDT236FFfnDQ=s1600-w800 HTTP/11" 200 206687
+2024-12-16 16:24:34,230 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqHDlXOTtMHlpqVdCYWwZwzXV118ZzOaCKtGTLqMNSAeO8NJbrZ-GRllCRramQUEjI7HCHX-r-jzg2hDesMvd3f85NWNwXRm2x0=s1600-w800 HTTP/11" 200 290237
+2024-12-16 16:24:34,231 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqGBR80aO57-NnE2fY_iYQSVia5gBv8yDaQd5lIzropzSsUHWNTQEux5fDGFLb2wPVH0M91DAdt5BJtl89gRIeZa2aQ4sB_ugBU=s1600-w800 HTTP/11" 200 184007
+2024-12-16 16:24:34,231 [INFO] Photo fetched successfully for reference: AWYs27xIps91NcLoS-PoMsgl8CLajIxsV-gg8Swr7V0SijIrrsNHMXD-bjeKmbeikmazCs8KrTPfFbWNXRwKM8OAYFzxht43zzMnTxEokzbxxk9YLsXZvP0wpHTO9eprDEqNdVjw2bTsoDJEpX1vKhKaQuH9h4d7hfj0EhC9f5wYjURVxGNX
+2024-12-16 16:24:34,231 [INFO] Photo fetched successfully for reference: AWYs27xQ_onIeyQw6n_nrkvr43pfu4AN2g1pjMN6QK5W7nOpVmKyAHv-fF1m_BIHhwkeQaO_DJJ-olTmKn9CCLu0A9LsKEJCoiDZGwi2EZfIvIZgcbf1qmsJf0QcJRzyYNWb0SrarQ2-ws0GMoPz1EQZPdIYnIv_DY8FHDI5_soWZsoqz8Qp
+2024-12-16 16:24:34,232 [INFO] Photo fetched successfully for reference: AWYs27w83C-g3yRQTNPtB5upn2P-qOxxteNXfXE_cghg-mUMQgyT-Dh0BDnqX-HoxZCokjsrjdwVC-J60rSw37YD5IvTkOXpylwEG_p05AhYoMwDr-1L1s6p4yxcNotUxBso2Dnxw5h17xxsTBFOAwg1C1XRZ93R0ctGMbRekLRsReOEvYpQ
+2024-12-16 16:24:34,277 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqGjsS7OuZC95CsAzqXgrJON7C_DiXR9fo_w_lArExwVucfb069Ca3vO7NGwBSZkZhRVRHEG0xEkfmRAzUBDU9Lw7yCE7Y80Xb0=s1600-w800 HTTP/11" 200 154367
+2024-12-16 16:24:34,277 [INFO] Photo fetched successfully for reference: AWYs27wQOuI--WQgtv8m-LZHOSQvl-6zIUm1ZT568j7hap2_kTQ7Sqrxub3JpE3g3s8k1La1md_ldSFAow0wzMMB4DCHCKclOiQsoAvKgblkG2QQcTnqVYSxvrpLFmEFK-rcdp6GWv5nGFaQZLIPM4dQqcJvKumTQVXjPzN3SaAN7YvoEYO0
+2024-12-16 16:24:34,325 [INFO] 127.0.0.1 - - [16/Dec/2024 16:24:34] "GET /photo?photo_reference=AWYs27xIps91NcLoS-PoMsgl8CLajIxsV-gg8Swr7V0SijIrrsNHMXD-bjeKmbeikmazCs8KrTPfFbWNXRwKM8OAYFzxht43zzMnTxEokzbxxk9YLsXZvP0wpHTO9eprDEqNdVjw2bTsoDJEpX1vKhKaQuH9h4d7hfj0EhC9f5wYjURVxGNX HTTP/1.1" 200 -
+2024-12-16 16:24:34,327 [INFO] 127.0.0.1 - - [16/Dec/2024 16:24:34] "GET /photo?photo_reference=AWYs27w83C-g3yRQTNPtB5upn2P-qOxxteNXfXE_cghg-mUMQgyT-Dh0BDnqX-HoxZCokjsrjdwVC-J60rSw37YD5IvTkOXpylwEG_p05AhYoMwDr-1L1s6p4yxcNotUxBso2Dnxw5h17xxsTBFOAwg1C1XRZ93R0ctGMbRekLRsReOEvYpQ HTTP/1.1" 200 -
+2024-12-16 16:24:34,338 [INFO] 127.0.0.1 - - [16/Dec/2024 16:24:34] "GET /photo?photo_reference=AWYs27xQ_onIeyQw6n_nrkvr43pfu4AN2g1pjMN6QK5W7nOpVmKyAHv-fF1m_BIHhwkeQaO_DJJ-olTmKn9CCLu0A9LsKEJCoiDZGwi2EZfIvIZgcbf1qmsJf0QcJRzyYNWb0SrarQ2-ws0GMoPz1EQZPdIYnIv_DY8FHDI5_soWZsoqz8Qp HTTP/1.1" 200 -
+2024-12-16 16:24:34,341 [INFO] 127.0.0.1 - - [16/Dec/2024 16:24:34] "GET /photo?photo_reference=AWYs27wQOuI--WQgtv8m-LZHOSQvl-6zIUm1ZT568j7hap2_kTQ7Sqrxub3JpE3g3s8k1La1md_ldSFAow0wzMMB4DCHCKclOiQsoAvKgblkG2QQcTnqVYSxvrpLFmEFK-rcdp6GWv5nGFaQZLIPM4dQqcJvKumTQVXjPzN3SaAN7YvoEYO0 HTTP/1.1" 200 -
+2024-12-16 16:24:35,727 [INFO] Analyzing photo with reference: AWYs27z_ErOCjxZKw9SfKrqdBv99dY7Bn70x7MYAR9jHuTUzjOqZjmrPTasGrkdv-is-1oN9eo8-6ttN0aMbbQ2-6VCZiD8yRGuBhAvsSbcIS-l4WKQLxk3nz5sOzasucTWbVf6XUWHiPtdulJNv7soRGPz9MfZ2QUJeEmzSv-7li1bIIrER
+2024-12-16 16:24:35,729 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:24:35,854 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/photo?photoreference=AWYs27z_ErOCjxZKw9SfKrqdBv99dY7Bn70x7MYAR9jHuTUzjOqZjmrPTasGrkdv-is-1oN9eo8-6ttN0aMbbQ2-6VCZiD8yRGuBhAvsSbcIS-l4WKQLxk3nz5sOzasucTWbVf6XUWHiPtdulJNv7soRGPz9MfZ2QUJeEmzSv-7li1bIIrER&key=AIzaSyAIhOuSdJss6R3ZWc7mGEpS-Mr_ntgNGr8&maxwidth=800 HTTP/11" 302 352
+2024-12-16 16:24:35,860 [DEBUG] Starting new HTTPS connection (1): lh3.googleusercontent.com:443
+2024-12-16 16:24:35,972 [DEBUG] https://lh3.googleusercontent.com:443 "GET /places/ANXAkqEHlc2-WaikhXOR-fih1aeq4Se2tkPjijN7oJqeCIo5hMFNpUtxqM5WOny-4Ao22ZOjjPP3XiuVdkWLKP7WV2GL49hBQpbCZk8=s1600-w800 HTTP/11" 200 195591
+2024-12-16 16:24:36,529 [INFO] Extracted Labels: ['mountain', 'mountainous landforms', 'wilderness', 'natural landscape', 'mountain range', 'highland', 'glacial landform', 'hill', 'valley', 'ridge']
+2024-12-16 16:24:36,603 [ERROR] Error in /analyze: function similarity(text, unknown) does not exist
+LINE 4:             WHERE similarity(name, 'mountain') > 0.5
+                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+
+2024-12-16 16:24:36,604 [INFO] 127.0.0.1 - - [16/Dec/2024 16:24:36] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2024-12-16 16:25:47,791 [INFO]  * Detected change in '/Users/benjamincarter/Documents/GitHub/Bob_Ross_2.0/backend/app.py', reloading
+2024-12-16 16:27:26,733 [DEBUG] Checking /Users/benjamincarter/Documents/GitHub/Bob_Ross_2.0/backend/service-account-key.json for explicit credentials as part of auth process...
+2024-12-16 16:27:26,758 [INFO] Starting Flask app
+2024-12-16 16:27:26,792 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5005
+2024-12-16 16:27:26,792 [INFO] [33mPress CTRL+C to quit[0m
+2024-12-16 16:27:26,793 [INFO]  * Restarting with stat
+2024-12-16 16:27:27,013 [DEBUG] Checking /Users/benjamincarter/Documents/GitHub/Bob_Ross_2.0/backend/service-account-key.json for explicit credentials as part of auth process...
+2024-12-16 16:27:27,023 [INFO] Starting Flask app
+2024-12-16 16:27:27,044 [WARNING]  * Debugger is active!
+2024-12-16 16:27:27,053 [INFO]  * Debugger PIN: 679-584-642
+2024-12-16 16:27:33,616 [INFO] Serving static file: index.html
+2024-12-16 16:27:33,623 [INFO] 127.0.0.1 - - [16/Dec/2024 16:27:33] "GET /index.html HTTP/1.1" 200 -
+2024-12-16 16:27:33,727 [INFO] Serving static file: script.js
+2024-12-16 16:27:33,729 [INFO] 127.0.0.1 - - [16/Dec/2024 16:27:33] "GET /front-facing/static/cs/styles.css HTTP/1.1" 200 -
+2024-12-16 16:27:33,729 [INFO] 127.0.0.1 - - [16/Dec/2024 16:27:33] "GET /script.js HTTP/1.1" 200 -
+2024-12-16 16:27:33,736 [INFO] 127.0.0.1 - - [16/Dec/2024 16:27:33] "GET /front-facing/static/assets/banner2.jpg HTTP/1.1" 200 -
+2024-12-16 16:27:34,090 [INFO] Serving static file: favicon.ico
+2024-12-16 16:27:34,092 [INFO] 127.0.0.1 - - [16/Dec/2024 16:27:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-16 16:27:37,593 [INFO] Fetching places for region: South America
+2024-12-16 16:27:37,634 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:27:37,745 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/textsearch/json?query=nature+in+South+America&key= HTTP/11" 200 265
+2024-12-16 16:27:37,746 [INFO] Found 0 places for region South America
+2024-12-16 16:27:37,747 [INFO] 127.0.0.1 - - [16/Dec/2024 16:27:37] "GET /places?region=South%20America HTTP/1.1" 200 -
+2024-12-16 16:27:41,114 [INFO] Fetching places for region: Europe
+2024-12-16 16:27:41,116 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:27:41,230 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/textsearch/json?query=nature+in+Europe&key= HTTP/11" 200 265
+2024-12-16 16:27:41,231 [INFO] Found 0 places for region Europe
+2024-12-16 16:27:41,233 [INFO] 127.0.0.1 - - [16/Dec/2024 16:27:41] "GET /places?region=Europe HTTP/1.1" 200 -
+2024-12-16 16:27:52,464 [INFO] Fetching places for region: North America
+2024-12-16 16:27:52,468 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:27:52,670 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/textsearch/json?query=nature+in+North+America&key= HTTP/11" 200 265
+2024-12-16 16:27:52,670 [INFO] Found 0 places for region North America
+2024-12-16 16:27:52,671 [INFO] 127.0.0.1 - - [16/Dec/2024 16:27:52] "GET /places?region=North%20America HTTP/1.1" 200 -
+2024-12-16 16:28:06,556 [INFO]  * Detected change in '/Users/benjamincarter/Documents/GitHub/Bob_Ross_2.0/backend/app.py', reloading
+2024-12-16 16:28:08,621 [INFO]  * Restarting with stat
+2024-12-16 16:28:29,402 [INFO]  * Restarting with stat
+2024-12-16 16:29:33,390 [INFO]  * Restarting with stat
+2024-12-16 16:30:44,014 [INFO]  * Restarting with stat
+2024-12-16 16:31:04,612 [INFO]  * Restarting with stat
+2024-12-16 16:31:24,012 [INFO]  * Restarting with stat
+2024-12-16 16:32:31,327 [INFO]  * Restarting with stat
+2024-12-16 16:32:31,672 [DEBUG] Checking /Users/benjamincarter/Documents/GitHub/Bob_Ross_2.0/backend/service-account-key.json for explicit credentials as part of auth process...
+2024-12-16 16:32:31,686 [INFO] Starting Flask app
+2024-12-16 16:32:31,712 [WARNING]  * Debugger is active!
+2024-12-16 16:32:31,720 [INFO]  * Debugger PIN: 679-584-642
+2024-12-16 16:32:35,246 [INFO] Serving static file: index.html
+2024-12-16 16:32:35,255 [INFO] 127.0.0.1 - - [16/Dec/2024 16:32:35] "GET /index.html HTTP/1.1" 200 -
+2024-12-16 16:32:35,357 [INFO] Serving static file: script.js
+2024-12-16 16:32:35,358 [INFO] 127.0.0.1 - - [16/Dec/2024 16:32:35] "GET /front-facing/static/cs/styles.css HTTP/1.1" 200 -
+2024-12-16 16:32:35,358 [INFO] 127.0.0.1 - - [16/Dec/2024 16:32:35] "GET /script.js HTTP/1.1" 200 -
+2024-12-16 16:32:35,533 [INFO] 127.0.0.1 - - [16/Dec/2024 16:32:35] "GET /front-facing/static/assets/banner2.jpg HTTP/1.1" 200 -
+2024-12-16 16:32:35,670 [INFO] Serving static file: favicon.ico
+2024-12-16 16:32:35,673 [INFO] 127.0.0.1 - - [16/Dec/2024 16:32:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-16 16:32:38,109 [INFO] Fetching places for region: South America
+2024-12-16 16:32:39,164 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:32:39,282 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/textsearch/json?query=nature+in+South+America&key= HTTP/11" 200 265
+2024-12-16 16:32:39,283 [INFO] Found 0 places for region South America
+2024-12-16 16:32:39,283 [INFO] 127.0.0.1 - - [16/Dec/2024 16:32:39] "GET /places?region=South%20America HTTP/1.1" 200 -
+2024-12-16 16:32:44,898 [INFO] Fetching places for region: North America
+2024-12-16 16:32:44,902 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:32:45,013 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/textsearch/json?query=nature+in+North+America&key= HTTP/11" 200 265
+2024-12-16 16:32:45,013 [INFO] Found 0 places for region North America
+2024-12-16 16:32:45,015 [INFO] 127.0.0.1 - - [16/Dec/2024 16:32:45] "GET /places?region=North%20America HTTP/1.1" 200 -
+2024-12-16 16:33:26,664 [INFO] Serving static file: index.html
+2024-12-16 16:33:26,670 [INFO] 127.0.0.1 - - [16/Dec/2024 16:33:26] "GET /index.html HTTP/1.1" 200 -
+2024-12-16 16:33:26,771 [INFO] Serving static file: script.js
+2024-12-16 16:33:26,772 [INFO] 127.0.0.1 - - [16/Dec/2024 16:33:26] "GET /front-facing/static/cs/styles.css HTTP/1.1" 200 -
+2024-12-16 16:33:26,772 [INFO] 127.0.0.1 - - [16/Dec/2024 16:33:26] "GET /script.js HTTP/1.1" 200 -
+2024-12-16 16:33:26,811 [INFO] 127.0.0.1 - - [16/Dec/2024 16:33:26] "GET /front-facing/static/assets/banner2.jpg HTTP/1.1" 200 -
+2024-12-16 16:33:26,959 [INFO] Serving static file: favicon.ico
+2024-12-16 16:33:26,962 [INFO] 127.0.0.1 - - [16/Dec/2024 16:33:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-16 16:33:30,278 [INFO] Fetching places for region: Africa
+2024-12-16 16:33:30,291 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:33:30,415 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/textsearch/json?query=nature+in+Africa&key= HTTP/11" 200 265
+2024-12-16 16:33:30,415 [INFO] Found 0 places for region Africa
+2024-12-16 16:33:30,417 [INFO] 127.0.0.1 - - [16/Dec/2024 16:33:30] "GET /places?region=Africa HTTP/1.1" 200 -
+2024-12-16 16:35:03,685 [INFO]  * Detected change in '/Users/benjamincarter/Documents/GitHub/Bob_Ross_2.0/backend/app.py', reloading
+2024-12-16 16:35:05,770 [INFO]  * Restarting with stat
+2024-12-16 16:35:06,224 [DEBUG] Checking /Users/benjamincarter/Documents/GitHub/Bob_Ross_2.0/backend/service-account-key.json for explicit credentials as part of auth process...
+2024-12-16 16:35:06,238 [INFO] Starting Flask app
+2024-12-16 16:35:06,261 [WARNING]  * Debugger is active!
+2024-12-16 16:35:06,290 [INFO]  * Debugger PIN: 679-584-642
+2024-12-16 16:35:14,908 [INFO] Serving static file: index.html
+2024-12-16 16:35:14,916 [INFO] 127.0.0.1 - - [16/Dec/2024 16:35:14] "GET /index.html HTTP/1.1" 200 -
+2024-12-16 16:35:15,005 [INFO] Serving static file: script.js
+2024-12-16 16:35:15,006 [INFO] 127.0.0.1 - - [16/Dec/2024 16:35:15] "GET /front-facing/static/cs/styles.css HTTP/1.1" 200 -
+2024-12-16 16:35:15,007 [INFO] 127.0.0.1 - - [16/Dec/2024 16:35:15] "GET /script.js HTTP/1.1" 200 -
+2024-12-16 16:35:15,205 [INFO] 127.0.0.1 - - [16/Dec/2024 16:35:15] "GET /front-facing/static/assets/banner2.jpg HTTP/1.1" 200 -
+2024-12-16 16:35:15,290 [INFO] Serving static file: favicon.ico
+2024-12-16 16:35:15,291 [INFO] 127.0.0.1 - - [16/Dec/2024 16:35:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-16 16:35:18,462 [INFO] Fetching places for region: South America
+2024-12-16 16:35:18,497 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:35:18,626 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/textsearch/json?query=nature+in+South+America&key= HTTP/11" 200 265
+2024-12-16 16:35:18,627 [INFO] Found 0 places for region South America
+2024-12-16 16:35:18,629 [INFO] 127.0.0.1 - - [16/Dec/2024 16:35:18] "GET /places?region=South%20America HTTP/1.1" 200 -
+2024-12-16 16:36:19,584 [INFO]  * Detected change in '/Users/benjamincarter/Documents/GitHub/Bob_Ross_2.0/backend/app.py', reloading
+2024-12-16 16:36:21,643 [INFO]  * Restarting with stat
+2024-12-16 16:36:21,989 [DEBUG] Checking /Users/benjamincarter/Documents/GitHub/Bob_Ross_2.0/backend/service-account-key.json for explicit credentials as part of auth process...
+2024-12-16 16:36:22,001 [INFO] Starting Flask app
+2024-12-16 16:36:22,031 [WARNING]  * Debugger is active!
+2024-12-16 16:36:22,038 [INFO]  * Debugger PIN: 679-584-642
+2024-12-16 16:36:25,920 [INFO] Serving static file: index.html
+2024-12-16 16:36:25,929 [INFO] 127.0.0.1 - - [16/Dec/2024 16:36:25] "GET /index.html HTTP/1.1" 200 -
+2024-12-16 16:36:26,040 [INFO] Serving static file: script.js
+2024-12-16 16:36:26,041 [INFO] 127.0.0.1 - - [16/Dec/2024 16:36:26] "GET /front-facing/static/cs/styles.css HTTP/1.1" 200 -
+2024-12-16 16:36:26,041 [INFO] 127.0.0.1 - - [16/Dec/2024 16:36:26] "GET /script.js HTTP/1.1" 200 -
+2024-12-16 16:36:26,236 [INFO] 127.0.0.1 - - [16/Dec/2024 16:36:26] "GET /front-facing/static/assets/banner2.jpg HTTP/1.1" 200 -
+2024-12-16 16:36:26,321 [INFO] Serving static file: favicon.ico
+2024-12-16 16:36:26,321 [INFO] 127.0.0.1 - - [16/Dec/2024 16:36:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-16 16:36:28,731 [INFO] Fetching places for region: Africa
+2024-12-16 16:36:28,756 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:36:28,864 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/textsearch/json?query=nature+in+Africa&key= HTTP/11" 200 265
+2024-12-16 16:36:28,866 [INFO] Found 0 places for region Africa
+2024-12-16 16:36:28,867 [INFO] 127.0.0.1 - - [16/Dec/2024 16:36:28] "GET /places?region=Africa HTTP/1.1" 200 -
+2024-12-16 16:43:02,790 [INFO]  * Detected change in '/Users/benjamincarter/Documents/GitHub/Bob_Ross_2.0/backend/app.py', reloading
+2024-12-16 16:43:04,951 [INFO]  * Restarting with stat
+2024-12-16 16:43:05,347 [DEBUG] Checking /Users/benjamincarter/Documents/GitHub/Bob_Ross_2.0/backend/service-account-key.json for explicit credentials as part of auth process...
+2024-12-16 16:43:05,362 [INFO] Starting Flask app
+2024-12-16 16:43:05,390 [WARNING]  * Debugger is active!
+2024-12-16 16:43:05,401 [INFO]  * Debugger PIN: 679-584-642
+2024-12-16 16:43:24,780 [INFO] Serving static file: index.html
+2024-12-16 16:43:24,787 [INFO] 127.0.0.1 - - [16/Dec/2024 16:43:24] "GET /index.html HTTP/1.1" 200 -
+2024-12-16 16:43:24,906 [INFO] Serving static file: script.js
+2024-12-16 16:43:24,908 [INFO] 127.0.0.1 - - [16/Dec/2024 16:43:24] "GET /front-facing/static/cs/styles.css HTTP/1.1" 200 -
+2024-12-16 16:43:24,908 [INFO] 127.0.0.1 - - [16/Dec/2024 16:43:24] "GET /script.js HTTP/1.1" 200 -
+2024-12-16 16:43:24,917 [INFO] 127.0.0.1 - - [16/Dec/2024 16:43:24] "GET /front-facing/static/assets/banner2.jpg HTTP/1.1" 200 -
+2024-12-16 16:43:25,208 [INFO] Serving static file: favicon.ico
+2024-12-16 16:43:25,210 [INFO] 127.0.0.1 - - [16/Dec/2024 16:43:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-16 16:43:27,746 [INFO] Fetching places for region: North America
+2024-12-16 16:43:27,786 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:43:27,913 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/textsearch/json?query=nature+in+North+America&key= HTTP/11" 200 265
+2024-12-16 16:43:27,913 [INFO] Found 0 places for region North America
+2024-12-16 16:43:27,914 [INFO] 127.0.0.1 - - [16/Dec/2024 16:43:27] "GET /places?region=North%20America HTTP/1.1" 200 -
+2024-12-16 16:49:31,394 [INFO] Serving static file: index.html
+2024-12-16 16:49:31,400 [INFO] 127.0.0.1 - - [16/Dec/2024 16:49:31] "GET /index.html HTTP/1.1" 200 -
+2024-12-16 16:49:31,507 [INFO] Serving static file: script.js
+2024-12-16 16:49:31,508 [INFO] 127.0.0.1 - - [16/Dec/2024 16:49:31] "GET /front-facing/static/cs/styles.css HTTP/1.1" 200 -
+2024-12-16 16:49:31,509 [INFO] 127.0.0.1 - - [16/Dec/2024 16:49:31] "GET /script.js HTTP/1.1" 200 -
+2024-12-16 16:49:31,556 [INFO] 127.0.0.1 - - [16/Dec/2024 16:49:31] "GET /front-facing/static/assets/banner2.jpg HTTP/1.1" 200 -
+2024-12-16 16:49:31,858 [INFO] Serving static file: favicon.ico
+2024-12-16 16:49:31,862 [INFO] 127.0.0.1 - - [16/Dec/2024 16:49:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-16 16:49:38,521 [INFO] Fetching places for region: Europe
+2024-12-16 16:49:38,550 [DEBUG] Starting new HTTPS connection (1): maps.googleapis.com:443
+2024-12-16 16:49:38,700 [DEBUG] https://maps.googleapis.com:443 "GET /maps/api/place/textsearch/json?query=nature+in+Europe&key= HTTP/11" 200 265
+2024-12-16 16:49:38,701 [INFO] Found 0 places for region Europe
+2024-12-16 16:49:38,702 [INFO] 127.0.0.1 - - [16/Dec/2024 16:49:38] "GET /places?region=Europe HTTP/1.1" 200 -

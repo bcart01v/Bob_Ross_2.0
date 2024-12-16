@@ -73,6 +73,9 @@ def load_data_to_bobross_episodes(conn):
 
 # Function to load data into other tables
 def load_data_to_table(conn, table_name, data):
+    """
+    Load data into the specified table in the database.
+    """
     try:
         with conn.cursor() as cursor:
             for _, row in data.iterrows():
@@ -80,10 +83,16 @@ def load_data_to_table(conn, table_name, data):
                     if isinstance(row['air_date'], str):
                         row['air_date'] = pd.to_datetime(row['air_date'])
                     cursor.execute("""
-                        INSERT INTO episodes (season_episode, title, air_date, broadcast_month)
-                        VALUES (%s, %s, %s, %s)
-                        ON CONFLICT (season_episode) DO NOTHING;
-                    """, (row['season-episode'], row['title'], row['air_date'], row['air_date'].strftime('%B')))
+                        INSERT INTO episodes (season_episode, title, air_date, broadcast_month, youtube_link)
+                        VALUES (%s, %s, %s, %s, %s)
+                        ON CONFLICT (season_episode) DO UPDATE
+                        SET 
+                            title = EXCLUDED.title,
+                            air_date = EXCLUDED.air_date,
+                            broadcast_month = EXCLUDED.broadcast_month,
+                            youtube_link = EXCLUDED.youtube_link;
+                    """, (row['season-episode'], row['title'], row['air_date'], row['air_date'].strftime('%B'), row['youtube_src']))
+                
                 elif table_name.lower() == 'subjects':
                     # Insert into 'subjects' table
                     cursor.execute("""
@@ -91,7 +100,6 @@ def load_data_to_table(conn, table_name, data):
                         VALUES (%s)
                         ON CONFLICT (name) DO NOTHING;
                     """, (row['subject'],))
-                    # Now insert into EpisodeSubjects   
                     cursor.execute("""
                         INSERT INTO episodesubjects (episode_id, subject_id)
                         SELECT 
@@ -107,7 +115,6 @@ def load_data_to_table(conn, table_name, data):
                     hex_codes = re.split(r'\s*\|\s*', row['color_hex'])
                     if len(colors) != len(hex_codes):
                         continue
-                    # Insert into 'colors' table
                     for color, hex_code in zip(colors, hex_codes):
                         cursor.execute("""
                             INSERT INTO colors (name, hex_code)
