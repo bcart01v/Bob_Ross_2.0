@@ -27,6 +27,7 @@ logger = logging.getLogger(__name__)
 # Load environment variables
 load_dotenv()
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+logger.debug(f"Google API Key: {GOOGLE_API_KEY}")
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = os.path.abspath("service-account-key.json")
 use_reloader = os.getenv("FLASK_USE_RELOADER", "True") == "True"
 
@@ -139,12 +140,11 @@ def analyze_photo():
         sql_subjects_query = """
             SELECT subject_id, name
             FROM subjects
-            WHERE similarity(name, %s) > 0.5
-            ORDER BY similarity(name, %s) DESC
+            WHERE name ILIKE %s
             LIMIT 1;
         """
         sql_episodes_query = """
-            SELECT e.episode_id, e.title, e.air_date, e.season_episode
+            SELECT e.episode_id, e.title, e.air_date, e.season_episode, e.youtube_link
             FROM episodes e
             INNER JOIN episodesubjects es ON e.episode_id = es.episode_id
             WHERE es.subject_id = %s
@@ -162,7 +162,7 @@ def analyze_photo():
 
         subject_ids = []
         for label in extracted_labels:
-            cursor.execute(sql_subjects_query, (label, label))
+            cursor.execute(sql_subjects_query, (label,))
             result = cursor.fetchone()
             if result and result[0] not in subject_ids:
                 subject_ids.append(result[0])
@@ -176,7 +176,8 @@ def analyze_photo():
                     "episode_id": episode[0],
                     "title": episode[1],
                     "air_date": episode[2],
-                    "season_episode": episode[3]
+                    "season_episode": episode[3],
+                    "youtube_link": episode[4]
                 })
         
         logger.info(f"Matched subjects: {matched_subjects}")

@@ -110,7 +110,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // Populate webpage with retrieved data
 function displayResults(subjects, episodes) {
-    
     console.log("Subjects:", subjects);
     console.log("Episodes:", episodes);
 
@@ -127,12 +126,13 @@ function displayResults(subjects, episodes) {
                 ${episodes.map(episode => `
                     <li>
                         <strong>${episode.season_episode} - ${episode.title}</strong>
+                        ${episode.youtube_link ? `<br><a href="${episode.youtube_link}" target="_blank">Watch on YouTube</a>` : ""}
                     </li>
                 `).join("")}
             </ul>
         `;
         resultsContainer.innerHTML += episodesHTML;
     } else {
-        resultsContainer.innerHTML += `<p> No episodes for these given subjects.</p>`;
+        resultsContainer.innerHTML += `<p>No episodes for these given subjects.</p>`;
     }
 }
