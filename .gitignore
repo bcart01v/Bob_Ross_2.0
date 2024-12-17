@@ -1,2 +1,5 @@
 backend/service-account-key.json
 .env
+app.log
+backend/app.log
+backend/app.log
