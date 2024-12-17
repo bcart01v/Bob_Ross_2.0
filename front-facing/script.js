@@ -1,5 +1,8 @@
 const API_BASE_URL = "http://127.0.0.1:5005";
 
+let currentPage = 1;
+const pageSize = 10;
+
 // Get the Photos
 async function fetchNaturePhotos(region) {
     try {
@@ -50,6 +53,31 @@ function populateCarousel(photos) {
     }
 }
 
+async function fetchPaginatedEpisodes(photoReference) {
+    try {
+        const response = await fetch(`${API_BASE_URL}/analyze?page=${currentPage}&page_size=${pageSize}`, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify({ photo_reference: photoReference }),
+        });
+
+        if (!response.ok) throw new Error("Failed to fetch paginated results");
+
+        const data = await response.json();
+
+        if (!data.pagination) {
+            console.error("Pagination data missing in API response");
+            return;
+        }
+
+        displayResults(data.matched_subjects, data.matched_episodes, data.pagination, photoReference);
+    } catch (error) {
+        console.error("Error fetching paginated results:", error);
+    }
+}
+
 // Photo Analysis
 async function analyzePhoto(photoReference) {
     try {
@@ -58,26 +86,64 @@ async function analyzePhoto(photoReference) {
             return;
         }
 
-        const response = await fetch(`${API_BASE_URL}/analyze`, {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-            },
-            body: JSON.stringify({ photo_reference: photoReference }),
-        });
-
-        if (!response.ok) throw new Error("Failed to analyze photo");
-
-        const data = await response.json();
-        console.log("Full API response:", data);
-
-        console.log("Analyzed labels:", data.labels);
-        console.log("Matched subjects:", data.matched_subjects);
-        console.log("Matched episodes:", data.matched_episodes);
-
-        displayResults(data.matched_subjects, data.matched_episodes);
+        currentPage = 1;
+        fetchPaginatedEpisodes(photoReference);
     } catch (error) {
         console.error("Error analyzing photo:", error);
+    }
+}
+
+// Populate webpage with retrieved data
+function displayResults(subjects, episodes, pagination, photoReference) {
+    console.log("Subjects:", subjects);
+    console.log("Episodes:", episodes);
+    console.log("Pagination Info:", pagination);
+
+    const resultsContainer = document.getElementById("resultsContainer");
+
+    // Clear previous results
+    resultsContainer.innerHTML = "";
+
+    // Display matched episodes
+    if (episodes.length > 0) {
+        const episodesHTML = `
+            <h3>Recommended Episodes:</h3>
+            <ul>
+                ${episodes.map(episode => `
+                    <li>
+                        <strong>${episode.season_episode} - ${episode.title}</strong>
+                        ${episode.youtube_link ? `<br><a href="${episode.youtube_link}" target="_blank">Watch on YouTube</a>` : ""}
+                    </li>
+                `).join("")}
+            </ul>
+        `;
+        resultsContainer.innerHTML += episodesHTML;
+    } else {
+        resultsContainer.innerHTML += `<p>No episodes for these given subjects.</p>`;
+    }
+
+    if (pagination) {
+        const paginationControls = `
+        <div>
+            <button onclick="changePage(${pagination.current_page - 1}, '${photoReference}')"
+                ${pagination.current_page === 1 ? "disabled" : ""}>
+                Previous
+            </button>
+            Page ${pagination.current_page} of ${pagination.total_pages}
+            <button onclick="changePage(${pagination.current_page + 1}, '${photoReference}')"
+                ${pagination.current_page >= pagination.total_pages ? "disabled" : ""}>
+                Next
+            </button>
+        </div>
+        `;
+    resultsContainer.innerHTML += paginationControls;
+    }
+}
+
+function changePage(newPage, photoReference) {
+    if (newPage > 0) {
+        currentPage = newPage;
+        fetchPaginatedEpisodes(photoReference);
     }
 }
 
@@ -108,31 +174,3 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
-// Populate webpage with retrieved data
-function displayResults(subjects, episodes) {
-    console.log("Subjects:", subjects);
-    console.log("Episodes:", episodes);
-
-    const resultsContainer = document.getElementById("resultsContainer");
-
-    // Clear previous results
-    resultsContainer.innerHTML = "";
-
-    // Display matched episodes
-    if (episodes.length > 0) {
-        const episodesHTML = `
-            <h3>Recommended Episodes:</h3>
-            <ul>
-                ${episodes.map(episode => `
-                    <li>
-                        <strong>${episode.season_episode} - ${episode.title}</strong>
-                        ${episode.youtube_link ? `<br><a href="${episode.youtube_link}" target="_blank">Watch on YouTube</a>` : ""}
-                    </li>
-                `).join("")}
-            </ul>
-        `;
-        resultsContainer.innerHTML += episodesHTML;
-    } else {
-        resultsContainer.innerHTML += `<p>No episodes for these given subjects.</p>`;
-    }
-}

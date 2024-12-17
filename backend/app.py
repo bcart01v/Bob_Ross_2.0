@@ -141,14 +141,20 @@ def analyze_photo():
             SELECT subject_id, name
             FROM subjects
             WHERE name ILIKE %s
-            LIMIT 1;
         """
+
         sql_episodes_query = """
             SELECT e.episode_id, e.title, e.air_date, e.season_episode, e.youtube_link
             FROM episodes e
             INNER JOIN episodesubjects es ON e.episode_id = es.episode_id
-            WHERE es.subject_id = %s
-            LIMIT 10;
+            WHERE es.subject_id IN %s
+            LIMIT %s OFFSET %s;
+        """
+        total_query = """
+            SELECT COUNT(*)
+            FROM episodes e
+            INNER JOIN episodesubjects es ON e.episode_id = es.episode_id
+            WHERE es.subject_id IN %s;
         """
 
         conn = psycopg2.connect(
@@ -163,13 +169,22 @@ def analyze_photo():
         subject_ids = []
         for label in extracted_labels:
             cursor.execute(sql_subjects_query, (label,))
-            result = cursor.fetchone()
-            if result and result[0] not in subject_ids:
-                subject_ids.append(result[0])
-                matched_subjects.append({"subject_id": result[0], "name": result[1]})
+            results = cursor.fetchall()
+            for result in results:
+                if result[0] not in subject_ids:
+                    subject_ids.append(result[0])
+                    matched_subjects.append({"subject_id": result[0], "name": result[1]})
         
-        for subject_id in subject_ids:
-            cursor.execute(sql_episodes_query, (subject_id,))
+        page = max(1, int(request.args.get("page", 1)))
+        page_size = max(1, int(request.args.get("page_size", 10)))
+        offset = (page - 1) * page_size
+
+        total_episodes = 0
+        if subject_ids:
+            cursor.execute(total_query, (tuple(subject_ids),))
+            total_episodes = cursor.fetchone()[0]
+
+            cursor.execute(sql_episodes_query, (tuple(subject_ids), page_size, offset))
             episodes = cursor.fetchall()
             for episode in episodes:
                 matched_episodes.append({
@@ -182,7 +197,8 @@ def analyze_photo():
         
         logger.info(f"Matched subjects: {matched_subjects}")
         logger.info(f"Matched episodes: {matched_episodes}")
-    
+        logger.info(f"Total episodes for subject_id {subject_ids}: {total_episodes}")
+
     except Exception as e:
         logger.error(f"Error in /analyze: {e}")
         return jsonify({"error": str(e)}), 500
@@ -196,7 +212,13 @@ def analyze_photo():
     return jsonify({
         "labels": extracted_labels, 
         "matched_subjects": matched_subjects,
-        "matched_episodes": matched_episodes
+        "matched_episodes": matched_episodes,
+        "pagination": {
+            "total_episodes": total_episodes,
+            "current_page": page,
+            "page_size": page_size,
+            "total_pages": (total_episodes + page_size - 1) // page_size
+        }
     })
 
 if __name__ == "__main__":
